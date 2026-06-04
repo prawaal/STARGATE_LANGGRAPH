@@ -1,0 +1,632 @@
+[
+  {
+    "company": "NVDA",
+    "quarter": "2026Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/11/19/nvidia-nvda-q3-2026-earnings-call-transcript/"
+  },
+  {
+    "company": "NVDA",
+    "quarter": "2025Q4",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/02/26/nvidia-nvda-q4-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "AAPL",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/08/01/apple-aapl-q3-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "AAPL",
+    "quarter": "2025Q1",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/01/30/apple-aapl-q1-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "AVGO",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/09/04/broadcom-avgo-q3-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "AVGO",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/06/12/broadcom-avgo-q2-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "AMD",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/10/28/advanced-micro-devices-amd-q3-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "AMD",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/07/30/advanced-micro-devices-amd-q2-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "INTC",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/10/31/intel-intc-q3-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "INTC",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/08/01/intel-intc-q2-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "MU",
+    "quarter": "2025Q4",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/09/25/micron-technology-mu-q4-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "MU",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/06/26/micron-technology-mu-q3-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "TSM",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/10/16/taiwan-semiconductor-manufacturing-tsm-q3-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "TSM",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/07/17/taiwan-semiconductor-manufacturing-tsm-q2-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "TXN",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/10/22/texas-instruments-txn-q3-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "TXN",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/07/23/texas-instruments-txn-q2-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "MSFT",
+    "quarter": "2026Q1",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/10/28/microsoft-msft-q1-2026-earnings-call-transcript/"
+  },
+  {
+    "company": "MSFT",
+    "quarter": "2025Q4",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/07/30/microsoft-msft-q4-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "MRVL",
+    "quarter": "2026Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/12/04/marvell-technology-mrvl-q3-2026-earnings-call-transcript/"
+  },
+  {
+    "company": "MRVL",
+    "quarter": "2026Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/08/29/marvell-technology-mrvl-q2-2026-earnings-call-transcript/"
+  },
+  {
+    "company": "GOOGL",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/10/29/alphabet-goog-googl-q3-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "GOOGL",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/07/23/alphabet-goog-googl-q2-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "AMAT",
+    "quarter": "2025Q4",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/11/13/applied-materials-amat-q4-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "AMAT",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/08/14/applied-materials-amat-q3-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "KLAC",
+    "quarter": "2026Q1",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/10/30/kla-corporation-klac-q1-2026-earnings-call-transcript/"
+  },
+  {
+    "company": "KLAC",
+    "quarter": "2025Q4",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/07/31/kla-corporation-klac-q4-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "ADI",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/08/20/analog-devices-adi-q3-2025-earnings-transcript/"
+  },
+  {
+    "company": "ADI",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/05/21/analog-devices-adi-q2-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "MPWR",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/10/30/monolithic-power-systems-mpwr-q3-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "MPWR",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/07/31/monolithic-power-systems-mpwr-q2-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "GOOG",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/10/29/alphabet-goog-googl-q3-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "GOOG",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/07/23/alphabet-goog-googl-q2-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "LRCX",
+    "quarter": "2026Q1",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/10/22/lam-research-lrcx-q1-2026-earnings-call-transcript/"
+  },
+  {
+    "company": "LRCX",
+    "quarter": "2025Q4",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/07/23/lam-research-lrcx-q4-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "NXPI",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/10/28/nxp-semiconductors-nxpi-q3-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "NXPI",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/07/29/nxp-semiconductors-nxpi-q2-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "META",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/10/30/meta-platforms-meta-q3-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "META",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/07/31/meta-platforms-meta-q2-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "NEE",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/10/22/nextera-energy-nee-q3-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "NEE",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/07/22/nextera-energy-nee-q2-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "CAT",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/10/30/caterpillar-cat-q3-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "CAT",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/07/25/caterpillar-cat-q2-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "SO",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/10/30/southern-co-so-q3-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "SO",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/07/31/southern-co-so-q2-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "SRE",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/11/04/sempra-sre-q3-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "SRE",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/08/05/sempra-sre-q2-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "DUK",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/11/06/duke-energy-duk-q3-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "DUK",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/08/07/duke-energy-duk-q2-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "CEG",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/11/04/constellation-energy-corporation-ceg-q3-2025-earni/"
+  },
+  {
+    "company": "CEG",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/08/05/constellation-energy-corporation-ceg-q2-2025-earni/"
+  },
+  {
+    "company": "ETN",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/10/30/eaton-etn-q3-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "ETN",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/07/29/eaton-etn-q2-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "UNP",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/10/23/union-pacific-unp-q3-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "UNP",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/07/24/union-pacific-unp-q2-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "DE",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/08/15/deere-de-q3-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "DE",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/05/16/deere-de-q2-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "GE",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/10/21/ge-aerospace-ge-q3-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "GE",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/07/22/ge-aerospace-ge-q2-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "GEV",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/10/23/ge-vernova-inc-gev-q3-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "GEV",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/07/24/ge-vernova-inc-gev-q2-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "AEP",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/10/24/american-electric-power-aep-q3-2025-earnings-call/"
+  },
+  {
+    "company": "AEP",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/07/24/american-electric-power-aep-q2-2025-earnings-call/"
+  },
+  {
+    "company": "RTX",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/10/23/rtx-rtx-q3-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "RTX",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/07/22/rtx-rtx-q2-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "PWR",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/10/30/quanta-services-pwr-q3-2025-earnings-call-transcri/"
+  },
+  {
+    "company": "PWR",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/07/31/quanta-services-pwr-q2-2025-earnings-call-transcri/"
+  },
+  {
+    "company": "D",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/11/05/dominion-energy-d-q3-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "D",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/08/01/dominion-energy-d-q2-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "ETR",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/10/29/entergy-etr-q3-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "ETR",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/07/30/entergy-etr-q2-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "CSX",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/10/16/csx-csx-q3-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "CSX",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/07/17/csx-csx-q2-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "VST",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/11/05/vistra-corp-vst-q3-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "VST",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/08/08/vistra-corp-vst-q2-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "TT",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/10/29/trane-technologies-tt-q3-2025-earnings-call-transc/"
+  },
+  {
+    "company": "TT",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/07/31/trane-technologies-tt-q2-2025-earnings-call-transc/"
+  },
+  {
+    "company": "XEL",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/10/30/xcel-energy-xel-q3-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "XEL",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/07/24/xcel-energy-xel-q2-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "BA",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/10/22/boeing-ba-q3-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "BA",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/07/23/boeing-ba-q2-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "HWM",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/10/30/howmet-aerospace-hwm-q3-2025-earnings-call-transcr/"
+  },
+  {
+    "company": "HWM",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/07/30/howmet-aerospace-hwm-q2-2025-earnings-call-transcr/"
+  },
+  {
+    "company": "NSC",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/10/22/norfolk-southern-nsc-q3-2025-earnings-call-transcr/"
+  },
+  {
+    "company": "NSC",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/07/23/norfolk-southern-nsc-q2-2025-earnings-call-transcr/"
+  },
+  {
+    "company": "UBER",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/11/05/uber-technologies-uber-q3-2025-earnings-call-trans/"
+  },
+  {
+    "company": "UBER",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/08/06/uber-technologies-uber-q2-2025-earnings-call-trans/"
+  },
+  {
+    "company": "NUE",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/10/21/nucor-nue-q3-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "NUE",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/07/24/nucor-nue-q2-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "HON",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/10/24/honeywell-international-hon-q3-2025-earnings-call/"
+  },
+  {
+    "company": "HON",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/07/25/honeywell-international-hon-q2-2025-earnings-call/"
+  },
+  {
+    "company": "AMT",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/10/29/american-tower-amt-q3-2025-earnings-call-transcrip/"
+  },
+  {
+    "company": "AMT",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/07/30/american-tower-amt-q2-2025-earnings-call-transcrip/"
+  },
+  {
+    "company": "EQIX",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/10/29/equinix-eqix-q3-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "EQIX",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/07/30/equinix-eqix-q2-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "DLR",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/10/23/digital-realty-trust-dlr-q3-2025-earnings-call-tra/"
+  },
+  {
+    "company": "DLR",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/07/24/digital-realty-trust-dlr-q2-2025-earnings-call-tra/"
+  },
+  {
+    "company": "CCI",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/10/15/crown-castle-cci-q3-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "CCI",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/07/16/crown-castle-cci-q2-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "FSLY",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/11/05/fastly-fsly-q3-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "FSLY",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/08/06/fastly-fsly-q2-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "QCOM",
+    "quarter": "2025Q4",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/11/05/qualcomm-qcom-q4-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "QCOM",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/07/30/qualcomm-qcom-q3-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "ANET",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/10/30/arista-networks-anet-q3-2025-earnings-call-transcr/"
+  },
+  {
+    "company": "ANET",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/08/01/arista-networks-anet-q2-2025-earnings-call-transcr/"
+  },
+  {
+    "company": "CSCO",
+    "quarter": "2026Q1",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/11/12/cisco-systems-csco-q1-2026-earnings-call-transcrip/"
+  },
+  {
+    "company": "CSCO",
+    "quarter": "2025Q4",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/08/13/cisco-systems-csco-q4-2025-earnings-call-transcrip/"
+  },
+  {
+    "company": "UNIT",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/11/07/uniti-group-unit-q3-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "UNIT",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/08/08/uniti-group-unit-q2-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "ORCL",
+    "quarter": "2026Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/12/11/oracle-orcl-q2-2026-earnings-call-transcript/"
+  },
+  {
+    "company": "ORCL",
+    "quarter": "2026Q1",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/09/09/oracle-orcl-q1-2026-earnings-call-transcript/"
+  },
+  {
+    "company": "PLTR",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/11/03/palantir-technologies-pltr-q3-2025-earnings-call-t/"
+  },
+  {
+    "company": "PLTR",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/08/05/palantir-technologies-pltr-q2-2025-earnings-call-t/"
+  },
+  {
+    "company": "CRM",
+    "quarter": "2026Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/12/03/salesforce-crm-q3-2026-earnings-call-transcript/"
+  },
+  {
+    "company": "CRM",
+    "quarter": "2026Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/08/27/salesforce-crm-q2-2026-earnings-call-transcript/"
+  },
+  {
+    "company": "PANW",
+    "quarter": "2026Q1",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/11/20/palo-alto-networks-panw-q1-2026-earnings-call-tran/"
+  },
+  {
+    "company": "PANW",
+    "quarter": "2025Q4",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/08/19/palo-alto-networks-panw-q4-2025-earnings-call-tran/"
+  },
+  {
+    "company": "APP",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/11/05/applovin-app-q3-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "APP",
+    "quarter": "2025Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/08/06/applovin-app-q2-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "CRWD",
+    "quarter": "2026Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/12/02/crowdstrike-crwd-q3-2026-earnings-call-transcript/"
+  },
+  {
+    "company": "CRWD",
+    "quarter": "2026Q2",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/08/28/crowdstrike-crwd-q2-2026-earnings-call-transcript/"
+  },
+  {
+    "company": "ADBE",
+    "quarter": "2025Q4",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/12/11/adobe-adbe-q4-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "ADBE",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/09/11/adobe-adbe-q3-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "INTU",
+    "quarter": "2026Q1",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/11/20/intuit-intu-q1-2026-earnings-call-transcript/"
+  },
+  {
+    "company": "INTU",
+    "quarter": "2025Q4",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/08/21/intuit-intu-q4-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "SNPS",
+    "quarter": "2025Q4",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/12/03/synopsys-snps-q4-2025-earnings-call-transcript/"
+  },
+  {
+    "company": "SNPS",
+    "quarter": "2025Q3",
+    "url": "https://www.fool.com/earnings/call-transcripts/2025/08/20/synopsys-snps-q3-2025-earnings-call-transcript/"
+  }
+]

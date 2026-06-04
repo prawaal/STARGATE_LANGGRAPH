@@ -1,0 +1,176 @@
+import json
+
+from llm.llm_factory import (
+    LLMFactory
+)
+
+from scoring.forward_growth.growth_signal_extractor import (
+    GrowthSignalExtractor
+)
+
+from scoring.forward_growth.growth_llm_analyzer import (
+    GrowthLLMAnalyzer
+)
+
+from scoring.forward_growth.growth_score_calculator import (
+    GrowthScoreCalculator
+)
+
+
+# -----------------------------------
+# LOAD COMPANY UNIVERSE
+# -----------------------------------
+
+with open(
+
+    "outputs/company_universe.json",
+
+    "r",
+
+    encoding="utf-8"
+
+) as f:
+
+    company_data = json.load(f)
+
+
+company_universe = set()
+
+for category, companies in (
+    company_data.items()
+):
+
+    for company in companies:
+
+        symbol = company.get(
+            "symbol"
+        )
+
+        if symbol:
+
+            company_universe.add(
+                symbol
+            )
+
+
+company_universe = list(
+    company_universe
+)
+
+
+print(
+    f"\nLoaded "
+    f"{len(company_universe)} "
+    f"companies\n"
+)
+
+
+# -----------------------------------
+# INIT COMPONENTS
+# -----------------------------------
+
+llm_client = (
+    LLMFactory.create_llm()
+)
+
+extractor = (
+    GrowthSignalExtractor()
+)
+
+llm_analyzer = (
+    GrowthLLMAnalyzer(
+        llm_client
+    )
+)
+
+calculator = (
+    GrowthScoreCalculator()
+)
+
+
+# -----------------------------------
+# EXTRACT KEYWORD SIGNALS
+# -----------------------------------
+
+signal_results = extractor.process_all(
+    company_universe
+)
+
+
+# -----------------------------------
+# RUN LLM ANALYSIS
+# -----------------------------------
+
+llm_results = {}
+
+for company, signals in (
+    signal_results.items()
+):
+
+    print(
+        f"Running forward growth "
+        f"analysis for {company}"
+    )
+
+    combined_text = signals.get(
+        "_combined_text",
+        ""
+    )
+
+    # Skip if insufficient text
+    if len(combined_text) < 500:
+
+        print(
+            f"Skipping {company} "
+            f"(insufficient text)"
+        )
+
+        continue
+
+    llm_results[company] = (
+
+        llm_analyzer.analyze(
+
+            company,
+
+            combined_text
+        )
+    )
+
+
+# -----------------------------------
+# COMPUTE FINAL SCORES
+# -----------------------------------
+
+scores = calculator.compute_scores(
+
+    signal_results,
+
+    llm_results
+)
+
+
+# -----------------------------------
+# SAVE OUTPUT
+# -----------------------------------
+
+with open(
+
+    "outputs/forward_growth_scores.json",
+
+    "w",
+
+    encoding="utf-8"
+
+) as f:
+
+    json.dump(
+        scores,
+        f,
+        indent=4
+    )
+
+
+print(
+    "\nFORWARD GROWTH SCORES GENERATED\n"
+)

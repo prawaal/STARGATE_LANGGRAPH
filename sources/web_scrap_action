@@ -1,0 +1,23 @@
+from sources.web_scrap import WebScraper
+
+scraper = WebScraper()
+
+
+urls = [
+    "https://openai.com/index/announcing-the-stargate-project/",
+    "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
+    "https://epoch.ai/blog/what-you-need-to-know-about-ai-data-centers",
+    "https://www.nvidia.com/en-us/data-center/",    
+    "https://www.deloitte.com/us/en/insights/industry/power-and-utilities/data-center-infrastructure-artificial-intelligence.html",
+    "https://en.wikipedia.org/wiki/AI_data_center",
+    "https://epoch.ai/blog/openai-stargate-where-the-us-sites-stand",
+    #"https://arxiv.org/pdf/2311.02651",
+    #"https://arxiv.org/pdf/2602.10900",
+    #"https://arxiv.org/pdf/2604.06198",
+    "https://www.networkworld.com/article/4119769/openai-shifts-ai-data-center-strategy-toward-power-first-design.html",
+    "https://www.datacenterdynamics.com/en/news/openai-pledges-to-pay-its-own-way-to-power-stargate-data-centers"
+]
+
+# Scrap URL and save text to file
+for url in urls:
+    scraper.scrape_and_save(url)
