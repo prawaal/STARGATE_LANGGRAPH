@@ -37,7 +37,7 @@ client = (
     LLMFactory.create_llm()
 )
 
-"""
+
 # INIT DECOMPOSER
 decomposer = OntologyDecomposer(
     client
@@ -77,7 +77,7 @@ print(
     "\nExpanded ontology saved "
     "to outputs/expanded_ontology.json"
 )
-"""
+
 etf_discovery = ETFDiscovery(
     client
 )

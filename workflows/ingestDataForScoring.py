@@ -54,7 +54,7 @@ sec_discovery = (
 earnings_discovery = (
     EarningsURLDiscovery()
 )
-"""
+
 # -----------------------------------
 # INGEST SEC FILINGS
 # -----------------------------------
@@ -113,51 +113,16 @@ for category, companies in (
                         filing["url"]
                 )
 
-"""
+
 # -----------------------------------
 # INGEST EARNINGS CALLS
 # -----------------------------------
 
-"""
+
 print(
     "\nINGESTING EARNINGS CALLS\n"
 )
 
-
-for category, companies in (
-    company_universe.items()
-):
-
-    for company in companies:
-
-        symbol = company["symbol"]
-
-        transcript_url = (
-
-            earnings_discovery
-            .discover_latest_transcript(
-                symbol
-            )
-        )
-
-        if transcript_url:
-
-            earnings_downloader.download(
-
-                company=symbol,
-
-                quarter="latest",
-
-                url=transcript_url
-            )
-
-        else:
-
-            print(
-                f"No transcript found "
-                f"for {symbol}"
-            )
-"""
 
 with open(
     "configs/earnings_urls.json",
@@ -184,7 +149,7 @@ for item in earnings_urls:
 # INGEST ACL ABSTRACTS
 # -----------------------------------
 
-"""
+
 print(
     "\nINGESTING ACL TITLES\n"
 )
@@ -207,4 +172,3 @@ acl_scraper.scrape_titles(
 print(
     "\nALL INGESTION COMPLETE\n"
 )
-"""

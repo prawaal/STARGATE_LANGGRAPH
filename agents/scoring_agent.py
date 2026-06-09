@@ -1,4 +1,5 @@
 import subprocess
+import sys
 
 
 class ScoringAgent:
@@ -13,27 +14,27 @@ class ScoringAgent:
         )
 
         subprocess.run([
-            "python",
-            "computeMoatScores.py"
+            sys.executable, "-m",
+            "workflows.computeMoatScores.py"
         ])
 
         subprocess.run([
-            "python",
-            "computeFinancialScores.py"
+            sys.executable, "-m",
+            "workflows.computeFinancialScores.py"
         ])
 
         subprocess.run([
-            "python",
+            sys.executable, "-m",
             "computeAIExposureScores.py"
         ])
 
         subprocess.run([
-            "python",
-            "computeForwardGrowthScores.py"
+            sys.executable, "-m",
+            "workflows.computeForwardGrowthScores.py"
         ])
 
         subprocess.run([
-            "python",
+            sys.executable, "-m",
             "computeDisruptionRiskScores.py"
         ])
 

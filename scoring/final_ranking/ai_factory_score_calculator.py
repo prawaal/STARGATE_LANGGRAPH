@@ -88,19 +88,15 @@ class AIFactoryScoreCalculator:
         # CORE GROWTH SCORE
         # -----------------------------------
 
-        core_growth_score = (
-
-            structural_advantage
-
-            *
-
+        core_growth_score = math.sqrt(
+           
             ai_exposure_score
 
             *
 
             forward_growth_score
 
-        ) ** (1/3)
+        ) 
 
         # -----------------------------------
         # DISRUPTION ADJUSTMENT
@@ -117,10 +113,10 @@ class AIFactoryScoreCalculator:
 
         final_score = (
 
-            core_growth_score
-
+            structural_advantage
             *
-
+            core_growth_score
+            *
             (
                 1
                 -

@@ -1,4 +1,5 @@
 import subprocess
+import sys
 
 
 class IngestionAgent:
@@ -14,9 +15,8 @@ class IngestionAgent:
 
         subprocess.run([
 
-            "python",
-
-            "ingestDataForScoring.py"
+            sys.executable, "-m",
+            "workflows.ingestDataForScoring.py"
         ])
 
         state[

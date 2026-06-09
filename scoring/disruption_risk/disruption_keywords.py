@@ -45,9 +45,7 @@ DISRUPTION_KEYWORDS = {
     "alternative_ai_paradigms": [
 
         "symbolic ai",
-        "neuro symbolic",
-        "retrieval augmented",
-        "agentic reasoning",
+        "neuro symbolic", 
         "hybrid architecture"
     ]
 }

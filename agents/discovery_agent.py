@@ -1,4 +1,5 @@
 import subprocess
+import sys
 
 
 class DiscoveryAgent:
@@ -14,9 +15,14 @@ class DiscoveryAgent:
 
         subprocess.run([
 
-            "python",
+                    sys.executable, "-m",
+                    "identifyIngredientStack.py"
+                ])
 
-            "discoverMarketLeaders.py"
+        subprocess.run([
+
+            sys.executable, "-m",
+            "workflows.discoverMarketLeaders.py"
         ])
 
         state[

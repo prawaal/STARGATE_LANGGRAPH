@@ -1,4 +1,5 @@
 import subprocess
+import sys
 
 
 class RankingAgent:
@@ -14,9 +15,8 @@ class RankingAgent:
 
         subprocess.run([
 
-            "python",
-
-            "computeFinalAIRankings.py"
+            sys.executable, "-m",
+            "workflows.computeFinalAIRankings.py"
         ])
 
         state[
