@@ -1,0 +1,207 @@
+[
+  {
+    "category": "Compute Infrastructure",
+    "subcategories": [
+      {
+        "name": "GPUs",
+        "description": "AI accelerator chips used for hyperscale model training and inference."
+      },
+      {
+        "name": "AI Servers",
+        "description": "High-density server systems optimized for AI accelerator deployment."
+      },
+      {
+        "name": "HBM Memory",
+        "description": "High-bandwidth memory systems required for AI compute acceleration."
+      },
+      {
+        "name": "Semiconductor Foundries",
+        "description": "Advanced chip fabrication facilities manufacturing AI processors."
+      },
+      {
+        "name": "Server Racks",
+        "description": "Rack infrastructure supporting dense AI compute clusters."
+      },
+      {
+        "name": "Storage Systems",
+        "description": "High-performance storage infrastructure supporting AI workloads."
+      }
+    ]
+  },
+
+  {
+    "category": "Power Infrastructure",
+    "subcategories": [
+      {
+        "name": "Gas Turbines",
+        "description": "Large-scale electricity generation systems supporting hyperscale campuses."
+      },
+      {
+        "name": "Generators",
+        "description": "Backup and distributed power generation systems for AI facilities."
+      },
+      {
+        "name": "UPS Systems",
+        "description": "Uninterruptible power systems ensuring continuous operations."
+      },
+      {
+        "name": "Switchgear",
+        "description": "Electrical switching and protection systems for hyperscale power environments."
+      },
+      {
+        "name": "PDUs & Busway",
+        "description": "Power distribution systems delivering electricity within AI data centers."
+      },
+      {
+        "name": "Transformers",
+        "description": "Voltage transformation and grid integration equipment."
+      },
+      {
+        "name": "Grid Infrastructure",
+        "description": "Transmission and distribution infrastructure supplying AI campuses."
+      },
+      {
+        "name": "Substations",
+        "description": "Electrical substations supporting hyperscale power delivery."
+      }
+    ]
+  },
+
+  {
+    "category": "Cooling Infrastructure",
+    "subcategories": [
+      {
+        "name": "Liquid Cooling",
+        "description": "Direct-to-chip and immersion cooling systems for dense AI compute."
+      },
+      {
+        "name": "Chillers",
+        "description": "Industrial chilled-water cooling systems for hyperscale campuses."
+      },
+      {
+        "name": "Cooling Towers",
+        "description": "Large-scale thermal rejection systems for AI facilities."
+      },
+      {
+        "name": "CRAH Units",
+        "description": "Computer room air handling systems for hyperscale data centers."
+      },
+      {
+        "name": "HVAC Systems",
+        "description": "Environmental air handling and cooling systems for AI campuses."
+      },
+      {
+        "name": "Heat Exchangers",
+        "description": "Thermal transfer systems used in AI cooling infrastructure."
+      },
+      {
+        "name": "Industrial Pumps",
+        "description": "Fluid circulation systems supporting cooling operations."
+      }
+    ]
+  },
+
+  {
+    "category": "Network Infrastructure",
+    "subcategories": [
+      {
+        "name": "Ethernet Switching",
+        "description": "High-bandwidth switching systems for hyperscale AI clusters."
+      },
+      {
+        "name": "InfiniBand",
+        "description": "Low-latency networking architecture for distributed AI training."
+      },
+      {
+        "name": "Optical Networking",
+        "description": "Fiber optics and optical transceiver infrastructure for AI data centers."
+      },
+      {
+        "name": "Network ASICs",
+        "description": "Custom networking silicon used in hyperscale switching systems."
+      },
+      {
+        "name": "Fiber Infrastructure",
+        "description": "Physical fiber connectivity supporting high-speed AI networking."
+      }
+    ]
+  },
+
+  {
+    "category": "Physical Infrastructure",
+    "subcategories": [
+      {
+        "name": "Data Center Construction",
+        "description": "Construction and EPC services for hyperscale AI campuses."
+      },
+      {
+        "name": "Engineering Services",
+        "description": "Infrastructure engineering and technical consulting services."
+      },
+      {
+        "name": "Electrical Contractors",
+        "description": "Electrical installation and systems integration services."
+      },
+      {
+        "name": "Campus Development",
+        "description": "Large-scale land and facility development for AI infrastructure."
+      },
+      {
+        "name": "Building Materials",
+        "description": "Industrial materials used in hyperscale infrastructure projects."
+      }
+    ]
+  },
+
+  {
+    "category": "Semiconductor Supply Chain",
+    "subcategories": [
+      {
+        "name": "Lithography Equipment",
+        "description": "Advanced semiconductor lithography systems for AI chip manufacturing."
+      },
+      {
+        "name": "Wafer Fabrication Equipment",
+        "description": "Semiconductor manufacturing and wafer processing systems."
+      },
+      {
+        "name": "Chip Packaging",
+        "description": "Advanced semiconductor packaging and integration systems."
+      },
+      {
+        "name": "Semiconductor Materials",
+        "description": "Materials used in advanced semiconductor manufacturing."
+      },
+      {
+        "name": "EDA Software",
+        "description": "Electronic design automation software for chip development."
+      }
+    ]
+  },
+
+  {
+  "category": "Operations & Human Capital",
+  "subcategories": [
+    {
+      "name": "AI Consulting",
+      "description": "Enterprise AI strategy and transformation services."
+    },
+    {
+      "name": "AI Systems Integration",
+      "description": "Deployment and integration of enterprise AI systems."
+    },
+    {
+      "name": "Managed AI Services",
+      "description": "Operational management of AI infrastructure and platforms."
+    },
+    {
+      "name": "AI Workforce Services",
+      "description": "Specialized staffing and engineering services for AI operations."
+    },
+    {
+      "name": "Data Center Operations",
+      "description": "Operational management and maintenance of AI data center facilities."
+    }
+  ]
+}
+]

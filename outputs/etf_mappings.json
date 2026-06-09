@@ -1,0 +1,115 @@
+[
+  {
+    "category": "Compute Infrastructure",
+    "etfs": [
+      {
+        "ticker": "SMH",
+        "reason": "Semiconductor ETF with strong exposure to GPUs, AI accelerators and foundries."
+      },
+      {
+        "ticker": "SOXX",
+        "reason": "Broad semiconductor manufacturing and AI chip ecosystem exposure."
+      },
+      {
+        "ticker": "IGM",
+        "reason": "Technology growth ETF with major hyperscaler and AI infrastructure exposure."
+      }
+    ]
+  },
+
+  {
+    "category": "Power Infrastructure",
+    "etfs": [
+      {
+        "ticker": "XLI",
+        "reason": "Industrial infrastructure ETF covering electrical equipment and power systems."
+      },
+      {
+        "ticker": "XLU",
+        "reason": "Utilities ETF benefiting from AI-driven electricity demand growth."
+      },
+      {
+        "ticker": "PAVE",
+        "reason": "Infrastructure ETF with exposure to engineering, grid and industrial buildout."
+      }
+    ]
+  },
+
+  {
+    "category": "Cooling Infrastructure",
+    "etfs": [
+      {
+        "ticker": "XLI",
+        "reason": "Industrial ETF containing HVAC, cooling and industrial equipment companies."
+      },
+      {
+        "ticker": "PAVE",
+        "reason": "Infrastructure and industrial systems exposure including cooling-related vendors."
+      }
+    ]
+  },
+
+  {
+    "category": "Network Infrastructure",
+    "etfs": [
+      {
+        "ticker": "IGN",
+        "reason": "Networking ETF with exposure to switching, routing and AI networking vendors."
+      },
+      {
+        "ticker": "SOXX",
+        "reason": "Semiconductor ETF with networking silicon and ASIC exposure."
+      },
+      {
+        "ticker": "IGM",
+        "reason": "Technology infrastructure exposure including networking leaders."
+      }
+    ]
+  },
+
+  {
+    "category": "Physical Infrastructure",
+    "etfs": [
+      {
+        "ticker": "PAVE",
+        "reason": "US infrastructure ETF covering construction, engineering and industrial development."
+      },
+      {
+        "ticker": "XLI",
+        "reason": "Industrial ETF with EPC, engineering and infrastructure companies."
+      }
+    ]
+  },
+
+  {
+    "category": "Semiconductor Supply Chain",
+    "etfs": [
+      {
+        "ticker": "SMH",
+        "reason": "Semiconductor ETF with lithography, foundry and AI chip manufacturing exposure."
+      },
+      {
+        "ticker": "SOXX",
+        "reason": "Broad semiconductor ecosystem exposure including equipment suppliers."
+      }
+    ]
+  },
+
+  {
+    "category": "AI Operations & Services",
+    "etfs": [
+      {
+        "ticker": "IGV",
+        "reason": "Software and enterprise IT services ETF with AI consulting exposure."
+      },
+      {
+        "ticker": "VGT",
+        "reason": "Technology ETF including enterprise software and AI services providers."
+      },
+      {
+        "ticker": "IYW",
+        "reason": "Technology ETF with cloud, enterprise AI and IT modernization exposure."
+      }
+    ]
+  }
+]

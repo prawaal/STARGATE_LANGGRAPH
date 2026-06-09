@@ -1,0 +1,98 @@
+{
+    "Power Infrastructure": {
+        "importance": 0.568,
+        "evidence": [
+            "power",
+            "power companies",
+            "the grid",
+            "power plants",
+            "the power",
+            "power demand",
+            "grid operators",
+            "electricity",
+            "the electrical grid",
+            "total facility power"
+        ]
+    },
+    "Compute Infrastructure": {
+        "importance": 0.143,
+        "evidence": [
+            "gpus",
+            "computer chips",
+            "data center gpus",
+            "a gpu",
+            "inference",
+            "multi gpu ai",
+            "scalable llm inference",
+            "data centers cuda-x gpu-accelerated libraries",
+            "ai, hpc, and data processing virtualization gpu virtualization software",
+            "gpu-accelerated apps"
+        ]
+    },
+    "Network Infrastructure": {
+        "importance": 0.105,
+        "evidence": [
+            "interconnection",
+            "the supply chain and network operation",
+            "software networking networking",
+            "high-speed interconnects",
+            "pjm interconnection",
+            "artificial neural network",
+            "recurrent neural network",
+            "gru) echo state network multilayer perceptron",
+            "convolutional neural network",
+            "residual neural network"
+        ]
+    },
+    "Physical Infrastructure": {
+        "importance": 0.071,
+        "evidence": [
+            "construction",
+            "data center construction",
+            "active construction",
+            "data center buildings",
+            "a specialized data center facility",
+            "this facility",
+            "the construction",
+            "local data center construction",
+            "construction material",
+            "construction frenzy"
+        ]
+    },
+    "Cooling Infrastructure": {
+        "importance": 0.057,
+        "evidence": [
+            "heat",
+            "closed-loop cooling",
+            "the heat",
+            "cooling equipment",
+            "closed-loop liquid cooling systems",
+            "evaporative cooling",
+            "unique cooling systems",
+            "liquid cooling \u00e2\u0080\u0094",
+            "specialized cooling equipment",
+            "liquid cooling"
+        ]
+    },
+    "Semiconductor Supply Chain": {
+        "importance": 0.055,
+        "evidence": [
+            "chips",
+            "all publications data explorers capabilities models frontier data centers chip owners companies polling",
+            "ai models frontier data centers hardware companies chip sales polling benchmarking ai capabilities frontiermath company",
+            "chip",
+            "advanced chips",
+            "the chips",
+            "these chips",
+            "a memory chip supply crisis",
+            "surging memory chip prices",
+            "the actual chips"
+        ]
+    },
+    "Operations & Human Capital": {
+        "importance": 0.002,
+        "evidence": [
+            "energy & industrials sectors aerospace & defense chemicals & specialty materials engineering & construction industrial manufacturing mining & metals oil & gas power & utilities renewable energy topics workforce supply chain energy transition technology & innovation assets & operations research centers cross-industry economics consumer energy & industrials financial services government"
+        ]
+    }
+}

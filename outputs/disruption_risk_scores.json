@@ -1,0 +1,15 @@
+{
+    "GLOBAL_DISRUPTION": {
+        "keyword_score": 0.0,
+        "llm_score": 0.86,
+        "disruption_risk_score": 0.344,
+        "llm_analysis": {
+            "efficient_ai_risk": 9,
+            "compute_reduction_risk": 9,
+            "low_power_ai_risk": 7,
+            "open_source_disruption": 8,
+            "alternative_paradigm_risk": 10,
+            "summary": "The AI Factory investment thesis faces significant disruption risks primarily centered around reductions in the required computational scale for AI, and the potential for new paradigms. Efficient AI architectures and a broader trend of reduced compute dependency directly threaten the core value proposition by enabling similar or superior AI outcomes with fewer resources, thus dampening the exponential demand for raw compute infrastructure. Low power AI, while often targeted at edge applications, could also reduce operational costs for factories or shift where and how AI is deployed. Open-source AI disruption democratizes access to powerful models, potentially commoditizing compute and decentralizing the market, challenging the dominance of mega-factories. The most profound existential threat comes from alternative AI paradigms, which could render current deep learning-centric infrastructure obsolete if entirely new approaches to AI processing emerge and gain traction."
+        }
+    }
+}

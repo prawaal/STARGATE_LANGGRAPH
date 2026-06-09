@@ -1,0 +1,458 @@
+{
+    "AMD": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "PWR": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "SO": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "CAT": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "CEG": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "XEL": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "ETR": {
+        "keyword_score": 0.1322,
+        "llm_score": 0.775,
+        "final_ai_exposure_score": 0.3893,
+        "llm_analysis": {
+            "ai_revenue_exposure": 7,
+            "hyperscaler_dependency": 6,
+            "future_ai_growth": 9,
+            "capacity_scaling": 9,
+            "summary": "Entergy shows strong AI infrastructure positioning with a 7-12 GW data center pipeline, secured agreements with hyperscalers like Google, Amazon, and Meta, and a $41B capital plan through 2029. The company has proactively secured 19 GW of power equipment and 90% of transmission materials through 2030. Hyperscaler dependency is moderate\u2014policy requires signed ESAs before inclusion in capital plans, and traditional industrial growth also contributes. Revenue exposure is growing but not yet fully contracted. Capacity scaling is a standout strength with CCGT equipment secured for 2031-2032 commercial operations and MISO ARRIS process utilization for expedited interconnection."
+        }
+    },
+    "DLR": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "ADBE": {
+        "keyword_score": 0.0,
+        "llm_score": 0.575,
+        "final_ai_exposure_score": 0.23,
+        "llm_analysis": {
+            "ai_revenue_exposure": 7,
+            "hyperscaler_dependency": 4,
+            "future_ai_growth": 7,
+            "capacity_scaling": 5,
+            "summary": "Adobe (ADBE) is a software company with significant AI integration through its Firefly generative AI platform embedded across Creative Cloud, Document Cloud, and Experience Cloud. AI revenue exposure is meaningful as Firefly-powered features drive subscription upgrades and new monetization (Firefly credits, premium tiers), though AI is an enhancer of existing SaaS revenue rather than a direct infrastructure play. Hyperscaler dependency is moderate \u2014 Adobe runs on AWS/Azure/GCP for cloud delivery but is not a hyperscaler itself nor heavily reliant on selling to them. Future AI growth is solid given the massive creative and enterprise workflow TAM, strong brand moat, and deepening Firefly adoption, though competition from open-source and startup generative AI tools poses risk. Capacity scaling is average for this context: Adobe scales its AI inference via cloud partnerships rather than owning GPU/data center infrastructure, limiting its direct 'AI Factory' infrastructure expansion story. Overall, ADBE benefits from AI as a product differentiator and demand driver, but is not a core AI infrastructure/factory beneficiary."
+        }
+    },
+    "CCI": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "TSM": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "CSCO": {
+        "keyword_score": 0.0231,
+        "llm_score": 0.7,
+        "final_ai_exposure_score": 0.2939,
+        "llm_analysis": {
+            "ai_revenue_exposure": 7,
+            "hyperscaler_dependency": 6,
+            "future_ai_growth": 8,
+            "capacity_scaling": 7,
+            "summary": "Cisco shows meaningful and growing AI revenue exposure through its Nexus data center switching portfolio, AI-specific products (Hyperfabric, Hypershield, AI Defense, DPU-integrated switches), and strong web-scale customer momentum with 3 of 6 hyperscalers growing >100% YoY and 2 growing >50% YoY. Hyperscaler dependency is moderate-to-significant \u2014 web-scale demand is a key growth driver, but enterprise and telco segments provide diversification; hyperscalers have signaled demand exceeds supply ('if you can build more, we will buy more'), with some customers raising 2025 targets by 50%. Future AI growth prospects are strong: enterprise AI infrastructure spending is in early stages (representing an order-of-magnitude larger opportunity than training alone per management), telcos are building AI-ready networks, and Cisco's product pipeline is well-positioned. Capacity scaling is solid \u2014 Cisco is actively expanding its silicon innovation, DPU-integrated networking, and AI pod infrastructure, though supply chain constraints and tariff headwinds (impacting gross margins ~67-68%) present near-term friction. Overall, Cisco is a credible AI Factory infrastructure beneficiary with diversified exposure across hyperscaler, enterprise, and telco verticals."
+        }
+    },
+    "ANET": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "GOOGL": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "UNP": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "UNIT": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "SRE": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "TT": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "NSC": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "INTU": {
+        "keyword_score": 0.0,
+        "llm_score": 0.525,
+        "final_ai_exposure_score": 0.21,
+        "llm_analysis": {
+            "ai_revenue_exposure": 6,
+            "hyperscaler_dependency": 3,
+            "future_ai_growth": 7,
+            "capacity_scaling": 5,
+            "summary": "Intuit (INTU) is a financial software company (TurboTax, QuickBooks, Credit Karma) with meaningful but indirect AI exposure. It has invested heavily in its own AI/ML capabilities branded as 'Intuit Assist' and GenOS platform, embedding AI across its product suite to drive automation and personalization. AI revenue exposure is moderate \u2014 AI enhances existing products rather than being a standalone revenue line, though it supports ARPU growth and retention. Hyperscaler dependency is relatively low; Intuit operates its own data infrastructure and AI platform, though it leverages cloud providers (AWS, Google Cloud) for compute. Future AI demand growth is solid given the large TAB in tax, accounting, and personal finance automation, with AI-driven features expanding addressable use cases. Capacity scaling is moderate \u2014 Intuit is scaling its GenOS platform internally but is not a direct beneficiary of AI factory/data center infrastructure buildout in the way semiconductor or cloud infrastructure companies are. Note: Source documents were inaccessible (Cloudflare blocks); scores are based on established public knowledge of Intuit's business model and AI strategy."
+        }
+    },
+    "AMAT": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "GE": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "QCOM": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "PANW": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "AMT": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "RTX": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "HON": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "FSLY": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "EQIX": {
+        "keyword_score": 0.2249,
+        "llm_score": 0.75,
+        "final_ai_exposure_score": 0.4349,
+        "llm_analysis": {
+            "ai_revenue_exposure": 7,
+            "hyperscaler_dependency": 6,
+            "future_ai_growth": 9,
+            "capacity_scaling": 8,
+            "summary": "Equinix demonstrates strong and growing AI revenue exposure, with Q4 2024 showing more than half of top 25 deal volumes tied to high-performance compute and AI workloads, record gross bookings, and diversifying AI use cases across healthcare, finance, transportation, and gaming. Hyperscaler dependency is moderate-to-significant via the xScale program (~150MW leased in 2024, 400MW+ cumulative), which serves cloud and AI hyperscalers, though Equinix mitigates concentration risk through its broad retail colocation and interconnection business (19% of recurring revenues). Future AI demand growth prospects are excellent: Equinix is positioned as 'where private AI happens,' benefits from inferencing and training workload wins, and sees secular AI-driven demand across its global platform. Capacity scaling is robust, with 62 major projects across 36 metros, a strategic shift to build bigger data centers in fewer/larger phases, 65%+ of retail expansion in major metros, and a clear pipeline of xScale opportunities targeting 2027+ delivery \u2014 though near-term capacity constraints in Tier 1 metros represent a temporary bottleneck limiting even stronger bookings."
+        }
+    },
+    "HWM": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "SNPS": {
+        "keyword_score": 0.0,
+        "llm_score": 0.825,
+        "final_ai_exposure_score": 0.33,
+        "llm_analysis": {
+            "ai_revenue_exposure": 9,
+            "hyperscaler_dependency": 7,
+            "future_ai_growth": 9,
+            "capacity_scaling": 8,
+            "summary": "Synopsys (SNPS) is a critical enabler of AI Factory infrastructure as the leading EDA (Electronic Design Automation) and semiconductor IP provider. AI chips (GPUs, TPUs, custom ASICs) from NVIDIA, AMD, Google, Amazon, and Microsoft all rely on Synopsys tools for design, verification, and silicon IP. AI revenue exposure is very high (~30-40% of revenue tied to AI chip design cycles). Hyperscaler dependency is significant as major cloud providers designing custom AI silicon (Google TPU, AWS Trainium/Inferentia, Microsoft Maia) are key customers, though SNPS also serves fabless AI chip companies broadly. Future AI growth outlook is strong given exponential complexity of next-gen AI accelerators driving EDA tool demand, plus Synopsys.ai platform embedding AI into its own workflows. Capacity scaling is well-positioned through cloud-based EDA offerings and the pending Ansys acquisition expanding into systems simulation. Primary risk is that the Ansys merger faces regulatory scrutiny, and SNPS trades at a premium valuation already pricing in much of the AI tailwind."
+        }
+    },
+    "AVGO": {
+        "keyword_score": 0.7199,
+        "llm_score": 0.9,
+        "final_ai_exposure_score": 0.7919,
+        "llm_analysis": {
+            "ai_revenue_exposure": 9,
+            "hyperscaler_dependency": 8,
+            "future_ai_growth": 10,
+            "capacity_scaling": 9,
+            "summary": "Broadcom demonstrates exceptional AI Factory infrastructure positioning. AI revenue reached $4.1B in Q1 2025 (77% YoY growth), representing ~50% of total semiconductor revenue, with Q2 guidance of $4.4B. Hyperscaler dependency is high but diversifying \u2014 currently shipping XPUs to 3 hyperscalers in volume, with 4 additional hyperscalers now engaged for custom accelerator development, expanding the SAM beyond the stated $60B-$90B 2027 estimate. Future AI demand growth is among the strongest in the sector, underpinned by hyperscaler roadmaps targeting 1 million XPU clusters by end of 2027 and a confirmed $60B-$90B serviceable addressable market from just three customers. Capacity scaling is aggressive: taping out industry-first 2nm AI XPU with 3.5D packaging targeting 10,000 teraflops, next-gen 100 terabit Tomahawk 6 switch at 1.6Tb bandwidth, and doubled RAID X capacity \u2014 all aligned to enable 500K-1M accelerator clusters. The combination of custom silicon leadership, networking dominance, and expanding hyperscaler relationships makes AVGO a top-tier AI infrastructure beneficiary."
+        }
+    },
+    "NVDA": {
+        "keyword_score": 0.0994,
+        "llm_score": 0.925,
+        "final_ai_exposure_score": 0.4296,
+        "llm_analysis": {
+            "ai_revenue_exposure": 10,
+            "hyperscaler_dependency": 7,
+            "future_ai_growth": 10,
+            "capacity_scaling": 10,
+            "summary": "NVDA demonstrates near-total AI revenue exposure with Data Center revenue of $115.2B in FY2025 (88% of total $130.5B revenue), doubling YoY. Hyperscaler dependency is significant but balanced \u2014 large CSPs represent ~50% of Data Center revenue with Azure, GCP, AWS, and OCI all deploying GB200, though regional clouds, consumer internet (3x YoY growth), and enterprise (2x YoY) provide meaningful diversification. Future AI demand growth is exceptional: reasoning models require 100x more compute per task, post-training demands orders of magnitude more compute than pretraining, and new verticals like robotics/AV ($5B automotive revenue projected) and physical AI (Cosmos platform) represent massive greenfield opportunities. Capacity scaling positioning is best-in-class \u2014 Blackwell is the fastest product ramp in company history with $11B delivered in Q4 alone, 100,000+ GPU clusters already shipping, NVLink/Spectrum-X networking scaling, and 5.9M developer ecosystem ensuring platform stickiness and continuous optimization across the full AI stack from pretraining to inference."
+        }
+    },
+    "ADI": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "ETN": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "AEP": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "LRCX": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "VST": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "BA": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "UBER": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "NXPI": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "MSFT": {
+        "keyword_score": 0.376,
+        "llm_score": 0.925,
+        "final_ai_exposure_score": 0.5956,
+        "llm_analysis": {
+            "ai_revenue_exposure": 9,
+            "hyperscaler_dependency": 8,
+            "future_ai_growth": 10,
+            "capacity_scaling": 10,
+            "summary": "Microsoft demonstrates exceptional AI Factory infrastructure positioning. AI revenue surpassed $13B annual run rate (+175% YoY), with Microsoft Cloud exceeding $40B quarterly revenue (+21% YoY). As a hyperscaler, MSFT is both a builder and beneficiary of AI infrastructure \u2014 Azure serves as the exclusive cloud for OpenAI APIs, and the company doubled data center capacity over three years with record additions in the last year alone. Future demand signals are robust: Azure AI Foundry reached 200K MAUs in two months, GitHub Copilot has 150M developers (+50% in two years), and Microsoft 365 Copilot seat expansion is accelerating with daily usage doubling QoQ. Capacity scaling is aggressive and deliberate, encompassing proprietary silicon (Maia, Cobalt, Boost, HSM), multi-vendor GPU support (AMD, Intel, NVIDIA), and continuous global data center expansion tied to both near- and long-term demand signals. The company's vertically integrated AI stack \u2014 from infrastructure to applications \u2014 positions it as one of the strongest beneficiaries of AI Factory expansion."
+        }
+    },
+    "DUK": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "DE": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "D": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "CRWD": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "TXN": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "NEE": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "APP": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "KLAC": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "AAPL": {
+        "keyword_score": 0.0199,
+        "llm_score": 0.375,
+        "final_ai_exposure_score": 0.1619,
+        "llm_analysis": {
+            "ai_revenue_exposure": 4,
+            "hyperscaler_dependency": 2,
+            "future_ai_growth": 6,
+            "capacity_scaling": 3,
+            "summary": "Apple shows moderate AI revenue exposure primarily through Apple Intelligence features driving iPhone 16 and Mac upgrades, contributing to record Q1 2025 revenue of $124.3B. However, AI is not yet a direct, quantified revenue line \u2014 it acts as an indirect demand catalyst. Hyperscaler dependency is low; Apple relies on its own silicon (A18, M4 chips) and Private Cloud Compute infrastructure, with only a peripheral ChatGPT integration via OpenAI. Future AI growth potential is meaningful given the planned expansion of Apple Intelligence to additional languages (French, German, Spanish, Japanese, Korean, Simplified Chinese) in April 2025 and a 2.35B+ active device install base as an upgrade catalyst. Capacity scaling is limited from an AI Factory infrastructure perspective \u2014 Apple is a consumer of AI infrastructure rather than a builder or direct beneficiary of hyperscaler capex expansion. It does not sell AI compute, cloud services, or data center hardware, making it a weak candidate for AI Factory infrastructure investment themes."
+        }
+    },
+    "GEV": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "MU": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "MRVL": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "INTC": {
+        "keyword_score": 0.055,
+        "llm_score": 0.35,
+        "final_ai_exposure_score": 0.173,
+        "llm_analysis": {
+            "ai_revenue_exposure": 3,
+            "hyperscaler_dependency": 2,
+            "future_ai_growth": 4,
+            "capacity_scaling": 5,
+            "summary": "Intel currently has limited meaningful AI revenue exposure. While they hold a leading position as the host CPU for AI servers and have the Gaudi accelerator product, management explicitly acknowledged they are 'not yet participating in the cloud-based AI data center market in a meaningful way.' Falcon Shores was cancelled as a commercial product, and Gaudi ramp learnings are still being applied. Hyperscaler dependency is low \u2014 Intel's strength remains in enterprise/traditional data center and client CPUs, not cloud AI spend. Future AI growth potential exists but is speculative: Jaguar Shores rack-scale solution is in development, Panther Lake on Intel 18A launches H2 2025, and CPU-based inference at edge/on-prem is cited as an opportunity. Capacity scaling is moderate \u2014 Intel 18A process node is progressing with internal ramp in H2 2025 and Intel Foundry is positioning for external customers, but trust-building with foundry customers is early-stage and revenue inflection is realistically a 2026+ story."
+        }
+    },
+    "META": {
+        "keyword_score": 0.0929,
+        "llm_score": 0.775,
+        "final_ai_exposure_score": 0.3657,
+        "llm_analysis": {
+            "ai_revenue_exposure": 9,
+            "hyperscaler_dependency": 2,
+            "future_ai_growth": 10,
+            "capacity_scaling": 10,
+            "summary": "Meta demonstrates exceptional AI revenue exposure with AI-powered ad tools surpassing a $60B annual run rate, Reels at $50B+ run rate, and Advantage Plus driving measurable advertiser efficiency gains (14% lower cost per lead). The Lattice unified model architecture is consolidating ad ranking systems, directly boosting ad revenue. Hyperscaler dependency is minimal \u2014 Meta is aggressively building its own infrastructure (2025 CapEx raised to $70-72B, with 'notably larger' dollar growth in 2026), supplemented by off-balance-sheet structures like the Blue Owl JV, indicating strong self-sufficiency with only incremental cloud expenses noted. Future AI demand growth is among the highest in the sector: Zuckerberg explicitly front-loads compute for superintelligence scenarios, Meta Superintelligence Labs is scaling rapidly, Meta AI has 1B+ monthly actives, and management confirms internal compute demand consistently outpaces supply. Capacity scaling is top-tier \u2014 CapEx guidance raised mid-year, 2026 CapEx growth described as 'notably larger,' total expenses growing at a 'significantly faster percentage rate' in 2026, with data center and infrastructure as the primary driver. Meta is positioning itself as both a consumer of AI infrastructure and a builder of frontier AI, making it one of the most comprehensively positioned companies in the AI Factory expansion cycle."
+        }
+    },
+    "ORCL": {
+        "keyword_score": 0.2,
+        "llm_score": 0.75,
+        "final_ai_exposure_score": 0.42,
+        "llm_analysis": {
+            "ai_revenue_exposure": 9,
+            "hyperscaler_dependency": 3,
+            "future_ai_growth": 9,
+            "capacity_scaling": 9,
+            "summary": "Oracle demonstrates exceptionally strong AI revenue exposure with GPU consumption revenue nearly 3.5x year-over-year, OCI IaaS up 51%, and OCI consumption revenue up 57%. AI demand is described as 'extraordinary' and is the primary growth driver. Hyperscaler dependency is low-to-moderate \u2014 Oracle competes directly with hyperscalers via OCI while also partnering with Azure, Google, and AWS for database-at-cloud services across 18 live regions (40 more planned), giving it both independence and complementary revenue streams. Future AI demand growth is exceptionally strong: RPO surged 63% YoY to $130B (cloud RPO up 90%+), $48B added in a single quarter (record), and Stargate contracts not yet included. Management guided FY26 revenue to ~$66B (~15% growth) and FY27 at ~20% growth, with IaaS expected to accelerate further. Capacity scaling is a top priority: power capacity under contract growing faster than data center count, available power capacity expected to double in calendar 2025 and triple by end of FY26, 101 cloud regions live, and FY25 capex guided to ~$16B (2x prior year). Component delay headwinds expected to ease in Q1 FY26, positioning Oracle for accelerating revenue conversion from its massive backlog."
+        }
+    },
+    "GOOG": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "CSX": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "MPWR": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "PLTR": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "NUE": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    },
+    "CRM": {
+        "keyword_score": 0.0,
+        "llm_score": 0.0,
+        "final_ai_exposure_score": 0.0,
+        "llm_analysis": {}
+    }
+}

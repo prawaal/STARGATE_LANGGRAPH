@@ -1,0 +1,821 @@
+{
+    "SRE": {
+        "raw_metrics": {
+            "gross_margin": 0.42457,
+            "operating_margin": 0.30616,
+            "ebitda_margin": 0.41452998,
+            "revenue_growth": -0.039,
+            "return_on_equity": 0.05689,
+            "debt_to_equity": 85.267,
+            "free_cashflow": -28243374080,
+            "market_cap": 59845324800
+        },
+        "forward_growth_score": 0.3952
+    },
+    "AEP": {
+        "raw_metrics": {
+            "gross_margin": 0.47243,
+            "operating_margin": 0.23738001,
+            "ebitda_margin": 0.40748,
+            "revenue_growth": 0.102,
+            "return_on_equity": 0.12585,
+            "debt_to_equity": 157.099,
+            "free_cashflow": -6953449984,
+            "market_cap": 71223345152
+        },
+        "forward_growth_score": 0.3988
+    },
+    "NUE": {
+        "raw_metrics": {
+            "gross_margin": 0.14062999,
+            "operating_margin": 0.11826,
+            "ebitda_margin": 0.14502,
+            "revenue_growth": 0.213,
+            "return_on_equity": 0.12285,
+            "debt_to_equity": 31.595,
+            "free_cashflow": -384100000,
+            "market_cap": 54723870720
+        },
+        "forward_growth_score": 0.2699
+    },
+    "FSLY": {
+        "raw_metrics": {
+            "gross_margin": 0.59394,
+            "operating_margin": -0.1381,
+            "ebitda_margin": -0.08465999,
+            "revenue_growth": 0.198,
+            "return_on_equity": -0.10656,
+            "debt_to_equity": 40.705,
+            "free_cashflow": 116781872,
+            "market_cap": 2754400000
+        },
+        "forward_growth_score": 0.2355
+    },
+    "SO": {
+        "raw_metrics": {
+            "gross_margin": 0.48002997,
+            "operating_margin": 0.25819,
+            "ebitda_margin": 0.46310002,
+            "revenue_growth": 0.08,
+            "return_on_equity": 0.109910004,
+            "debt_to_equity": 190.431,
+            "free_cashflow": -3950000128,
+            "market_cap": 106067755008
+        },
+        "forward_growth_score": 0.4123
+    },
+    "D": {
+        "raw_metrics": {
+            "gross_margin": 0.47263,
+            "operating_margin": 0.28751,
+            "ebitda_margin": 0.47223,
+            "revenue_growth": 0.231,
+            "return_on_equity": 0.09787,
+            "debt_to_equity": 154.901,
+            "free_cashflow": -9948250112,
+            "market_cap": 59173601280
+        },
+        "forward_growth_score": 0.4307
+    },
+    "CRWD": {
+        "raw_metrics": {
+            "gross_margin": 0.74808997,
+            "operating_margin": 0.0100300005,
+            "ebitda_margin": -0.0097,
+            "revenue_growth": 0.233,
+            "return_on_equity": -0.04137,
+            "debt_to_equity": 18.336,
+            "free_cashflow": 1604615040,
+            "market_cap": 170934009856
+        },
+        "forward_growth_score": 0.3192
+    },
+    "SNPS": {
+        "raw_metrics": {
+            "gross_margin": 0.82024,
+            "operating_margin": 0.13340001,
+            "ebitda_margin": 0.20169,
+            "revenue_growth": 0.655,
+            "return_on_equity": 0.055430003,
+            "debt_to_equity": 35.579,
+            "free_cashflow": 3096222464,
+            "market_cap": 102401400832
+        },
+        "forward_growth_score": 0.4386
+    },
+    "AMT": {
+        "raw_metrics": {
+            "gross_margin": 0.73964,
+            "operating_margin": 0.45907003,
+            "ebitda_margin": 0.64602995,
+            "revenue_growth": 0.068,
+            "return_on_equity": 0.29952,
+            "debt_to_equity": 444.55,
+            "free_cashflow": 4614362624,
+            "market_cap": 86166921216
+        },
+        "forward_growth_score": 0.5409
+    },
+    "TSM": {
+        "raw_metrics": {
+            "gross_margin": 0.61873,
+            "operating_margin": 0.58105,
+            "ebitda_margin": 0.69593,
+            "revenue_growth": 0.351,
+            "return_on_equity": 0.3621,
+            "debt_to_equity": 18.447,
+            "free_cashflow": 719158444032,
+            "market_cap": 2138486996992
+        },
+        "forward_growth_score": 0.5992
+    },
+    "GOOGL": {
+        "raw_metrics": {
+            "gross_margin": 0.60368,
+            "operating_margin": 0.36121,
+            "ebitda_margin": 0.38181,
+            "revenue_growth": 0.218,
+            "return_on_equity": 0.38884997,
+            "debt_to_equity": 20.026,
+            "free_cashflow": 27921750016,
+            "market_cap": 4711453818880
+        },
+        "forward_growth_score": 0.4755
+    },
+    "EQIX": {
+        "raw_metrics": {
+            "gross_margin": 0.51606,
+            "operating_margin": 0.24343,
+            "ebitda_margin": 0.44951,
+            "revenue_growth": 0.121,
+            "return_on_equity": 0.10059,
+            "debt_to_equity": 162.961,
+            "free_cashflow": 2725125120,
+            "market_cap": 106280452096
+        },
+        "forward_growth_score": 0.4166
+    },
+    "CCI": {
+        "raw_metrics": {
+            "gross_margin": 0.73819,
+            "operating_margin": 0.47722998,
+            "ebitda_margin": 0.64799005,
+            "revenue_growth": -0.048,
+            "return_on_equity": null,
+            "debt_to_equity": null,
+            "free_cashflow": 1202875008,
+            "market_cap": 39560007680
+        },
+        "forward_growth_score": 0.3727
+    },
+    "PANW": {
+        "raw_metrics": {
+            "gross_margin": 0.73502,
+            "operating_margin": 0.15496999,
+            "ebitda_margin": 0.15529999,
+            "revenue_growth": 0.149,
+            "return_on_equity": 0.16259001,
+            "debt_to_equity": 4.887,
+            "free_cashflow": 2859225088,
+            "market_cap": 208224256000
+        },
+        "forward_growth_score": 0.39
+    },
+    "CSCO": {
+        "raw_metrics": {
+            "gross_margin": 0.64296997,
+            "operating_margin": 0.24992001,
+            "ebitda_margin": 0.27997,
+            "revenue_growth": 0.12,
+            "return_on_equity": 0.25229,
+            "debt_to_equity": 67.541,
+            "free_cashflow": 9288375296,
+            "market_cap": 466389958656
+        },
+        "forward_growth_score": 0.4199
+    },
+    "TXN": {
+        "raw_metrics": {
+            "gross_margin": 0.57322,
+            "operating_margin": 0.37824002,
+            "ebitda_margin": 0.46995,
+            "revenue_growth": 0.186,
+            "return_on_equity": 0.32347,
+            "debt_to_equity": 83.741,
+            "free_cashflow": 1068249984,
+            "market_cap": 295680049152
+        },
+        "forward_growth_score": 0.4827
+    },
+    "CEG": {
+        "raw_metrics": {
+            "gross_margin": 0.23263,
+            "operating_margin": 0.21858,
+            "ebitda_margin": 0.26641,
+            "revenue_growth": 0.638,
+            "return_on_equity": 0.16104999,
+            "debt_to_equity": 66.428,
+            "free_cashflow": -4478875136,
+            "market_cap": 108924084224
+        },
+        "forward_growth_score": 0.3648
+    },
+    "CSX": {
+        "raw_metrics": {
+            "gross_margin": 0.46816003,
+            "operating_margin": 0.36157,
+            "ebitda_margin": 0.46816003,
+            "revenue_growth": 0.017,
+            "return_on_equity": 0.23684,
+            "debt_to_equity": 143.06,
+            "free_cashflow": 1129874944,
+            "market_cap": 86607855616
+        },
+        "forward_growth_score": 0.4389
+    },
+    "META": {
+        "raw_metrics": {
+            "gross_margin": 0.81941,
+            "operating_margin": 0.40617,
+            "ebitda_margin": 0.5085,
+            "revenue_growth": 0.331,
+            "return_on_equity": 0.32930002,
+            "debt_to_equity": 35.608,
+            "free_cashflow": 25558249472,
+            "market_cap": 1554378129408
+        },
+        "forward_growth_score": 0.5555
+    },
+    "MSFT": {
+        "raw_metrics": {
+            "gross_margin": 0.68309,
+            "operating_margin": 0.46326,
+            "ebitda_margin": 0.57956004,
+            "revenue_growth": 0.183,
+            "return_on_equity": 0.34013999,
+            "debt_to_equity": 30.271,
+            "free_cashflow": 37011251200,
+            "market_cap": 3090451791872
+        },
+        "forward_growth_score": 0.5478
+    },
+    "GE": {
+        "raw_metrics": {
+            "gross_margin": 0.31149,
+            "operating_margin": 0.20207001,
+            "ebitda_margin": 0.22845,
+            "revenue_growth": 0.247,
+            "return_on_equity": 0.45428002,
+            "debt_to_equity": 116.527,
+            "free_cashflow": 5667999744,
+            "market_cap": 328588460032
+        },
+        "forward_growth_score": 0.3563
+    },
+    "CAT": {
+        "raw_metrics": {
+            "gross_margin": 0.28601998,
+            "operating_margin": 0.18180001,
+            "ebitda_margin": 0.20573999,
+            "revenue_growth": 0.222,
+            "return_on_equity": 0.51331,
+            "debt_to_equity": 230.793,
+            "free_cashflow": 3776624896,
+            "market_cap": 418470821888
+        },
+        "forward_growth_score": 0.3389
+    },
+    "RTX": {
+        "raw_metrics": {
+            "gross_margin": 0.20212999,
+            "operating_margin": 0.13182001,
+            "ebitda_margin": 0.16889,
+            "revenue_growth": 0.087,
+            "return_on_equity": 0.11571,
+            "debt_to_equity": 57.229,
+            "free_cashflow": 7233375232,
+            "market_cap": 241015930880
+        },
+        "forward_growth_score": 0.2787
+    },
+    "ETR": {
+        "raw_metrics": {
+            "gross_margin": 0.46976003,
+            "operating_margin": 0.18648,
+            "ebitda_margin": 0.41319,
+            "revenue_growth": 0.12,
+            "return_on_equity": 0.10751,
+            "debt_to_equity": 192.883,
+            "free_cashflow": -3913097728,
+            "market_cap": 51269591040
+        },
+        "forward_growth_score": 0.3871
+    },
+    "NXPI": {
+        "raw_metrics": {
+            "gross_margin": 0.55632,
+            "operating_margin": 0.27664,
+            "ebitda_margin": 0.32985002,
+            "revenue_growth": 0.122,
+            "return_on_equity": 0.25812998,
+            "debt_to_equity": 103.991,
+            "free_cashflow": 2727124992,
+            "market_cap": 83989553152
+        },
+        "forward_growth_score": 0.4187
+    },
+    "BA": {
+        "raw_metrics": {
+            "gross_margin": 0.048249997,
+            "operating_margin": 0.01715,
+            "ebitda_margin": -0.035350002,
+            "revenue_growth": 0.14,
+            "return_on_equity": 1.69947,
+            "debt_to_equity": 828.696,
+            "free_cashflow": 2554249984,
+            "market_cap": 172559384576
+        },
+        "forward_growth_score": 0.2483
+    },
+    "HWM": {
+        "raw_metrics": {
+            "gross_margin": 0.35046002,
+            "operating_margin": 0.28188,
+            "ebitda_margin": 0.29700002,
+            "revenue_growth": 0.191,
+            "return_on_equity": 0.33818,
+            "debt_to_equity": 87.794,
+            "free_cashflow": 1192749952,
+            "market_cap": 104784158720
+        },
+        "forward_growth_score": 0.3852
+    },
+    "GOOG": {
+        "raw_metrics": {
+            "gross_margin": 0.60368,
+            "operating_margin": 0.36121,
+            "ebitda_margin": 0.38181,
+            "revenue_growth": 0.218,
+            "return_on_equity": 0.38884997,
+            "debt_to_equity": 20.026,
+            "free_cashflow": 27921750016,
+            "market_cap": 4662507339776
+        },
+        "forward_growth_score": 0.4755
+    },
+    "KLAC": {
+        "raw_metrics": {
+            "gross_margin": 0.61446,
+            "operating_margin": 0.41215,
+            "ebitda_margin": 0.44669998,
+            "revenue_growth": 0.115,
+            "return_on_equity": 0.94975996,
+            "debt_to_equity": 105.4,
+            "free_cashflow": 2890187008,
+            "market_cap": 262742884352
+        },
+        "forward_growth_score": 0.5258
+    },
+    "GEV": {
+        "raw_metrics": {
+            "gross_margin": 0.20282,
+            "operating_margin": 0.05461,
+            "ebitda_margin": 0.08673,
+            "revenue_growth": 0.163,
+            "return_on_equity": 0.75708,
+            "debt_to_equity": 24.925,
+            "free_cashflow": 9315624960,
+            "market_cap": 287656706048
+        },
+        "forward_growth_score": 0.2921
+    },
+    "VST": {
+        "raw_metrics": {
+            "gross_margin": 0.38637,
+            "operating_margin": 0.26578,
+            "ebitda_margin": 0.34919,
+            "revenue_growth": 0.434,
+            "return_on_equity": 0.42898,
+            "debt_to_equity": 355.187,
+            "free_cashflow": 476875008,
+            "market_cap": 55486746624
+        },
+        "forward_growth_score": 0.4095
+    },
+    "INTU": {
+        "raw_metrics": {
+            "gross_margin": 0.80793,
+            "operating_margin": 0.46974,
+            "ebitda_margin": 0.30633,
+            "revenue_growth": 0.104,
+            "return_on_equity": 0.22496,
+            "debt_to_equity": 33.448,
+            "free_cashflow": 5232000000,
+            "market_cap": 83250987008
+        },
+        "forward_growth_score": 0.5019
+    },
+    "AVGO": {
+        "raw_metrics": {
+            "gross_margin": 0.76725996,
+            "operating_margin": 0.44943002,
+            "ebitda_margin": 0.54506,
+            "revenue_growth": 0.295,
+            "return_on_equity": 0.33370999,
+            "debt_to_equity": 82.704,
+            "free_cashflow": 25503750144,
+            "market_cap": 1998077427712
+        },
+        "forward_growth_score": 0.5582
+    },
+    "DUK": {
+        "raw_metrics": {
+            "gross_margin": 0.5105,
+            "operating_margin": 0.25507,
+            "ebitda_margin": 0.50361997,
+            "revenue_growth": 0.113,
+            "return_on_equity": 0.09661,
+            "debt_to_equity": 161.495,
+            "free_cashflow": -2246500096,
+            "market_cap": 97426137088
+        },
+        "forward_growth_score": 0.4287
+    },
+    "INTC": {
+        "raw_metrics": {
+            "gross_margin": 0.372,
+            "operating_margin": 0.06879,
+            "ebitda_margin": 0.26364002,
+            "revenue_growth": 0.072,
+            "return_on_equity": -0.02911,
+            "debt_to_equity": 36.028,
+            "free_cashflow": -8301250048,
+            "market_cap": 620811517952
+        },
+        "forward_growth_score": 0.3078
+    },
+    "AMD": {
+        "raw_metrics": {
+            "gross_margin": 0.5306,
+            "operating_margin": 0.14396,
+            "ebitda_margin": 0.19838,
+            "revenue_growth": 0.378,
+            "return_on_equity": 0.08063,
+            "debt_to_equity": 6.005,
+            "free_cashflow": 7173374976,
+            "market_cap": 821643378688
+        },
+        "forward_growth_score": 0.3696
+    },
+    "HON": {
+        "raw_metrics": {
+            "gross_margin": 0.36925,
+            "operating_margin": 0.21,
+            "ebitda_margin": 0.22639,
+            "revenue_growth": 0.024,
+            "return_on_equity": 0.24264,
+            "debt_to_equity": 257.387,
+            "free_cashflow": 2936875008,
+            "market_cap": 146830098432
+        },
+        "forward_growth_score": 0.3326
+    },
+    "LRCX": {
+        "raw_metrics": {
+            "gross_margin": 0.49979,
+            "operating_margin": 0.35042998,
+            "ebitda_margin": 0.36195,
+            "revenue_growth": 0.238,
+            "return_on_equity": 0.66762,
+            "debt_to_equity": 35.282,
+            "free_cashflow": 4352341504,
+            "market_cap": 403534249984
+        },
+        "forward_growth_score": 0.4678
+    },
+    "TT": {
+        "raw_metrics": {
+            "gross_margin": 0.35924998,
+            "operating_margin": 0.15521,
+            "ebitda_margin": 0.19597,
+            "revenue_growth": 0.06,
+            "return_on_equity": 0.36630002,
+            "debt_to_equity": 53.597,
+            "free_cashflow": 2662362624,
+            "market_cap": 102001623040
+        },
+        "forward_growth_score": 0.3326
+    },
+    "NSC": {
+        "raw_metrics": {
+            "gross_margin": 0.45851,
+            "operating_margin": 0.32255,
+            "ebitda_margin": 0.45851,
+            "revenue_growth": 0.002,
+            "return_on_equity": 0.17615,
+            "debt_to_equity": 111.586,
+            "free_cashflow": 1298749952,
+            "market_cap": 71919493120
+        },
+        "forward_growth_score": 0.4234
+    },
+    "PWR": {
+        "raw_metrics": {
+            "gross_margin": 0.15100001,
+            "operating_margin": 0.04244,
+            "ebitda_margin": 0.08828,
+            "revenue_growth": 0.263,
+            "return_on_equity": 0.13534,
+            "debt_to_equity": 69.121,
+            "free_cashflow": 1037176768,
+            "market_cap": 111371632640
+        },
+        "forward_growth_score": 0.2462
+    },
+    "UNIT": {
+        "raw_metrics": {
+            "gross_margin": 0.61863,
+            "operating_margin": 0.13944,
+            "ebitda_margin": 0.44824,
+            "revenue_growth": 2.36,
+            "return_on_equity": null,
+            "debt_to_equity": 3476.071,
+            "free_cashflow": 116682000,
+            "market_cap": 2736532480
+        },
+        "forward_growth_score": 0.4063
+    },
+    "APP": {
+        "raw_metrics": {
+            "gross_margin": 0.88367,
+            "operating_margin": 0.78151,
+            "ebitda_margin": 0.79038,
+            "revenue_growth": 0.59,
+            "return_on_equity": 2.66444,
+            "debt_to_equity": 162.888,
+            "free_cashflow": 3180097280,
+            "market_cap": 172753534976
+        },
+        "forward_growth_score": 0.8653
+    },
+    "XEL": {
+        "raw_metrics": {
+            "gross_margin": 0.45928,
+            "operating_margin": 0.18155001,
+            "ebitda_margin": 0.4099,
+            "revenue_growth": 0.029,
+            "return_on_equity": 0.0959,
+            "debt_to_equity": 164.845,
+            "free_cashflow": -7471625216,
+            "market_cap": 50428493824
+        },
+        "forward_growth_score": 0.3776
+    },
+    "UBER": {
+        "raw_metrics": {
+            "gross_margin": 0.39635,
+            "operating_margin": 0.14565,
+            "ebitda_margin": 0.13076,
+            "revenue_growth": 0.145,
+            "return_on_equity": 0.3531,
+            "debt_to_equity": 48.113,
+            "free_cashflow": 6536625152,
+            "market_cap": 142736211968
+        },
+        "forward_growth_score": 0.3292
+    },
+    "AAPL": {
+        "raw_metrics": {
+            "gross_margin": 0.47862,
+            "operating_margin": 0.32275,
+            "ebitda_margin": 0.35437,
+            "revenue_growth": 0.166,
+            "return_on_equity": 1.4147099,
+            "debt_to_equity": 79.548,
+            "free_cashflow": 101090746368,
+            "market_cap": 4528552280064
+        },
+        "forward_growth_score": 0.4959
+    },
+    "NEE": {
+        "raw_metrics": {
+            "gross_margin": 0.61401004,
+            "operating_margin": 0.30175,
+            "ebitda_margin": 0.50811,
+            "revenue_growth": 0.073,
+            "return_on_equity": 0.10325,
+            "debt_to_equity": 156.686,
+            "free_cashflow": -18453374976,
+            "market_cap": 182803316736
+        },
+        "forward_growth_score": 0.4567
+    },
+    "UNP": {
+        "raw_metrics": {
+            "gross_margin": 0.56526,
+            "operating_margin": 0.40357,
+            "ebitda_margin": 0.50955003,
+            "revenue_growth": 0.032,
+            "return_on_equity": 0.40686,
+            "debt_to_equity": 162.246,
+            "free_cashflow": 4034374912,
+            "market_cap": 160955662336
+        },
+        "forward_growth_score": 0.4855
+    },
+    "MPWR": {
+        "raw_metrics": {
+            "gross_margin": 0.55175,
+            "operating_margin": 0.29986998,
+            "ebitda_margin": 0.28988,
+            "revenue_growth": 0.261,
+            "return_on_equity": 0.19574,
+            "debt_to_equity": 0.543,
+            "free_cashflow": 491719136,
+            "market_cap": 81702207488
+        },
+        "forward_growth_score": 0.4253
+    },
+    "QCOM": {
+        "raw_metrics": {
+            "gross_margin": 0.54799,
+            "operating_margin": 0.22059,
+            "ebitda_margin": 0.2922,
+            "revenue_growth": -0.035,
+            "return_on_equity": 0.36083,
+            "debt_to_equity": 55.979,
+            "free_cashflow": 9589624832,
+            "market_cap": 262256279552
+        },
+        "forward_growth_score": 0.3949
+    },
+    "PLTR": {
+        "raw_metrics": {
+            "gross_margin": 0.84073997,
+            "operating_margin": 0.46183997,
+            "ebitda_margin": 0.38633,
+            "revenue_growth": 0.847,
+            "return_on_equity": 0.32587,
+            "debt_to_equity": 2.477,
+            "free_cashflow": 1752997120,
+            "market_cap": 327472840704
+        },
+        "forward_growth_score": 0.5835
+    },
+    "NVDA": {
+        "raw_metrics": {
+            "gross_margin": 0.74144995,
+            "operating_margin": 0.65596,
+            "ebitda_margin": 0.65294,
+            "revenue_growth": 0.852,
+            "return_on_equity": 1.14288,
+            "debt_to_equity": 6.555,
+            "free_cashflow": 46335873024,
+            "market_cap": 5204124106752
+        },
+        "forward_growth_score": 0.7138
+    },
+    "MRVL": {
+        "raw_metrics": {
+            "gross_margin": 0.51023996,
+            "operating_margin": 0.18655,
+            "ebitda_margin": 0.32088003,
+            "revenue_growth": 0.221,
+            "return_on_equity": 0.19253999,
+            "debt_to_equity": 33.479,
+            "free_cashflow": 1442787456,
+            "market_cap": 182342696960
+        },
+        "forward_growth_score": 0.3953
+    },
+    "DLR": {
+        "raw_metrics": {
+            "gross_margin": 0.55342996,
+            "operating_margin": 0.17191,
+            "ebitda_margin": 0.4575,
+            "revenue_growth": 0.167,
+            "return_on_equity": 0.05688,
+            "debt_to_equity": 76.592,
+            "free_cashflow": 3261901824,
+            "market_cap": 69275582464
+        },
+        "forward_growth_score": 0.4147
+    },
+    "ORCL": {
+        "raw_metrics": {
+            "gross_margin": 0.67084,
+            "operating_margin": 0.32676,
+            "ebitda_margin": 0.42826,
+            "revenue_growth": 0.217,
+            "return_on_equity": 0.57572,
+            "debt_to_equity": 415.265,
+            "free_cashflow": -22298499072,
+            "market_cap": 555249434624
+        },
+        "forward_growth_score": 0.4832
+    },
+    "CRM": {
+        "raw_metrics": {
+            "gross_margin": 0.77676004,
+            "operating_margin": 0.19239001,
+            "ebitda_margin": 0.30218,
+            "revenue_growth": 0.121,
+            "return_on_equity": 0.123959996,
+            "debt_to_equity": 29.947,
+            "free_cashflow": 16366999552,
+            "market_cap": 146497060864
+        },
+        "forward_growth_score": 0.4311
+    },
+    "AMAT": {
+        "raw_metrics": {
+            "gross_margin": 0.48956,
+            "operating_margin": 0.31896,
+            "ebitda_margin": 0.31956,
+            "revenue_growth": 0.114,
+            "return_on_equity": 0.39692003,
+            "debt_to_equity": 30.399,
+            "free_cashflow": 3040375040,
+            "market_cap": 361164210176
+        },
+        "forward_growth_score": 0.4248
+    },
+    "ADBE": {
+        "raw_metrics": {
+            "gross_margin": 0.89396006,
+            "operating_margin": 0.38762,
+            "ebitda_margin": 0.38915002,
+            "revenue_growth": 0.12,
+            "return_on_equity": 0.58774,
+            "debt_to_equity": 58.34,
+            "free_cashflow": 9321374720,
+            "market_cap": 97206059008
+        },
+        "forward_growth_score": 0.5405
+    },
+    "MU": {
+        "raw_metrics": {
+            "gross_margin": 0.58437,
+            "operating_margin": 0.67624,
+            "ebitda_margin": 0.63324,
+            "revenue_growth": 1.963,
+            "return_on_equity": 0.39823002,
+            "debt_to_equity": 14.902,
+            "free_cashflow": 2893499904,
+            "market_cap": 1010314379264
+        },
+        "forward_growth_score": 0.7162
+    },
+    "ANET": {
+        "raw_metrics": {
+            "gross_margin": 0.63537,
+            "operating_margin": 0.42738998,
+            "ebitda_margin": 0.43638,
+            "revenue_growth": 0.351,
+            "return_on_equity": 0.31520998,
+            "debt_to_equity": null,
+            "free_cashflow": 4362237440,
+            "market_cap": 198961348608
+        },
+        "forward_growth_score": 0.3461
+    },
+    "ADI": {
+        "raw_metrics": {
+            "gross_margin": 0.64491,
+            "operating_margin": 0.38076,
+            "ebitda_margin": 0.48268002,
+            "revenue_growth": 0.372,
+            "return_on_equity": 0.09639,
+            "debt_to_equity": 25.81,
+            "free_cashflow": 3868954624,
+            "market_cap": 204547325952
+        },
+        "forward_growth_score": 0.5009
+    },
+    "ETN": {
+        "raw_metrics": {
+            "gross_margin": 0.37105,
+            "operating_margin": 0.16104999,
+            "ebitda_margin": 0.22239,
+            "revenue_growth": 0.168,
+            "return_on_equity": 0.20844999,
+            "debt_to_equity": 110.463,
+            "free_cashflow": 2646500096,
+            "market_cap": 156535373824
+        },
+        "forward_growth_score": 0.3367
+    },
+    "DE": {
+        "raw_metrics": {
+            "gross_margin": 0.25897,
+            "operating_margin": 0.17479,
+            "ebitda_margin": 0.18197,
+            "revenue_growth": -0.111,
+            "return_on_equity": 0.18349001,
+            "debt_to_equity": 376.022,
+            "free_cashflow": 2041750016,
+            "market_cap": 142919172096
+        },
+        "forward_growth_score": 0.2762
+    }
+}
