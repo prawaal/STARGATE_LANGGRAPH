@@ -5,6 +5,8 @@ import json
 import pandas as pd
 import os
 import sys
+import time
+
 
 # -----------------------------------
 # PAGE CONFIG
@@ -13,7 +15,7 @@ import sys
 st.set_page_config(
 
     page_title=
-        "STARGATE AI Factory",
+        "AI Factory Intelligence",
 
     layout="wide"
 )
@@ -24,8 +26,70 @@ st.set_page_config(
 # -----------------------------------
 
 st.title(
-    "STARGATE AI Factory Intelligence"
+    "AI Factory Intelligence"
 )
+
+
+# -----------------------------------
+# STATUS PLACEHOLDERS
+# -----------------------------------
+
+status_placeholder = st.empty()
+
+progress_placeholder = st.empty()
+
+
+# -----------------------------------
+# SIDEBAR
+# -----------------------------------
+
+with st.sidebar:
+
+    st.header(
+        "LLM Settings"
+    )
+
+
+    provider = st.selectbox(
+
+        "Provider",
+
+        [
+
+            "gemini",
+
+            "claude"
+        ]
+    )
+
+
+    api_key = st.text_input(
+
+        "API Key",
+
+        type="password"
+    )
+
+
+    # -----------------------------------
+    # STORE ENV
+    # -----------------------------------
+
+    if api_key:
+
+        os.environ[
+            "LLM_PROVIDER"
+        ] = provider
+
+
+        os.environ[
+            "LLM_API_KEY"
+        ] = api_key
+
+
+        st.success(
+            "LLM configured"
+        )
 
 
 # -----------------------------------
@@ -119,10 +183,24 @@ if st.button(
 
 
     # -----------------------------------
-    # RUN LANGGRAPH
+    # STATUS FILE
     # -----------------------------------
 
-    subprocess.run([
+    status_path = os.path.join(
+
+        BASE_DIR,
+
+        "outputs",
+
+        "runtime_status.json"
+    )
+
+
+    # -----------------------------------
+    # START PROCESS
+    # -----------------------------------
+
+    process = subprocess.Popen([
 
         sys.executable,
 
@@ -134,8 +212,73 @@ if st.button(
     ])
 
 
-    st.success(
+    # -----------------------------------
+    # POLL STATUS
+    # -----------------------------------
+
+    while process.poll() is None:
+
+        if os.path.exists(
+            status_path
+        ):
+
+            try:
+
+                with open(
+
+                    status_path,
+
+                    "r",
+
+                    encoding="utf-8"
+
+                ) as f:
+
+                    runtime_status = json.load(f)
+
+
+                # -----------------------------------
+                # STATUS TEXT
+                # -----------------------------------
+
+                status_placeholder.info(
+
+                    runtime_status[
+                        "agent"
+                    ]
+                )
+
+
+                # -----------------------------------
+                # PROGRESS BAR
+                # -----------------------------------
+
+                progress_placeholder.progress(
+
+                    runtime_status[
+                        "progress"
+                    ]
+                )
+
+            except Exception:
+
+                pass
+
+
+        time.sleep(1)
+
+
+    # -----------------------------------
+    # COMPLETE
+    # -----------------------------------
+
+    status_placeholder.success(
         "Workflow Complete"
+    )
+
+
+    progress_placeholder.progress(
+        100
     )
 
 
@@ -188,7 +331,9 @@ if st.button(
         # START INDEX FROM 1
         # -----------------------------------
 
-        df.index = df.index + 1
+        df.index = (
+            df.index + 1
+        )
 
 
         st.dataframe(

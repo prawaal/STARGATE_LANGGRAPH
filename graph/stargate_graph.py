@@ -1,3 +1,5 @@
+import sys
+
 from langgraph.graph import (
     StateGraph,
     END
@@ -166,16 +168,17 @@ graph.add_edge(
 app = graph.compile()
 
 
-# -----------------------------------
-# RUN
-# -----------------------------------
-
-initial_state = {
-
-    "run_from": "scoring",
-
-    "final_rankings_path": ""
-}
+# ----------------------------------- 
+# RUN 
+# ----------------------------------- 
+run_from = "research" 
+if len(sys.argv) > 1: 
+    run_from = sys.argv[1] 
+    
+initial_state = { 
+    "run_from": run_from, 
+    "final_rankings_path": "" 
+    } 
 
 
 app.invoke(
