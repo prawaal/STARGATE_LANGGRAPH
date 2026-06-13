@@ -58,7 +58,11 @@ with st.sidebar:
 
             "gemini",
 
-            "claude"
+            "claude",
+
+            "ollama",
+            
+            "nollm"
         ]
     )
 

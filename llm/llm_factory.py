@@ -9,6 +9,9 @@ from llm.claude_client import (
     ClaudeClient
 )
 
+from llm.ollama_client import (
+    OllamaClient
+)
 
 class LLMFactory:
 
@@ -115,6 +118,11 @@ class LLMFactory:
 
                 base_url
             )
+
+
+        elif provider == "ollama":
+
+            return OllamaClient()
 
 
         else:

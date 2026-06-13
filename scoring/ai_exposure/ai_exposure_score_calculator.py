@@ -62,9 +62,9 @@ class AIExposureScoreCalculator:
 
                     value,
 
-                    max_scores[
-                        signal
-                    ]
+                    max_scores.get(
+                        signal,0
+                    )
                 )
 
                 keyword_breakdown[

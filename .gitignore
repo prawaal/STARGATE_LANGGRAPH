@@ -1,7 +1,6 @@
 venv/
 __pycache__/
 *.pyc
-outputs/
 data/
 .env
 *.log
@@ -9,3 +8,6 @@ data/
 .vscode/
 *.jsonl
 configs/llm_config.json
+outputs/*.log 
+outputs/*.tmp 
+outputs/raw/

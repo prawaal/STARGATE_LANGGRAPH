@@ -1,664 +1,16 @@
 {
-    "APP": {
+    "LRCX": {
         "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
+            "ecosystem_lockin": 0.0124,
+            "switching_costs": 0.1,
+            "hyperscaler_dependency": 0.0387,
+            "market_leadership": 0.2174,
             "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
+            "proprietary_technology": 0.0426,
+            "infrastructure_criticality": 0.1579,
+            "scale_advantage": 0.0084
         },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 6,
-            "switching_costs": 6,
-            "strategic_importance": 5,
-            "supply_chain_bottleneck": 3,
-            "proprietary_technology": 5,
-            "infrastructure_criticality": 4,
-            "summary": "AppLovin (APP) is a mobile marketing and monetization platform, not a core AI Factory infrastructure company. Its AXON AI engine drives strong ad targeting performance, creating meaningful switching costs for mobile app developers and advertisers who are deeply integrated into its SDK and monetization stack. Ecosystem lock-in is moderate-to-strong given the MAX mediation platform and broad publisher/advertiser network effects. However, APP lacks supply chain bottleneck characteristics (no hardware, no data center ownership) and its infrastructure criticality is limited compared to hyperscalers or semiconductor firms. Proprietary technology is real but replicable over time by well-funded competitors (Google, Meta, Unity). Strategic importance is growing as AI-driven ad optimization becomes central to mobile growth, but APP remains a software/platform layer rather than foundational AI infrastructure."
-        },
-        "llm_score": 0.4833,
-        "final_moat_score": 0.1933
-    },
-    "MU": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 5,
-            "switching_costs": 6,
-            "strategic_importance": 8,
-            "supply_chain_bottleneck": 7,
-            "proprietary_technology": 7,
-            "infrastructure_criticality": 8,
-            "summary": "Micron Technology (MU) is one of only three major DRAM manufacturers globally (alongside Samsung and SK Hynix), giving it significant supply chain leverage. Its HBM3E memory is critical for AI accelerators, making it strategically vital to AI factory infrastructure. Proprietary manufacturing processes and advanced packaging technology (HBM, LPDDR5X) create meaningful barriers. Switching costs are moderate-to-high as memory is deeply integrated into system designs and qualification cycles are lengthy. However, ecosystem lock-in is limited since memory is more commoditized than software platforms, and customers can dual-source from competitors. Infrastructure criticality is high given AI training and inference workloads are memory-bandwidth constrained, and Micron is a key domestic US supplier amid geopolitical pressures to reduce reliance on Asian memory producers."
-        },
-        "llm_score": 0.6833,
-        "final_moat_score": 0.2733
-    },
-    "NSC": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 6,
-            "switching_costs": 6,
-            "strategic_importance": 7,
-            "supply_chain_bottleneck": 6,
-            "proprietary_technology": 4,
-            "infrastructure_criticality": 7,
-            "summary": "NSC (Norfolk Southern Corporation) is a major Class I railroad operator in the eastern United States. As AI Factory infrastructure scales, rail remains critical for bulk movement of construction materials, transformers, cooling equipment, and energy inputs. NSC's fixed rail network creates moderate-to-high switching costs and infrastructure criticality, as physical rail routes cannot be easily replicated. Its strategic importance is elevated given eastern US data center corridor density (Virginia, Georgia, Ohio). However, proprietary technology moat is limited \u2014 rail is a commoditized transport mode with regulatory oversight, and competing carriers (CSX) serve overlapping geographies. Supply chain bottleneck value is moderate: NSC controls specific eastern corridors but intermodal competition from trucking and competing rails caps pricing power. Ecosystem lock-in is real but not dominant \u2014 shippers can dual-source or shift to truck for shorter hauls. Overall, NSC represents solid but not exceptional moat strength in the AI infrastructure supply chain context."
-        },
-        "llm_score": 0.6,
-        "final_moat_score": 0.24
-    },
-    "HON": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 7,
-            "switching_costs": 7,
-            "strategic_importance": 7,
-            "supply_chain_bottleneck": 5,
-            "proprietary_technology": 6,
-            "infrastructure_criticality": 7,
-            "summary": "Honeywell (HON) is a diversified industrial conglomerate with meaningful but not dominant moats in AI factory infrastructure. Its building automation, process controls, and industrial IoT platforms create moderate ecosystem lock-in through integrated software and hardware stacks (e.g., Honeywell Forge). Switching costs are real but not insurmountable, as customers face retraining, reconfiguration, and integration costs when replacing Honeywell systems. Strategic importance is solid given its presence in HVAC/cooling, safety systems, and process automation critical to data center and industrial operations. Supply chain bottleneck positioning is moderate \u2014 Honeywell is a significant but not sole-source supplier in most categories. Proprietary technology is respectable across sensing, controls, and software analytics, though it faces competition from Siemens, Emerson, and Johnson Controls. Infrastructure criticality is high in sectors like data center cooling, warehouse automation, and energy management, which are increasingly relevant to AI factory buildouts. Overall, HON offers a diversified but not singularly dominant moat in the AI infrastructure ecosystem."
-        },
-        "llm_score": 0.65,
-        "final_moat_score": 0.26
-    },
-    "CSCO": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 8,
-            "switching_costs": 9,
-            "strategic_importance": 8,
-            "supply_chain_bottleneck": 6,
-            "proprietary_technology": 7,
-            "infrastructure_criticality": 9,
-            "summary": "Cisco (CSCO) possesses a formidable competitive moat in AI factory infrastructure. Its proprietary IOS/NX-OS operating systems, deeply integrated management tools (DNA Center, Meraki), and certifications create extreme switching costs \u2014 enterprises rarely rip-and-replace Cisco networking. The ecosystem lock-in is reinforced by Cisco's dominant position in enterprise routing, switching, and now AI-era ethernet fabrics (competing with InfiniBand). Infrastructure criticality is very high as Cisco underpins data center interconnects, campus networks, and increasingly AI cluster networking. Proprietary technology is strong but faces open-source and white-box competition. Supply chain bottleneck influence is moderate \u2014 Cisco is a major buyer of silicon but does not fabricate its own chips, limiting upstream leverage. Overall, Cisco is a high-moat infrastructure incumbent well-positioned for AI factory buildouts."
-        },
-        "llm_score": 0.7833,
-        "final_moat_score": 0.3133
-    },
-    "CRM": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 8,
-            "switching_costs": 8,
-            "strategic_importance": 7,
-            "supply_chain_bottleneck": 3,
-            "proprietary_technology": 6,
-            "infrastructure_criticality": 6,
-            "summary": "Salesforce (CRM) has strong ecosystem lock-in via its AppExchange marketplace, deep integrations, and platform extensions (Apex, Flow, MuleSoft, Slack). Switching costs are high due to years of customized workflows, data migration complexity, and retraining burdens. It holds strategic importance as the system of record for customer relationships across enterprises. However, as a SaaS CRM vendor, it is not a supply chain bottleneck in the AI Factory/infrastructure sense \u2014 it does not control semiconductors, networking, or compute. Proprietary technology is moderate, with Einstein AI and Data Cloud adding differentiation but facing competition from Microsoft Dynamics+Copilot and HubSpot. Infrastructure criticality is meaningful for sales/service operations but not foundational AI compute infrastructure. Overall, CRM is a strong enterprise software moat but scores low on physical AI infrastructure dimensions."
-        },
-        "llm_score": 0.6333,
-        "final_moat_score": 0.2533
-    },
-    "MPWR": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 7,
-            "switching_costs": 8,
-            "strategic_importance": 9,
-            "supply_chain_bottleneck": 6,
-            "proprietary_technology": 9,
-            "infrastructure_criticality": 8,
-            "summary": "Monolithic Power Systems (MPWR) holds a strong competitive moat in AI factory infrastructure through its proprietary BCD process technology and highly integrated power management ICs. MPWR's power delivery solutions are deeply embedded in GPU server platforms (notably NVIDIA), creating high switching costs due to lengthy qualification cycles, custom design-ins, and tight co-development relationships. Its strategic importance is elevated by the insatiable power demands of AI accelerators \u2014 MPWR's voltage regulators and power modules are critical to GPU and CPU performance and efficiency. Proprietary technology is a standout strength: MPWR's monolithic integration approach delivers superior power density and efficiency versus discrete competitors, and its in-house analog design IP is difficult to replicate. Infrastructure criticality is high as data center operators cannot run AI clusters without reliable, high-efficiency power delivery. The supply chain bottleneck score is moderate \u2014 MPWR is fabless (relying on TSMC), which introduces some vulnerability, but its differentiated design IP partially offsets this. Ecosystem lock-in is strong given deep OEM/ODM design wins and reference designs baked into next-generation AI server architectures."
-        },
-        "llm_score": 0.7833,
-        "final_moat_score": 0.3133
-    },
-    "GOOG": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 8,
-            "switching_costs": 7,
-            "strategic_importance": 9,
-            "supply_chain_bottleneck": 6,
-            "proprietary_technology": 9,
-            "infrastructure_criticality": 8,
-            "summary": "Google (Alphabet) possesses a formidable AI Factory moat anchored by proprietary TPU silicon (v4/v5), DeepMind/Google Brain research depth, and vertically integrated infrastructure spanning custom networking (Jupiter fabric), data centers, and software stack (JAX, TensorFlow, Vertex AI). Ecosystem lock-in is strong via GCP, Workspace, and Android/Play integrations that create multi-layer enterprise dependencies. Switching costs are elevated for enterprises deeply embedded in BigQuery, Vertex AI, and Google Workspace AI features. Strategic importance is near-peak given Google's dual role as both an AI hyperscaler and a foundational AI model provider (Gemini). Supply chain bottleneck score is moderate \u2014 Google designs custom TPUs but relies on TSMC for fabrication, limiting full vertical control. Infrastructure criticality is high given Google Search, YouTube, Gmail, and Maps serving billions daily, with AI increasingly embedded in all surfaces. The primary competitive risk is AWS/Azure scale parity and NVIDIA's ecosystem dominance in third-party AI workloads."
-        },
-        "llm_score": 0.7833,
-        "final_moat_score": 0.3133
-    },
-    "ETR": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 5,
-            "switching_costs": 5,
-            "strategic_importance": 5,
-            "supply_chain_bottleneck": 4,
-            "proprietary_technology": 4,
-            "infrastructure_criticality": 6,
-            "summary": "ETR (Entergy Corporation) is a regulated electric utility serving the Gulf South region. As a regulated utility, it has moderate-to-strong infrastructure criticality given its role in power delivery to residential, commercial, and industrial customers including data centers and AI factories in its service territory. Switching costs are moderate as customers cannot easily change utility providers in regulated markets. However, ETR lacks strong proprietary technology or significant supply chain bottleneck positioning in the AI infrastructure stack. Its strategic importance is growing as power demand from AI data centers increases, but ETR is one of many regional utilities rather than a uniquely critical node. No documents were provided, so scores reflect general knowledge of Entergy as a regulated utility holding company. Confidence is moderate."
-        },
-        "llm_score": 0.4833,
-        "final_moat_score": 0.1933
-    },
-    "KLAC": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 8,
-            "switching_costs": 9,
-            "strategic_importance": 9,
-            "supply_chain_bottleneck": 8,
-            "proprietary_technology": 9,
-            "infrastructure_criticality": 9,
-            "summary": "KLA Corporation is a dominant force in process control and yield management for semiconductor manufacturing. Its competitive moat is exceptionally strong across nearly all dimensions. KLA's inspection and metrology equipment is deeply embedded in chipmakers' fab processes \u2014 recipes, workflows, and defect databases are built around KLA tools, making switching extraordinarily costly and disruptive. The company holds ~50%+ market share in wafer inspection and reticle inspection, creating a near-bottleneck position in the semiconductor supply chain. Its proprietary algorithms, optical physics, and AI-driven defect classification represent decades of R&D that competitors cannot easily replicate. As semiconductor nodes shrink to 2nm and below, process control becomes even more critical, reinforcing KLA's strategic importance to TSMC, Samsung, Intel, and others. Export controls on advanced semiconductor equipment further highlight its geopolitical and infrastructure criticality. The primary moat risk is customer concentration and potential long-term disruption from new inspection paradigms, but near-term competitive position remains formidable."
-        },
-        "llm_score": 0.8667,
-        "final_moat_score": 0.3467
-    },
-    "SRE": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 5,
-            "switching_costs": 5,
-            "strategic_importance": 5,
-            "supply_chain_bottleneck": 4,
-            "proprietary_technology": 4,
-            "infrastructure_criticality": 5,
-            "summary": "Insufficient documentation provided to conduct a meaningful analysis of SRE as an AI Factory infrastructure company. Scores reflect neutral mid-range defaults. SRE (likely a real estate investment trust or infrastructure firm) may have relevance to AI data center buildout through land, power, or facility assets, but without specific company documents, financials, or product details, no defensible competitive moat assessment can be made. Please provide company filings, product descriptions, or market data for accurate scoring."
-        },
-        "llm_score": 0.4667,
-        "final_moat_score": 0.1867
-    },
-    "VST": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 4,
-            "switching_costs": 4,
-            "strategic_importance": 5,
-            "supply_chain_bottleneck": 4,
-            "proprietary_technology": 3,
-            "infrastructure_criticality": 5,
-            "summary": "VST (VST Industries or Vital Signs Technology, depending on context) lacks sufficient documentation to perform a precise evaluation. Assuming VST refers to a power/energy infrastructure company operating in the AI factory supply chain, it likely provides electrical distribution or power management solutions critical to data center operations. Without proprietary documents, scores are conservatively moderate: the company may benefit from some switching costs tied to installed base and integration complexity, and holds moderate strategic importance as a power infrastructure enabler. However, without evidence of deep ecosystem lock-in, unique proprietary technology, or dominant supply chain positioning, scores remain below average. Recommend providing company-specific documents for accurate scoring."
-        },
-        "llm_score": 0.4167,
-        "final_moat_score": 0.1667
-    },
-    "AAPL": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 9,
-            "switching_costs": 8,
-            "strategic_importance": 7,
-            "supply_chain_bottleneck": 5,
-            "proprietary_technology": 8,
-            "infrastructure_criticality": 4,
-            "summary": "Apple (AAPL) has an exceptionally strong consumer ecosystem lock-in via iOS, iCloud, App Store, and seamless device interoperability, making switching costly for end users. Its proprietary silicon (M-series, A-series chips) and software stack represent deep vertical integration. However, as an AI Factory infrastructure company, Apple scores lower \u2014 it is not a primary hyperscaler or AI infrastructure provider. Its supply chain role is more as a consumer than a bottleneck provider, and its infrastructure criticality for enterprise AI workloads is limited compared to NVIDIA, AWS, or Azure. Strategic importance is moderate given Apple Intelligence initiatives and on-device AI ambitions."
-        },
-        "llm_score": 0.6833,
-        "final_moat_score": 0.2733
-    },
-    "INTC": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.3,
-            "switching_costs": 0.3333,
-            "hyperscaler_dependency": 0.0392,
-            "market_leadership": 1.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.2091,
-        "llm_analysis": {
-            "ecosystem_lockin": 7,
-            "switching_costs": 7,
-            "strategic_importance": 8,
-            "supply_chain_bottleneck": 5,
-            "proprietary_technology": 7,
-            "infrastructure_criticality": 8,
-            "summary": "Intel retains meaningful moat in legacy segments: x86 powers ~70% of PCs and the majority of data center workloads, with deep ecosystem lock-in via software compatibility, enterprise IT tooling (vPro), and decades of ISV optimization. Switching costs are real but eroding\u2014ARM and AMD inroads in both client and server demonstrate the moat is not impenetrable. Strategic importance remains high as a domestic US semiconductor manufacturer with CHIPS Act relevance and critical infrastructure status. Supply chain bottleneck position is weakening; Intel is no longer the sole advanced node supplier and TSMC dominates leading-edge capacity. Proprietary technology (x86 ISA, Intel 18A process, integrated design+fab model) is differentiated but unproven at scale for external foundry customers. The AI data center segment is a clear gap\u2014Gaudi has not gained traction and Falcon Shores was cancelled, leaving Intel largely absent from the highest-growth workload. Overall moat is solid in traditional compute but structurally challenged in the AI factory infrastructure context."
-        },
-        "llm_score": 0.7,
-        "final_moat_score": 0.4054
-    },
-    "CCI": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 6,
-            "switching_costs": 7,
-            "strategic_importance": 7,
-            "supply_chain_bottleneck": 5,
-            "proprietary_technology": 3,
-            "infrastructure_criticality": 8,
-            "summary": "CCI (Crown Castle Inc.) is a U.S.-based REIT specializing in shared communications infrastructure \u2014 primarily cell towers, small cells, and fiber networks. As an AI Factory infrastructure play, its relevance is moderate. Its infrastructure criticality is high given that wireless connectivity underpins data transmission for AI workloads and edge computing. Switching costs are meaningful because carriers sign long-term leases (typically 5-10 years with renewal options) and physically relocating antenna equipment is costly and disruptive. Ecosystem lock-in is moderate \u2014 carriers are deeply embedded in tower contracts but can theoretically build or lease from competitors (SBA, AMT). Proprietary technology is a notable weakness; CCI owns physical real estate and infrastructure but holds no significant IP or software moat. Supply chain bottleneck is limited \u2014 while tower permitting and densification create some scarcity, the market is competitive with multiple tower REITs. Strategic importance is solid for 5G densification and edge AI deployment, but CCI has faced headwinds from Sprint/T-Mobile consolidation reducing tenant demand. Overall, CCI is a stable infrastructure asset with durable cash flows but lacks the deep AI-specific moat of data center or semiconductor infrastructure companies."
-        },
-        "llm_score": 0.6,
-        "final_moat_score": 0.24
-    },
-    "MSFT": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.55,
-            "switching_costs": 1.0,
-            "hyperscaler_dependency": 1.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.3333,
-            "infrastructure_criticality": 1.0,
-            "scale_advantage": 0.125
-        },
-        "keyword_score": 0.501,
-        "llm_analysis": {
-            "ecosystem_lockin": 9,
-            "switching_costs": 9,
-            "strategic_importance": 10,
-            "supply_chain_bottleneck": 6,
-            "proprietary_technology": 8,
-            "infrastructure_criticality": 9,
-            "summary": "Microsoft presents one of the strongest competitive moats in AI factory infrastructure. Its ecosystem lock-in is exceptional: Azure, Microsoft 365, GitHub, Dynamics 365, Teams, Fabric, and Copilot Studio form a deeply integrated stack where each product reinforces the others. Switching costs are extremely high \u2014 enterprises like Novartis (40,000 Copilot seats), UBS (400B records migrated), and Barclays are deeply embedded across data, productivity, and AI workflows, making migration economically and operationally prohibitive. Strategic importance is near-maximum: with $40B+ quarterly cloud revenue, $13B annualized AI run rate growing 175% YoY, and exclusive hosting of OpenAI APIs on Azure, MSFT is a critical node in global enterprise AI transformation. Supply chain bottleneck scoring is moderate (6) \u2014 while MSFT has doubled data center capacity in 3 years and deploys proprietary silicon (Maia, Cobalt, Boost, HSM), it still relies heavily on NVIDIA, AMD, and Intel for compute, limiting its upstream bottleneck power. Proprietary technology is strong: first-party silicon, Azure AI Foundry, Phi SLM family (20M+ downloads), GitHub Copilot, and deep OpenAI partnership create defensible IP layers. Infrastructure criticality is near-maximum \u2014 Azure hosts mission-critical Oracle, SAP, VMware, and mainframe workloads globally, and the Microsoft 365 + Teams stack underpins daily operations for hundreds of millions of enterprise users, making MSFT infrastructure effectively non-negotiable for most large organizations."
-        },
-        "llm_score": 0.85,
-        "final_moat_score": 0.6406
-    },
-    "CRWD": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 8,
-            "switching_costs": 8,
-            "strategic_importance": 9,
-            "supply_chain_bottleneck": 4,
-            "proprietary_technology": 8,
-            "infrastructure_criticality": 8,
-            "summary": "CrowdStrike (CRWD) demonstrates a strong competitive moat across most dimensions. Its Falcon platform creates deep ecosystem lock-in through a unified, modular architecture where customers continuously adopt additional modules (Identity, Cloud, SIEM, Threat Intel), making displacement increasingly difficult over time. Switching costs are high due to deep endpoint agent deployment, institutional knowledge embedded in workflows, retraining requirements, and data continuity concerns \u2014 compounded by the risk aversion inherent in replacing mission-critical security infrastructure. Strategic importance is very high as CrowdStrike protects governments, critical infrastructure, financial institutions, and Fortune 500 enterprises, making it a de facto national security asset in many contexts. Proprietary technology is a key differentiator: the cloud-native Threat Graph processes trillions of signals weekly, enabling AI/ML-driven detection that improves with scale \u2014 a compounding data network effect competitors struggle to replicate. Infrastructure criticality is strong given its role in endpoint, cloud workload, and identity protection across hybrid environments. The primary weakness is supply chain bottleneck positioning, as CrowdStrike is a software/SaaS vendor rather than a hardware or physical infrastructure chokepoint, limiting leverage in that dimension. The July 2024 global outage incident also highlighted concentration risk, though it paradoxically reinforced how deeply embedded the platform is across global enterprise infrastructure."
-        },
-        "llm_score": 0.75,
-        "final_moat_score": 0.3
-    },
-    "ADBE": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 8,
-            "switching_costs": 7,
-            "strategic_importance": 6,
-            "supply_chain_bottleneck": 3,
-            "proprietary_technology": 7,
-            "infrastructure_criticality": 5,
-            "summary": "Adobe (ADBE) demonstrates strong competitive moats in ecosystem lock-in and switching costs driven by its Creative Cloud and Document Cloud suites. The deeply integrated product ecosystem \u2014 spanning Photoshop, Illustrator, Premiere, Acrobat, and Firefly AI \u2014 creates high workflow dependency for creative professionals, enterprises, and educators. Switching costs are elevated due to proprietary file formats (.PSD, .AI, .PDF), learned workflows, and cross-product integrations. Proprietary technology is solid, particularly with Sensei/Firefly generative AI embedded into creative tools, though competitors like Canva, Figma (acquired attempt blocked), and open-source tools apply pressure. Strategic importance is moderate-to-high for digital content creation pipelines but Adobe is not a core AI Factory infrastructure provider in the semiconductor or cloud compute sense. Supply chain bottleneck score is low \u2014 Adobe is a software company with no meaningful hardware or physical supply chain leverage. Infrastructure criticality is moderate; PDF/Acrobat is deeply embedded in enterprise document workflows globally, but Adobe is not critical infrastructure in the way hyperscalers or networking providers are. Overall, Adobe is a strong software moat play but scores lower on pure AI Factory infrastructure dimensions."
-        },
-        "llm_score": 0.6,
-        "final_moat_score": 0.24
-    },
-    "TXN": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 7,
-            "switching_costs": 8,
-            "strategic_importance": 8,
-            "supply_chain_bottleneck": 6,
-            "proprietary_technology": 7,
-            "infrastructure_criticality": 7,
-            "summary": "Texas Instruments (TXN) holds a strong competitive moat as a dominant analog and embedded processing semiconductor company. Switching costs are high because TXN chips are deeply designed into customer hardware (automotive, industrial, consumer electronics), requiring costly re-qualification and re-design cycles that can take 12-24 months. Ecosystem lock-in is significant through its vast portfolio of 80,000+ products, extensive reference designs, software libraries (TI Resource Explorer), and long-term supply agreements. Strategic importance is elevated given TXN's critical role in automotive electrification, industrial automation, and energy infrastructure \u2014 secular growth markets. Supply chain bottleneck is moderate-to-strong as TXN operates its own 300mm fabs (ITAR-compliant, US-based), giving it cost advantages and supply control, though analog chips face less acute bottlenecks than leading-edge logic. Proprietary technology is solid with decades of analog IP, process node expertise optimized for analog (not leading-edge), and manufacturing know-how that is difficult to replicate quickly. Infrastructure criticality is high as analog/mixed-signal chips are foundational to virtually every electronic system \u2014 power management, sensing, and signal conversion cannot be easily replaced by software or alternative architectures. TXN's vertically integrated, fab-owning model and its entrenched position in long-lifecycle industrial and automotive designs make it one of the most defensible semiconductor franchises."
-        },
-        "llm_score": 0.7167,
-        "final_moat_score": 0.2867
-    },
-    "XEL": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 6,
-            "switching_costs": 6,
-            "strategic_importance": 7,
-            "supply_chain_bottleneck": 5,
-            "proprietary_technology": 5,
-            "infrastructure_criticality": 8,
-            "summary": "Xcel Energy (XEL) is a regulated electric and natural gas utility serving approximately 3.7 million customers across eight states including Colorado, Minnesota, and Texas. As a regulated utility, XEL possesses inherent infrastructure criticality as the sole provider of electricity and gas in its service territories, creating strong natural monopoly characteristics. Switching costs are elevated due to the physical impossibility of customers easily changing providers in regulated markets. Strategic importance is growing significantly given XEL's role in powering AI data centers and hyperscaler facilities, particularly in key markets. However, scores are moderated by the fact that XEL operates under regulatory oversight limiting pricing power, faces competition from distributed energy resources and microgrids, and lacks truly proprietary technology in the traditional sense \u2014 relying on standard utility infrastructure. The supply chain bottleneck score reflects grid interconnection constraints and transformer shortages industrywide rather than unique XEL advantages. Overall, XEL represents a moderate-to-strong competitive moat driven primarily by regulated monopoly status and infrastructure criticality rather than technological differentiation. NOTE: No company documents were provided; this analysis is based on publicly available knowledge of Xcel Energy as of early 2025."
-        },
-        "llm_score": 0.6167,
-        "final_moat_score": 0.2467
-    },
-    "ORCL": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.2,
-            "switching_costs": 1.0,
-            "hyperscaler_dependency": 0.3725,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.4375
-        },
-        "keyword_score": 0.2513,
-        "llm_analysis": {
-            "ecosystem_lockin": 8,
-            "switching_costs": 9,
-            "strategic_importance": 9,
-            "supply_chain_bottleneck": 6,
-            "proprietary_technology": 8,
-            "infrastructure_criticality": 9,
-            "summary": "Oracle presents a formidable competitive moat in the AI Factory infrastructure space. Ecosystem lock-in is extremely strong: Oracle's database heritage means decades of enterprise data, schemas, and workflows are deeply embedded in OCI and Oracle Cloud services, and the multi-cloud database partnerships with Azure, Google, and AWS (58 live/planned regions) further entrench Oracle's data layer across all major clouds. Switching costs are among the highest in enterprise software \u2014 migrating Oracle databases, ERP (Fusion), and now OCI-native AI workloads is prohibitively expensive and risky, evidenced by $130B RPO (up 63% YoY) and customers signing larger, longer contracts. Strategic importance is critical: Oracle is explicitly named as a destination for both AI training and inferencing, is part of Project Stargate, and its GPU consumption revenue grew ~3.5x YoY, making it a tier-1 AI infrastructure provider. Supply chain bottleneck scoring is moderate \u2014 Oracle is capacity-constrained (demand dramatically outstrips supply), and while it controls 101 cloud regions with rapidly expanding power capacity, it remains dependent on GPU/component supply chains it does not fully control, with delays expected to ease in Q1 FY26. Proprietary technology is a strong differentiator: Gen 2 OCI architecture, ultra-high-speed RDMA networking, Autonomous Database, and purpose-built AI infrastructure deliver measurable performance and cost advantages over hyperscalers. Infrastructure criticality is extremely high \u2014 Oracle underpins mission-critical ERP, financial, HR, and database systems for global enterprises, and is now a foundational AI compute layer, making it nearly impossible to remove without massive operational disruption."
-        },
-        "llm_score": 0.8167,
-        "final_moat_score": 0.4774
-    },
-    "NUE": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 4,
-            "switching_costs": 3,
-            "strategic_importance": 6,
-            "supply_chain_bottleneck": 5,
-            "proprietary_technology": 4,
-            "infrastructure_criticality": 6,
-            "summary": "Nucor Corporation (NUE) is the largest steel producer in the United States, operating a network of electric arc furnace (EAF) mini-mills. While Nucor holds meaningful strategic importance as a domestic steel supplier critical to construction, automotive, and infrastructure sectors, its competitive moat from an AI Factory infrastructure perspective is moderate at best. Ecosystem lock-in is limited as steel is largely a commodity product with multiple domestic and international suppliers. Switching costs are low-to-moderate since customers can source steel from competitors like Steel Dynamics or Cleveland-Cliffs with manageable transition friction. Nucor's proprietary technology edge lies in its EAF efficiency and scrap-based production model, which is more energy-flexible than blast furnace competitors, but this is not a unique or defensible technology in the AI infrastructure context. Supply chain bottleneck potential is moderate given Nucor's scale and domestic footprint, which becomes relevant during trade disruptions or tariff regimes. Infrastructure criticality is real but broad \u2014 steel underpins data center construction, power infrastructure, and cooling systems, making Nucor an indirect rather than direct AI Factory enabler. Overall, NUE is a solid industrial company with national security relevance but lacks the deep proprietary moats, platform network effects, or specialized technology differentiation expected of a high-conviction AI Factory infrastructure play."
-        },
-        "llm_score": 0.4667,
-        "final_moat_score": 0.1867
-    },
-    "UNIT": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 2,
-            "switching_costs": 2,
-            "strategic_importance": 3,
-            "supply_chain_bottleneck": 2,
-            "proprietary_technology": 3,
-            "infrastructure_criticality": 2,
-            "summary": "Insufficient information provided to evaluate UNIT as an AI Factory infrastructure company. No documents or detailed company description were supplied. Scores reflect a near-baseline assessment given the ambiguity \u2014 'UNIT' could refer to multiple entities. A meaningful competitive moat analysis requires product details, market position, customer base, technology stack, and financial data. All scores should be treated as placeholder minimums pending proper documentation."
-        },
-        "llm_score": 0.2333,
-        "final_moat_score": 0.0933
-    },
-    "DLR": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 7,
-            "switching_costs": 8,
-            "strategic_importance": 8,
-            "supply_chain_bottleneck": 5,
-            "proprietary_technology": 5,
-            "infrastructure_criticality": 9,
-            "summary": "Digital Realty Trust (DLR) is a global data center REIT operating over 300 facilities across 50+ metros worldwide. Its competitive moat is anchored in infrastructure criticality and switching costs: once hyperscalers, enterprises, and cloud providers co-locate or interconnect within DLR facilities, migrating physical hardware, power contracts, and cross-connect relationships is extremely costly and disruptive. The PlatformDIGITAL ecosystem creates meaningful lock-in by offering interconnection, colocation, and hybrid cloud on-ramps under one roof, encouraging customers to expand within the DLR footprint rather than leave. Strategic importance is high given DLR's role as neutral interconnection hubs where carriers, clouds, and enterprises meet. Infrastructure criticality is very strong \u2014 data centers are essential, long-lived physical assets with 10-20 year leases and irreplaceable power/fiber infrastructure in constrained markets. Supply chain bottleneck scoring is moderate; DLR benefits from power scarcity and land constraints in key metros but does not control upstream chip or hardware supply chains. Proprietary technology is the weakest dimension, as DLR's core product is real estate and power delivery rather than patented technology, though its ServiceFabric interconnection platform adds some differentiation. Overall, DLR possesses a durable, infrastructure-based moat driven by physical asset scarcity, customer stickiness, and global scale."
-        },
-        "llm_score": 0.7,
-        "final_moat_score": 0.28
-    },
-    "AEP": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 7,
-            "switching_costs": 8,
-            "strategic_importance": 8,
-            "supply_chain_bottleneck": 6,
-            "proprietary_technology": 3,
-            "infrastructure_criticality": 9,
-            "summary": "AEP (American Electric Power) is one of the largest electric utilities in the US, serving approximately 5.6 million customers across 11 states with an extensive transmission network spanning ~40,000 miles. As an AI Factory infrastructure play, AEP's moat is rooted in its regulated monopoly status and physical grid dominance rather than proprietary technology. Ecosystem lock-in is strong due to long-term power purchase agreements, interconnection queues, and the practical impossibility of customers building alternative grid infrastructure. Switching costs are high because customers \u2014 including hyperscale data centers \u2014 face years-long interconnection processes, regulatory dependencies, and capital-intensive alternatives. Strategic importance is elevated given surging AI/data center power demand, with AEP actively pursuing large load customers and grid modernization. Supply chain bottleneck is moderate; AEP controls transmission access in its territory but faces constraints from transformer shortages and permitting delays that limit how quickly it can serve new demand. Proprietary technology is the weakest dimension \u2014 AEP operates largely on standardized utility infrastructure with no significant IP moat. Infrastructure criticality is the strongest dimension: AEP's transmission backbone is irreplaceable in its service territory, and AI factories require the reliable, high-capacity power delivery that only established utilities can currently provide at scale."
-        },
-        "llm_score": 0.6833,
-        "final_moat_score": 0.2733
-    },
-    "DUK": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 6,
-            "switching_costs": 8,
-            "strategic_importance": 7,
-            "supply_chain_bottleneck": 4,
-            "proprietary_technology": 3,
-            "infrastructure_criticality": 9,
-            "summary": "Duke Energy (DUK) is a regulated electric and gas utility serving ~8 million customers across the Carolinas, Florida, Indiana, Ohio, and Kentucky. As an AI Factory infrastructure play, its moat is primarily regulatory and physical rather than technological. Switching costs are very high due to regulated monopoly status \u2014 customers cannot simply choose a different provider in most service territories. Infrastructure criticality is extremely strong as data centers and AI factories require uninterrupted, high-quality power, and Duke is increasingly positioning itself as a hyperscale data center power partner. Strategic importance is elevated given surging AI-driven electricity demand in its Southeast and Midwest territories. However, proprietary technology is weak \u2014 Duke uses largely standardized grid and generation equipment. Supply chain bottleneck scores modestly as Duke controls transmission/distribution in its region but does not uniquely control fuel or generation inputs at a global level. Ecosystem lock-in is moderate: once a hyperscaler builds a campus in Duke territory, they are operationally bound to Duke for grid power, but co-location or on-site generation can partially circumvent this. Overall, DUK is a strong but traditional infrastructure moat \u2014 regulatory protection and physical asset irreplaceability are the core advantages, not software or data network effects."
-        },
-        "llm_score": 0.6167,
-        "final_moat_score": 0.2467
-    },
-    "META": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 8,
-            "switching_costs": 7,
-            "strategic_importance": 9,
-            "supply_chain_bottleneck": 6,
-            "proprietary_technology": 8,
-            "infrastructure_criticality": 7,
-            "summary": "Meta operates one of the most powerful AI factory infrastructure ecosystems globally, anchored by its massive proprietary data assets, custom silicon (MTIA chips), and open-source AI frameworks like PyTorch. Its ecosystem lock-in is strong due to billions of users across Facebook, Instagram, and WhatsApp, creating unparalleled social graph data that feeds AI training loops competitors cannot easily replicate. Switching costs are elevated for advertisers and developers deeply integrated into Meta's ad tech stack and API ecosystem. Strategically, Meta is critical to global digital advertising and increasingly to AI-driven content delivery and AR/VR infrastructure via Reality Labs. Its supply chain position is moderately strong \u2014 Meta is a top hyperscaler consumer of Nvidia GPUs while simultaneously developing in-house MTIA accelerators to reduce dependency, though it has not yet achieved full silicon independence. Proprietary technology is a key moat: Meta AI Research (FAIR) produces frontier models (LLaMA series), and its open-source strategy paradoxically strengthens its talent and ecosystem influence. Infrastructure criticality is high as Meta's platforms underpin global communications, commerce, and media distribution, making it systemically important. The primary moat weakness is its reliance on third-party chip supply and regulatory/reputational risks that could erode platform trust."
-        },
-        "llm_score": 0.75,
-        "final_moat_score": 0.3
-    },
-    "D": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
+        "keyword_score": 0.0722,
         "llm_analysis": {
             "ecosystem_lockin": 0,
             "switching_costs": 0,
@@ -666,23 +18,23 @@
             "supply_chain_bottleneck": 0,
             "proprietary_technology": 0,
             "infrastructure_criticality": 0,
-            "summary": "No company information or supporting documents were provided. The company is identified only as 'D' with no accompanying documents, descriptions, financials, or context. All dimensions are scored 0 due to complete absence of data. Please provide company details, product descriptions, market position, technology stack, customer base, or any relevant documents to enable a meaningful competitive moat analysis."
+            "summary": "LLM parsing failed"
         },
         "llm_score": 0.0,
-        "final_moat_score": 0.0
+        "final_moat_score": 0.0433
     },
-    "TT": {
+    "NOW": {
         "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
+            "ecosystem_lockin": 0.61,
+            "switching_costs": 0.1,
+            "hyperscaler_dependency": 0.2194,
+            "market_leadership": 0.1304,
+            "supply_constraint": 0.0323,
+            "proprietary_technology": 0.0638,
+            "infrastructure_criticality": 0.1053,
+            "scale_advantage": 0.1429
         },
-        "keyword_score": 0.0,
+        "keyword_score": 0.1755,
         "llm_analysis": {
             "ecosystem_lockin": 0,
             "switching_costs": 0,
@@ -690,825 +42,1473 @@
             "supply_chain_bottleneck": 0,
             "proprietary_technology": 0,
             "infrastructure_criticality": 0,
-            "summary": "No valid document content was provided for analysis. Both source documents returned 404 Page Not Found errors from The Motley Fool, yielding zero usable information about the company identified as 'TT'. All dimensions are scored 0 due to complete absence of data. A meaningful competitive moat analysis cannot be performed without valid source material. Please provide accessible and relevant documents about the company for a proper evaluation."
+            "summary": "LLM parsing failed"
         },
         "llm_score": 0.0,
-        "final_moat_score": 0.0
+        "final_moat_score": 0.1053
     },
-    "GOOGL": {
+    "CDNS": {
         "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
+            "ecosystem_lockin": 0.2407,
+            "switching_costs": 0.2,
+            "hyperscaler_dependency": 0.1742,
+            "market_leadership": 0.2174,
+            "supply_constraint": 0.0323,
+            "proprietary_technology": 0.1489,
+            "infrastructure_criticality": 0.4211,
+            "scale_advantage": 0.1765
         },
-        "keyword_score": 0.0,
+        "keyword_score": 0.2014,
         "llm_analysis": {
-            "ecosystem_lockin": 9,
-            "switching_costs": 8,
-            "strategic_importance": 9,
-            "supply_chain_bottleneck": 7,
-            "proprietary_technology": 9,
-            "infrastructure_criticality": 9,
-            "summary": "Google (Alphabet) possesses one of the strongest competitive moats in AI Factory infrastructure. Its ecosystem lock-in is exceptional, spanning Google Cloud (GCP), Workspace, Android, Search, and YouTube, creating deeply interwoven dependencies for enterprises and consumers alike. Switching costs are high due to data gravity on GCP, proprietary tooling (BigQuery, Vertex AI), and deep API integrations. Strategically, Google is critical to global digital infrastructure \u2014 its search dominance, cloud growth, and AI investments (Gemini, TPUs) position it as a tier-1 AI infrastructure provider. On supply chain, Google has invested heavily in custom silicon (TPU v4/v5), subsea cables, and proprietary data centers, reducing third-party dependencies though not eliminating them entirely. Proprietary technology is a standout strength: TPUs, DeepMind research, TensorFlow/JAX, and Gemini models represent world-class IP. Infrastructure criticality is near-maximum \u2014 Google's services underpin global internet traffic, enterprise workloads, and increasingly AI inference at scale. The primary risk to its moat is AWS/Azure competition in cloud and potential regulatory fragmentation of its search monopoly."
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
         },
-        "llm_score": 0.85,
-        "final_moat_score": 0.34
+        "llm_score": 0.0,
+        "final_moat_score": 0.1208
     },
-    "AVGO": {
+    "NVDA": {
         "keyword_signals": {
-            "ecosystem_lockin": 1.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.2353,
+            "ecosystem_lockin": 0.4315,
+            "switching_costs": 0.02,
+            "hyperscaler_dependency": 0.4065,
             "market_leadership": 0.0,
-            "supply_constraint": 1.0,
-            "proprietary_technology": 1.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 1.0
+            "supply_constraint": 0.0323,
+            "proprietary_technology": 0.0213,
+            "infrastructure_criticality": 0.3684,
+            "scale_advantage": 0.0756
         },
-        "keyword_score": 0.5294,
+        "keyword_score": 0.1694,
         "llm_analysis": {
-            "ecosystem_lockin": 9,
-            "switching_costs": 9,
-            "strategic_importance": 10,
-            "supply_chain_bottleneck": 8,
-            "proprietary_technology": 9,
-            "infrastructure_criticality": 10,
-            "summary": "Broadcom (AVGO) possesses one of the most formidable competitive moats in the AI Factory infrastructure landscape, built across two reinforcing business pillars: custom AI semiconductors (XPUs) and enterprise infrastructure software (VMware/VCF). On the semiconductor side, Broadcom co-develops custom XPUs with hyperscale customers (currently 3 active, 4 prospects) through multi-year, deeply integrated engineering partnerships \u2014 creating near-irreversible switching costs once silicon tape-out cycles begin. The Tomahawk/Jericho/NIC networking portfolio dominates Ethernet-based AI cluster fabric, with Tomahawk 6 at 102.4 Tbps setting a generational benchmark that competitors cannot match imminently. On the software side, 87%+ of Broadcom's top 10,000 VMware customers have migrated to VCF subscriptions, locking enterprises into a private cloud stack that underpins virtualization, storage, and networking \u2014 with Hock Tan noting 'at least another year plus' of conversion runway remaining. Supply chain bottleneck risk is elevated given Broadcom's role as the primary custom XPU designer for multiple top-tier hyperscalers simultaneously, with no viable second-source alternatives at equivalent capability. Infrastructure criticality is near-absolute: Broadcom's silicon and software sit at the intersection of AI training, inference scaling, and enterprise cloud operations. The 93% gross margin on infrastructure software and ~69% on semiconductors reflect true pricing power derived from strategic indispensability. The primary moat risk is export control regulatory uncertainty, acknowledged directly by management, and the long-term possibility of hyperscalers internalizing chip design capabilities."
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
         },
-        "llm_score": 0.9167,
-        "final_moat_score": 0.6843
-    },
-    "NEE": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 6,
-            "switching_costs": 7,
-            "strategic_importance": 8,
-            "supply_chain_bottleneck": 6,
-            "proprietary_technology": 5,
-            "infrastructure_criticality": 8,
-            "summary": "NextEra Energy (NEE) is the world's largest producer of wind and solar energy and operates Florida Power & Light, one of the largest electric utilities in the US. As an AI Factory infrastructure evaluator, NEE scores well on infrastructure criticality and strategic importance because large-scale AI data centers require massive, reliable, and increasingly clean power \u2014 a core NEE competency. Switching costs are elevated due to long-term power purchase agreements (PPAs), regulated utility monopoly territories, and the capital-intensive nature of energy infrastructure. Ecosystem lock-in is moderate: hyperscalers and data center operators increasingly sign multi-year renewable energy contracts with NEE, creating dependency. Supply chain bottleneck strength is moderate \u2014 NEE controls significant renewable generation assets and transmission infrastructure, but energy markets still offer alternative suppliers. Proprietary technology is the weakest dimension; NEE's advantage is scale and operational expertise rather than patented breakthrough technology. Overall, NEE is a strong but not dominant AI infrastructure play \u2014 its value lies in being an indispensable power provider rather than a technology gatekeeper."
-        },
-        "llm_score": 0.6667,
-        "final_moat_score": 0.2667
-    },
-    "MRVL": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 7,
-            "switching_costs": 8,
-            "strategic_importance": 9,
-            "supply_chain_bottleneck": 6,
-            "proprietary_technology": 8,
-            "infrastructure_criticality": 8,
-            "summary": "Marvell Technology (MRVL) holds a strong competitive moat in the AI infrastructure space, primarily through its custom silicon (ASIC) design capabilities and dominance in high-speed data infrastructure semiconductors. Its deep co-design partnerships with hyperscalers like Amazon (Trainium/Inferentia supply chain), Google, and Microsoft create significant switching costs \u2014 once a custom ASIC is designed into a platform, re-engineering to a competitor takes 2-4 years and hundreds of millions in NRE costs. Marvell's PAM4 DSPs, Ethernet PHYs, and optical interconnect silicon are deeply embedded in AI cluster networking fabrics, making them infrastructure-critical. Proprietary technology is strong across electro-optics, SerDes IP, and custom AI accelerator design flows. The supply chain bottleneck score is moderate (6) because MRVL is fabless and relies on TSMC for leading-edge nodes, introducing shared dependency risk. Strategic importance is very high (9) as AI scaling laws demand ever-faster interconnects and custom inference silicon \u2014 both core Marvell competencies. The primary moat risk is competition from Broadcom in custom ASICs and from vertically integrated hyperscalers potentially bringing more design work in-house over time."
-        },
-        "llm_score": 0.7667,
-        "final_moat_score": 0.3067
-    },
-    "DE": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 7,
-            "switching_costs": 8,
-            "strategic_importance": 9,
-            "supply_chain_bottleneck": 8,
-            "proprietary_technology": 7,
-            "infrastructure_criticality": 9,
-            "summary": "Deere & Company (DE) holds a strong competitive moat in AI Factory infrastructure through its precision agriculture and autonomous machinery ecosystem. Its proprietary John Deere Operations Center platform creates deep ecosystem lock-in via integrated farm management software, telematics, and machine learning models trained on decades of agricultural data. Switching costs are high due to equipment interoperability, data continuity, and dealer/service network dependencies. Strategically, DE is critical to global food supply chain infrastructure, making it a de facto national security asset. As a supply chain bottleneck, DE controls key manufacturing of large agricultural equipment with limited direct competitors at scale (CNH, AGCO trail significantly). Proprietary technology includes autonomous tractors, See & Spray computer vision (acquired Blue River Technology), and embedded AI for yield optimization. Infrastructure criticality is very high given food production dependency on DE equipment globally. Primary weakness is that DE operates in a capital-intensive cyclical industry with exposure to commodity price swings and farm income volatility, which can compress demand regardless of moat strength."
-        },
-        "llm_score": 0.8,
-        "final_moat_score": 0.32
+        "llm_score": 0.0,
+        "final_moat_score": 0.1017
     },
     "CEG": {
         "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
+            "ecosystem_lockin": 0.0664,
+            "switching_costs": 0.04,
+            "hyperscaler_dependency": 0.1871,
+            "market_leadership": 0.1304,
+            "supply_constraint": 0.5484,
+            "proprietary_technology": 0.0213,
+            "infrastructure_criticality": 0.3684,
+            "scale_advantage": 0.1345
         },
-        "keyword_score": 0.0,
+        "keyword_score": 0.1871,
         "llm_analysis": {
-            "ecosystem_lockin": 7,
-            "switching_costs": 8,
-            "strategic_importance": 9,
-            "supply_chain_bottleneck": 8,
-            "proprietary_technology": 6,
-            "infrastructure_criticality": 9,
-            "summary": "CEG (Constellation Energy Group) holds a strong competitive moat as the largest U.S. nuclear power operator and a critical clean energy provider. Its fleet of nuclear plants represents near-irreplaceable baseload generation capacity with decades-long operational licenses, creating extremely high switching costs and infrastructure criticality. The company's strategic importance has surged with hyperscaler AI data center demand for 24/7 carbon-free energy \u2014 evidenced by landmark deals like the Microsoft/Three Mile Island restart. Supply chain bottlenecks are significant given the scarcity of nuclear-qualified contractors, fuel supply chains, and regulatory expertise. Proprietary technology moat is moderate \u2014 reactors are licensed designs, but operational know-how, NRC relationships, and site control are deep differentiators. Ecosystem lock-in is strong due to long-term PPAs and co-location agreements with major tech firms anchoring CEG as a preferred AI infrastructure energy partner."
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
         },
-        "llm_score": 0.7833,
-        "final_moat_score": 0.3133
+        "llm_score": 0.0,
+        "final_moat_score": 0.1122
     },
-    "UBER": {
+    "CRWD": {
         "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
+            "ecosystem_lockin": 0.7137,
+            "switching_costs": 0.12,
+            "hyperscaler_dependency": 0.129,
+            "market_leadership": 0.2609,
             "supply_constraint": 0.0,
             "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
+            "infrastructure_criticality": 0.3684,
+            "scale_advantage": 0.0756
         },
-        "keyword_score": 0.0,
+        "keyword_score": 0.2085,
         "llm_analysis": {
-            "ecosystem_lockin": 6,
-            "switching_costs": 3,
-            "strategic_importance": 6,
-            "supply_chain_bottleneck": 4,
-            "proprietary_technology": 5,
-            "infrastructure_criticality": 5,
-            "summary": "Uber is a global ride-hailing and delivery platform with a meaningful but contested competitive moat. Its ecosystem lock-in is moderate, driven by a two-sided network effect connecting riders, drivers, and merchants across Rides, Eats, and Freight \u2014 but multi-homing is rampant on both supply and demand sides, limiting stickiness. Switching costs are low for consumers (Lyft, local taxis, and regional competitors are one tap away) and for drivers who routinely operate across multiple platforms simultaneously. Strategic importance is real in urban mobility and last-mile logistics, but Uber is not a critical national infrastructure asset in the way utilities or semiconductor fabs are. Supply chain bottleneck positioning is weak \u2014 Uber does not own vehicles, warehouses, or exclusive driver contracts, making it easy for competitors to replicate the asset-light model. Proprietary technology (routing algorithms, dynamic pricing, demand forecasting, and autonomous vehicle R&D via Aurora stake) provides some differentiation, but is not insurmountable for well-funded rivals. Infrastructure criticality is moderate in cities where Uber has dominant share and has displaced public transit reliance, but regulators and competitors can erode this. Overall, Uber's moat is primarily scale and brand, not deep structural lock-in \u2014 making it a relatively weak AI Factory infrastructure play compared to semiconductor, cloud, or data center companies."
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
         },
-        "llm_score": 0.4833,
-        "final_moat_score": 0.1933
+        "llm_score": 0.0,
+        "final_moat_score": 0.1251
     },
-    "PLTR": {
+    "MU": {
         "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
+            "ecosystem_lockin": 0.0871,
+            "switching_costs": 0.26,
+            "hyperscaler_dependency": 0.0323,
+            "market_leadership": 1.0,
+            "supply_constraint": 0.0645,
+            "proprietary_technology": 0.0213,
+            "infrastructure_criticality": 0.2632,
+            "scale_advantage": 0.042
         },
-        "keyword_score": 0.0,
+        "keyword_score": 0.2213,
         "llm_analysis": {
             "ecosystem_lockin": 8,
-            "switching_costs": 9,
+            "switching_costs": 7,
             "strategic_importance": 9,
-            "supply_chain_bottleneck": 5,
-            "proprietary_technology": 8,
-            "infrastructure_criticality": 8,
-            "summary": "Palantir (PLTR) exhibits a formidable competitive moat rooted in deep enterprise and government integration. Its platforms \u2014 Gotham, Foundry, and AIP \u2014 are deeply embedded into mission-critical workflows of defense agencies, intelligence communities, and large enterprises, creating exceptionally high switching costs due to years of data ontology mapping, custom integrations, and institutional knowledge baked into deployments. Strategic importance is near-maximum given its role in U.S. and allied defense/intelligence infrastructure, with classified contracts reinforcing irreplaceability. Proprietary technology is strong, particularly its Ontology layer and AI Platform (AIP), which abstracts and operationalizes enterprise data in ways competitors have not replicated at scale. Infrastructure criticality is high as Palantir systems often serve as the central nervous system for operational decision-making in defense and large enterprise contexts. The supply chain bottleneck score is moderate \u2014 Palantir is a software/AI platform company, not a hardware manufacturer, so it lacks physical supply chain leverage but does create data and workflow bottlenecks within client organizations. Ecosystem lock-in is strong due to the network of system integrators, government certifications, and the compounding value of longitudinal data within its platforms. Overall, PLTR represents one of the highest-moat software infrastructure plays in the AI era, particularly for defense and intelligence verticals."
-        },
-        "llm_score": 0.7833,
-        "final_moat_score": 0.3133
-    },
-    "INTU": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 8,
-            "switching_costs": 8,
-            "strategic_importance": 7,
-            "supply_chain_bottleneck": 3,
-            "proprietary_technology": 7,
-            "infrastructure_criticality": 6,
-            "summary": "Intuit (INTU) is a financial software company best known for TurboTax, QuickBooks, and Mint. It is NOT an AI Factory infrastructure company in the traditional sense (no GPUs, data centers, or semiconductor supply chain relevance). Scores reflect its general moat as a software/fintech platform. Ecosystem lock-in and switching costs are high due to years of accumulated financial data, deep integrations with payroll, accounting, and tax workflows, and habitual annual use cycles. Proprietary technology is moderate-to-strong given its AI-driven tax engine, fraud detection, and recently acquired Credit Karma and Mailchimp data assets. Infrastructure criticality is moderate as it serves millions of SMBs and consumers for mission-critical financial tasks. However, it scores very low on supply chain bottleneck as it has no meaningful role in hardware, semiconductor, or physical AI infrastructure supply chains. Strategic importance is solid within fintech and SMB software ecosystems but limited outside that domain. Overall, INTU is a strong software moat business but a poor fit for AI Factory infrastructure evaluation frameworks."
-        },
-        "llm_score": 0.65,
-        "final_moat_score": 0.26
-    },
-    "SNPS": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 9,
-            "switching_costs": 10,
-            "strategic_importance": 10,
-            "supply_chain_bottleneck": 9,
+            "supply_chain_bottleneck": 6,
             "proprietary_technology": 10,
-            "infrastructure_criticality": 10,
-            "summary": "Synopsys (SNPS) possesses one of the most formidable competitive moats in the entire semiconductor and AI infrastructure ecosystem. As a dominant EDA (Electronic Design Automation) duopolist alongside Cadence, Synopsys tools are deeply embedded in the chip design workflows of virtually every major semiconductor company \u2014 including NVIDIA, Apple, TSMC, Intel, AMD, and Qualcomm. Switching costs are extraordinarily high: design teams spend years mastering Synopsys toolchains (VCS, Fusion Compiler, PrimeTime, IC Compiler), and migrating mid-project risks catastrophic schedule and yield losses. The ecosystem lock-in is reinforced by tight integration with foundry PDKs (Process Design Kits), IP libraries, and verification environments that are co-developed with TSMC and Samsung. Proprietary technology is world-class \u2014 Synopsys holds thousands of patents in logic synthesis, static timing analysis, formal verification, and silicon IP. Its acquisition of Ansys (pending/completed) further extends its moat into multiphysics simulation. As a supply chain bottleneck, no advanced chip (3nm, 2nm) can be designed without EDA tools at Synopsys' caliber \u2014 it is a chokepoint in the global semiconductor supply chain, making it strategically critical to national security and AI compute buildout. Infrastructure criticality is near-absolute: every AI accelerator, GPU, and custom ASIC powering the AI Factory wave depends on Synopsys software to exist."
-        },
-        "llm_score": 0.9667,
-        "final_moat_score": 0.3867
-    },
-    "CAT": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 7,
-            "switching_costs": 8,
-            "strategic_importance": 8,
-            "supply_chain_bottleneck": 6,
-            "proprietary_technology": 6,
             "infrastructure_criticality": 8,
-            "summary": "Caterpillar (CAT) demonstrates a strong competitive moat in the context of AI Factory infrastructure. Its heavy equipment \u2014 including generators, power systems, and large-scale construction machinery \u2014 is critical for building and powering data centers and AI compute facilities. Switching costs are high due to deep integration of Cat dealer networks, proprietary parts, and service contracts (Cat Financial, Cat Connect telematics). Ecosystem lock-in is reinforced through long-term service agreements, dealer dependencies, and Cat OS software platforms. Strategic importance is elevated as AI infrastructure buildout accelerates demand for power generation and earth-moving equipment. Infrastructure criticality is very high given CAT's dominance in backup power (diesel/gas generators) essential for data center uptime. Proprietary technology scores moderately \u2014 CAT has strong engineering IP but faces competition from Cummins, Kohler, and Aggreko in power generation. Supply chain bottleneck risk is real but partially mitigated by CAT's global manufacturing footprint. Overall, CAT is a high-conviction infrastructure enabler for the AI Factory buildout cycle."
-        },
-        "llm_score": 0.7167,
-        "final_moat_score": 0.2867
-    },
-    "PWR": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 7,
-            "switching_costs": 8,
-            "strategic_importance": 8,
-            "supply_chain_bottleneck": 7,
-            "proprietary_technology": 7,
-            "infrastructure_criticality": 8,
-            "summary": "PWR (Power Solutions International or CoolIT/PWR Technologies context \u2014 interpreted here as PWR Holdings, an Australian data center cooling specialist) operates in the high-performance thermal management and liquid cooling space critical to AI factory infrastructure. Their competitive moat is meaningful but not impenetrable. Switching costs are high because cooling systems are deeply integrated into data center design, rack architecture, and server configurations \u2014 ripping and replacing mid-lifecycle is costly and risky. Strategic importance is elevated given the exponential heat density demands of AI accelerators (H100/B200 GPUs), where inadequate cooling directly throttles compute performance. Supply chain bottleneck potential exists as specialized liquid cooling components (cold plates, manifolds, CDUs) require precision engineering and qualified suppliers are limited. Proprietary technology is moderate-to-strong, with custom thermal designs and engineering know-how, though the broader liquid cooling market is attracting new entrants (Vertiv, Schneider, CoolIT, Asetek). Infrastructure criticality is high \u2014 thermal management is not optional; failure means hardware damage and downtime. Ecosystem lock-in is real but partial, as hyperscalers increasingly dual-source. Overall, PWR holds a solid but not dominant moat, benefiting from the AI infrastructure buildout tailwind while facing growing competition from larger incumbents."
-        },
-        "llm_score": 0.75,
-        "final_moat_score": 0.3
-    },
-    "PANW": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 8,
-            "switching_costs": 8,
-            "strategic_importance": 9,
-            "supply_chain_bottleneck": 4,
-            "proprietary_technology": 7,
-            "infrastructure_criticality": 8,
-            "summary": "Palo Alto Networks (PANW) demonstrates a strong competitive moat primarily driven by its platformization strategy. Its Strata (network security), Prisma (cloud security), and Cortex (AI-driven SOC/XDR) platforms create deep ecosystem lock-in, as enterprises consolidating onto a single vendor face significant integration complexity and retraining costs if they switch. Switching costs are high due to deeply embedded firewall OS (PAN-OS), proprietary policy configurations, and AI/ML models trained on customer-specific telemetry within Cortex XDR/XSIAM. Strategic importance is very high \u2014 PANW secures critical enterprise and government infrastructure, making it a mission-critical vendor. Supply chain bottleneck is moderate; while PANW hardware appliances have some dependency on semiconductor supply chains, the shift toward software/cloud-delivered security reduces this risk. Proprietary technology is strong, particularly its Unit 42 threat intelligence, AI-driven XSIAM platform, and inline ML capabilities in next-gen firewalls, though competitors like CrowdStrike and Microsoft are closing gaps. Infrastructure criticality is high as PANW protects network perimeters, cloud workloads, and SOC operations for thousands of enterprises and government agencies \u2014 outages or replacements carry enormous operational risk. The primary weakness relative to pure AI Factory infrastructure plays is limited supply chain bottleneck power, as PANW does not control foundational compute or networking hardware."
-        },
-        "llm_score": 0.7333,
-        "final_moat_score": 0.2933
-    },
-    "NXPI": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 7,
-            "switching_costs": 8,
-            "strategic_importance": 8,
-            "supply_chain_bottleneck": 6,
-            "proprietary_technology": 8,
-            "infrastructure_criticality": 7,
-            "summary": "NXP Semiconductors (NXPI) holds a strong competitive moat rooted in its dominance of automotive, industrial, and edge computing semiconductor markets. Its proprietary mixed-signal and embedded processing IP \u2014 particularly in automotive-grade MCUs, secure elements, and RF/NFC technology \u2014 creates high switching costs, as customers must re-certify and re-design around any alternative. NXP's S32 automotive compute platform and i.MX application processors are deeply embedded in OEM and Tier-1 supplier design cycles, often locked in for 5-10 year vehicle platform lifespans. Its leadership in vehicle networking (CAN, LIN, Ethernet), radar, and V2X communication makes it strategically critical to the automotive electrification and ADAS megatrends. NXP is not a pure AI factory infrastructure play, which limits its supply chain bottleneck score relative to pure-play AI chip companies like NVIDIA or TSMC. However, its secure element and NFC dominance in payments and IoT, combined with long automotive qualification cycles, creates durable ecosystem lock-in. The company's fabless-lite model (owning some fabs) provides moderate supply chain resilience but also some concentration risk."
-        },
-        "llm_score": 0.7333,
-        "final_moat_score": 0.2933
-    },
-    "GEV": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 6,
-            "switching_costs": 6,
-            "strategic_importance": 7,
-            "supply_chain_bottleneck": 6,
-            "proprietary_technology": 6,
-            "infrastructure_criticality": 7,
-            "summary": "GEV (GE Vernova) is GE's energy-focused spinoff encompassing power generation, wind energy, and electrification segments. As a major supplier of gas turbines, grid equipment, and wind turbines, it holds meaningful strategic importance in the global energy transition infrastructure. Its gas turbine installed base creates moderate ecosystem lock-in and switching costs due to long service contracts and proprietary parts. The company benefits from constrained supply of large gas turbines and grid equipment, positioning it as a supply chain bottleneck in power infrastructure buildout \u2014 increasingly relevant as AI data center electricity demand surges. Proprietary turbine technology and manufacturing know-how provide defensible IP, though competition from Siemens Energy and Mitsubishi limits exclusivity. NOTE: Source documents returned 404 errors, so this analysis is based on general knowledge of GE Vernova (ticker: GEV) as of mid-2025. Scores reflect moderate-to-strong moat characteristics tempered by competitive dynamics and the capital-intensive nature of the business."
-        },
-        "llm_score": 0.6333,
-        "final_moat_score": 0.2533
-    },
-    "ANET": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 8,
-            "switching_costs": 8,
-            "strategic_importance": 9,
-            "supply_chain_bottleneck": 6,
-            "proprietary_technology": 8,
-            "infrastructure_criticality": 9,
-            "summary": "Arista Networks (ANET) possesses a formidable competitive moat in the AI factory infrastructure space. Its EOS (Extensible Operating System) creates deep ecosystem lock-in, as customers build automation, tooling, and workflows around its single unified codebase \u2014 a stark contrast to legacy vendors running fragmented OS stacks. Switching costs are high: replacing Arista requires retraining staff, rebuilding network automation pipelines, and accepting significant operational risk during migration. Strategic importance is extremely high as hyperscalers (Microsoft, Meta, Google) and AI cloud builders rely on Arista's high-speed Ethernet switching (400G/800G) as the backbone of GPU cluster interconnects \u2014 a direct competitor to InfiniBand in AI training fabrics. On supply chain bottlenecks, Arista is somewhat exposed as it relies on merchant silicon (Broadcom, Marvell) rather than fully proprietary ASICs, limiting its control over the silicon layer, though its software differentiation partially offsets this. Proprietary technology is strong via EOS, CloudVision (network management/telemetry platform), and its AI-driven network analytics. Infrastructure criticality is near-maximum: in AI factories, the network fabric is as critical as the GPUs themselves \u2014 latency, bandwidth, and reliability of Arista's switches directly impact AI training throughput and cluster utilization. The secular shift toward Ethernet-based AI networking (vs. InfiniBand) is a significant tailwind reinforcing Arista's moat."
+            "summary": ""
         },
         "llm_score": 0.8,
-        "final_moat_score": 0.32
+        "final_moat_score": 0.4528
+    },
+    "CRM": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.473,
+            "switching_costs": 0.08,
+            "hyperscaler_dependency": 0.2516,
+            "market_leadership": 0.1304,
+            "supply_constraint": 0.1935,
+            "proprietary_technology": 0.0213,
+            "infrastructure_criticality": 0.1579,
+            "scale_advantage": 0.0
+        },
+        "keyword_score": 0.1635,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.0981
     },
     "FSLY": {
         "keyword_signals": {
-            "ecosystem_lockin": 0.0,
+            "ecosystem_lockin": 0.4232,
             "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
+            "hyperscaler_dependency": 0.0129,
+            "market_leadership": 0.1739,
+            "supply_constraint": 0.0645,
+            "proprietary_technology": 0.0213,
+            "infrastructure_criticality": 0.3158,
+            "scale_advantage": 0.0084
         },
-        "keyword_score": 0.0,
+        "keyword_score": 0.1275,
         "llm_analysis": {
-            "ecosystem_lockin": 4,
-            "switching_costs": 4,
-            "strategic_importance": 5,
-            "supply_chain_bottleneck": 2,
-            "proprietary_technology": 5,
-            "infrastructure_criticality": 5,
-            "summary": "Fastly (FSLY) is an edge cloud platform offering CDN, security, and compute services. Its moat is moderate and under pressure. Ecosystem lock-in is limited \u2014 customers can and do migrate to Cloudflare, Akamai, or AWS CloudFront with manageable effort, as evidenced by high customer churn risk and revenue concentration issues. Switching costs exist at the configuration and integration layer (VCL/Compute@Edge logic, custom TLS, logging pipelines) but are not prohibitive. Strategic importance is real for performance-sensitive applications (streaming, e-commerce) but Fastly lacks the breadth of Cloudflare's zero-trust/SASE ecosystem. It holds no supply chain bottleneck position \u2014 it leases network capacity and does not own unique physical infrastructure. Proprietary technology (Varnish-based VCL, Compute@Edge WASM runtime) is differentiated but not defensible long-term as competitors replicate edge compute capabilities. Infrastructure criticality is moderate \u2014 outages (e.g., June 2021 global outage) demonstrated real dependency, but also accelerated customer diversification away from single-CDN reliance. Overall, Fastly lacks the compounding network effects, platform breadth, or hardware control that would constitute a strong AI infrastructure moat."
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
         },
-        "llm_score": 0.4167,
-        "final_moat_score": 0.1667
+        "llm_score": 0.0,
+        "final_moat_score": 0.0765
     },
-    "AMD": {
+    "EQIX": {
         "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
+            "ecosystem_lockin": 0.2075,
+            "switching_costs": 0.08,
+            "hyperscaler_dependency": 0.0645,
+            "market_leadership": 0.2609,
+            "supply_constraint": 0.1935,
+            "proprietary_technology": 0.0213,
+            "infrastructure_criticality": 0.1579,
+            "scale_advantage": 0.084
         },
-        "keyword_score": 0.0,
+        "keyword_score": 0.1337,
         "llm_analysis": {
-            "ecosystem_lockin": 6,
-            "switching_costs": 6,
-            "strategic_importance": 8,
-            "supply_chain_bottleneck": 5,
-            "proprietary_technology": 7,
-            "infrastructure_criticality": 7,
-            "summary": "AMD is a significant player in AI infrastructure via its Instinct GPU line (MI300X) and EPYC CPUs, competing directly with NVIDIA and Intel. Its ROCm software stack creates moderate ecosystem lock-in but lags NVIDIA's CUDA in maturity and developer adoption, limiting switching costs. AMD holds strong proprietary technology in chiplet architecture and x86 CPU design, and its EPYC processors are deeply embedded in hyperscaler data centers. However, AMD fabless model (relying on TSMC) means it shares supply chain bottlenecks rather than controlling them. Strategic importance is high as a credible alternative to NVIDIA for AI compute, but its moat is constrained by CUDA's dominance and NVIDIA's entrenched ecosystem. AMD's competitive position is improving but remains secondary in the AI accelerator market."
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
         },
-        "llm_score": 0.65,
-        "final_moat_score": 0.26
+        "llm_score": 0.0,
+        "final_moat_score": 0.0802
+    },
+    "CAT": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.0207,
+            "switching_costs": 0.04,
+            "hyperscaler_dependency": 0.0129,
+            "market_leadership": 0.0435,
+            "supply_constraint": 0.0645,
+            "proprietary_technology": 0.0,
+            "infrastructure_criticality": 0.2105,
+            "scale_advantage": 0.0168
+        },
+        "keyword_score": 0.0511,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.0307
+    },
+    "MRVL": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.1701,
+            "switching_costs": 0.06,
+            "hyperscaler_dependency": 0.0968,
+            "market_leadership": 0.2174,
+            "supply_constraint": 0.129,
+            "proprietary_technology": 1.0,
+            "infrastructure_criticality": 0.0,
+            "scale_advantage": 0.1597
+        },
+        "keyword_score": 0.2291,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.1375
     },
     "HWM": {
         "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
+            "ecosystem_lockin": 0.0083,
+            "switching_costs": 0.02,
+            "hyperscaler_dependency": 0.1032,
+            "market_leadership": 0.0435,
+            "supply_constraint": 0.0323,
+            "proprietary_technology": 0.0,
+            "infrastructure_criticality": 1.0,
+            "scale_advantage": 0.0336
+        },
+        "keyword_score": 0.1551,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.0931
+    },
+    "CSCO": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.0954,
+            "switching_costs": 0.06,
+            "hyperscaler_dependency": 0.3484,
+            "market_leadership": 0.2609,
+            "supply_constraint": 0.2581,
+            "proprietary_technology": 0.1064,
+            "infrastructure_criticality": 0.2632,
+            "scale_advantage": 0.2101
+        },
+        "keyword_score": 0.2003,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.1202
+    },
+    "ORCL": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.0332,
+            "switching_costs": 0.16,
+            "hyperscaler_dependency": 0.329,
             "market_leadership": 0.0,
             "supply_constraint": 0.0,
             "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
+            "infrastructure_criticality": 0.1053,
+            "scale_advantage": 0.084
+        },
+        "keyword_score": 0.0889,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.0534
+    },
+    "AMD": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.1867,
+            "switching_costs": 1.0,
+            "hyperscaler_dependency": 0.471,
+            "market_leadership": 0.2174,
+            "supply_constraint": 0.0645,
+            "proprietary_technology": 0.0,
+            "infrastructure_criticality": 0.1053,
+            "scale_advantage": 0.1681
+        },
+        "keyword_score": 0.2766,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.166
+    },
+    "NXPI": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.0581,
+            "switching_costs": 0.02,
+            "hyperscaler_dependency": 0.0,
+            "market_leadership": 0.1304,
+            "supply_constraint": 0.2258,
+            "proprietary_technology": 0.0213,
+            "infrastructure_criticality": 0.1579,
             "scale_advantage": 0.0
         },
-        "keyword_score": 0.0,
+        "keyword_score": 0.0767,
         "llm_analysis": {
-            "ecosystem_lockin": 5,
-            "switching_costs": 5,
-            "strategic_importance": 5,
-            "supply_chain_bottleneck": 4,
-            "proprietary_technology": 5,
-            "infrastructure_criticality": 5,
-            "summary": "HWM (Halma Water Management, or possibly HydroWater Management depending on context) could not be evaluated with precision due to the absence of supporting documents. Scores reflect a neutral mid-range baseline. HWM, if referring to a water monitoring/management infrastructure company, would typically serve utilities and industrial clients with specialized sensors, telemetry, and data management systems \u2014 implying moderate switching costs and ecosystem lock-in due to long-term service contracts and proprietary data platforms. Supply chain bottleneck potential is moderate, as water infrastructure components are specialized but not uniquely scarce. Without verified financials, product documentation, or market positioning data, all scores are provisional estimates and should be revised upon document submission."
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
         },
-        "llm_score": 0.4833,
-        "final_moat_score": 0.1933
+        "llm_score": 0.0,
+        "final_moat_score": 0.046
+    },
+    "AMT": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.1328,
+            "switching_costs": 0.06,
+            "hyperscaler_dependency": 0.0129,
+            "market_leadership": 0.4783,
+            "supply_constraint": 1.0,
+            "proprietary_technology": 0.0,
+            "infrastructure_criticality": 0.0526,
+            "scale_advantage": 0.0252
+        },
+        "keyword_score": 0.2202,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.1321
+    },
+    "PWR": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.1909,
+            "switching_costs": 0.04,
+            "hyperscaler_dependency": 0.0516,
+            "market_leadership": 0.1304,
+            "supply_constraint": 0.0968,
+            "proprietary_technology": 0.0,
+            "infrastructure_criticality": 0.5263,
+            "scale_advantage": 0.0672
+        },
+        "keyword_score": 0.1379,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.0827
+    },
+    "PANW": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.9046,
+            "switching_costs": 0.14,
+            "hyperscaler_dependency": 0.1419,
+            "market_leadership": 0.3478,
+            "supply_constraint": 0.0323,
+            "proprietary_technology": 0.0,
+            "infrastructure_criticality": 0.2105,
+            "scale_advantage": 0.0168
+        },
+        "keyword_score": 0.2242,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.1345
+    },
+    "SRE": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.0166,
+            "switching_costs": 0.02,
+            "hyperscaler_dependency": 0.0,
+            "market_leadership": 0.1304,
+            "supply_constraint": 0.1613,
+            "proprietary_technology": 0.0,
+            "infrastructure_criticality": 0.3158,
+            "scale_advantage": 0.0
+        },
+        "keyword_score": 0.0805,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.0483
+    },
+    "DLR": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.3444,
+            "switching_costs": 0.04,
+            "hyperscaler_dependency": 0.2194,
+            "market_leadership": 0.2174,
+            "supply_constraint": 0.0323,
+            "proprietary_technology": 0.0,
+            "infrastructure_criticality": 0.7895,
+            "scale_advantage": 1.0
+        },
+        "keyword_score": 0.3304,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.1982
+    },
+    "TSM": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.0332,
+            "switching_costs": 0.14,
+            "hyperscaler_dependency": 0.0194,
+            "market_leadership": 0.1304,
+            "supply_constraint": 0.0323,
+            "proprietary_technology": 0.0,
+            "infrastructure_criticality": 0.1579,
+            "scale_advantage": 0.0084
+        },
+        "keyword_score": 0.0652,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.0391
+    },
+    "GEV": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.0415,
+            "switching_costs": 0.16,
+            "hyperscaler_dependency": 0.0903,
+            "market_leadership": 0.0,
+            "supply_constraint": 0.3226,
+            "proprietary_technology": 0.0213,
+            "infrastructure_criticality": 0.2105,
+            "scale_advantage": 0.1261
+        },
+        "keyword_score": 0.1215,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.0729
+    },
+    "CSX": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.0083,
+            "switching_costs": 0.04,
+            "hyperscaler_dependency": 0.0645,
+            "market_leadership": 0.087,
+            "supply_constraint": 0.0,
+            "proprietary_technology": 0.0213,
+            "infrastructure_criticality": 0.3684,
+            "scale_advantage": 0.0
+        },
+        "keyword_score": 0.0737,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.0442
+    },
+    "UNIT": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.0249,
+            "switching_costs": 0.06,
+            "hyperscaler_dependency": 0.5548,
+            "market_leadership": 0.4348,
+            "supply_constraint": 0.0,
+            "proprietary_technology": 0.0,
+            "infrastructure_criticality": 0.0526,
+            "scale_advantage": 0.7647
+        },
+        "keyword_score": 0.2365,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.1419
     },
     "SO": {
         "keyword_signals": {
             "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
+            "switching_costs": 0.06,
+            "hyperscaler_dependency": 0.0968,
+            "market_leadership": 0.0435,
             "supply_constraint": 0.0,
             "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
+            "infrastructure_criticality": 0.0526,
+            "scale_advantage": 0.1008
         },
-        "keyword_score": 0.0,
+        "keyword_score": 0.0442,
         "llm_analysis": {
-            "ecosystem_lockin": 2,
-            "switching_costs": 2,
-            "strategic_importance": 3,
-            "supply_chain_bottleneck": 2,
-            "proprietary_technology": 2,
-            "infrastructure_criticality": 2,
-            "summary": "Insufficient information provided to conduct a meaningful competitive moat analysis. The company identifier 'SO' is ambiguous \u2014 it could refer to Southern Company (US utility), or another entity \u2014 and no supporting documents were supplied. Scores default to low (2/10) across all dimensions reflecting near-total uncertainty rather than confirmed weakness. If 'SO' refers to Southern Company, it operates regulated electric and gas utilities in the southeastern US, which would imply moderate-to-high infrastructure criticality and switching costs due to regulated monopoly status, but this cannot be confirmed without documentation. Please provide company documents, filings, or context to enable a rigorous AI Factory infrastructure assessment."
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
         },
-        "llm_score": 0.2167,
-        "final_moat_score": 0.0867
+        "llm_score": 0.0,
+        "final_moat_score": 0.0265
     },
-    "LRCX": {
+    "UBER": {
         "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
+            "ecosystem_lockin": 0.5228,
+            "switching_costs": 0.04,
+            "hyperscaler_dependency": 0.0387,
             "market_leadership": 0.0,
-            "supply_constraint": 0.0,
+            "supply_constraint": 0.0968,
+            "proprietary_technology": 0.1064,
+            "infrastructure_criticality": 0.7368,
+            "scale_advantage": 0.0084
+        },
+        "keyword_score": 0.1937,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.1162
+    },
+    "ANET": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.1328,
+            "switching_costs": 0.14,
+            "hyperscaler_dependency": 0.2581,
+            "market_leadership": 0.1739,
+            "supply_constraint": 0.129,
+            "proprietary_technology": 0.0851,
+            "infrastructure_criticality": 0.2105,
+            "scale_advantage": 0.084
+        },
+        "keyword_score": 0.1517,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.091
+    },
+    "GOOG": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.166,
+            "switching_costs": 0.02,
+            "hyperscaler_dependency": 1.0,
+            "market_leadership": 0.3043,
+            "supply_constraint": 0.1613,
+            "proprietary_technology": 0.1064,
+            "infrastructure_criticality": 0.0526,
+            "scale_advantage": 0.0168
+        },
+        "keyword_score": 0.2284,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.1371
+    },
+    "D": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.0083,
+            "switching_costs": 0.02,
+            "hyperscaler_dependency": 0.0065,
+            "market_leadership": 0.0,
+            "supply_constraint": 0.129,
             "proprietary_technology": 0.0,
+            "infrastructure_criticality": 0.1053,
+            "scale_advantage": 0.0084
+        },
+        "keyword_score": 0.0347,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.0208
+    },
+    "HON": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.0581,
+            "switching_costs": 0.1,
+            "hyperscaler_dependency": 0.0194,
+            "market_leadership": 0.3478,
+            "supply_constraint": 0.2258,
+            "proprietary_technology": 0.0213,
+            "infrastructure_criticality": 0.2105,
+            "scale_advantage": 0.0336
+        },
+        "keyword_score": 0.1271,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.0762
+    },
+    "PLTR": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.1535,
+            "switching_costs": 0.08,
+            "hyperscaler_dependency": 0.0129,
+            "market_leadership": 0.087,
+            "supply_constraint": 0.0,
+            "proprietary_technology": 0.0851,
+            "infrastructure_criticality": 0.3158,
+            "scale_advantage": 0.0084
+        },
+        "keyword_score": 0.0928,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.0557
+    },
+    "KLAC": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.0415,
+            "switching_costs": 0.0,
+            "hyperscaler_dependency": 0.0258,
+            "market_leadership": 0.3043,
+            "supply_constraint": 0.1613,
+            "proprietary_technology": 0.0851,
+            "infrastructure_criticality": 0.2105,
+            "scale_advantage": 0.0336
+        },
+        "keyword_score": 0.1078,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.0647
+    },
+    "ROK": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.0539,
+            "switching_costs": 0.04,
+            "hyperscaler_dependency": 0.0387,
+            "market_leadership": 0.087,
+            "supply_constraint": 0.0645,
+            "proprietary_technology": 0.0,
+            "infrastructure_criticality": 0.4737,
+            "scale_advantage": 0.0168
+        },
+        "keyword_score": 0.0968,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.0581
+    },
+    "ADBE": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.3237,
+            "switching_costs": 0.24,
+            "hyperscaler_dependency": 0.3677,
+            "market_leadership": 0.3913,
+            "supply_constraint": 0.0645,
+            "proprietary_technology": 0.0426,
+            "infrastructure_criticality": 0.0,
+            "scale_advantage": 0.0168
+        },
+        "keyword_score": 0.1808,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.1085
+    },
+    "APP": {
+        "keyword_signals": {
+            "ecosystem_lockin": 1.0,
+            "switching_costs": 0.02,
+            "hyperscaler_dependency": 0.2581,
+            "market_leadership": 0.4348,
+            "supply_constraint": 0.129,
+            "proprietary_technology": 0.0426,
             "infrastructure_criticality": 0.0,
             "scale_advantage": 0.0
         },
-        "keyword_score": 0.0,
+        "keyword_score": 0.2356,
         "llm_analysis": {
-            "ecosystem_lockin": 8,
-            "switching_costs": 9,
-            "strategic_importance": 9,
-            "supply_chain_bottleneck": 8,
-            "proprietary_technology": 9,
-            "infrastructure_criticality": 9,
-            "summary": "Lam Research (LRCX) possesses an exceptionally strong competitive moat as a dominant supplier of etch and deposition equipment critical to semiconductor fabrication. Switching costs are extremely high: fabs integrate Lam's tools deeply into process recipes, and re-qualification of alternative equipment can take 12-24+ months with significant yield risk, making mid-node changes nearly impossible. Ecosystem lock-in is reinforced by Lam's CSBG (Customer Support Business Group) aftermarket services, spare parts, and process optimization software that create recurring revenue and deepen customer dependency. Strategically, Lam holds #1 or #2 market share in plasma etch (~50%+ share) and CVD/ALD deposition, processes that are indispensable for advanced logic (sub-5nm) and 3D NAND scaling. As a supply chain bottleneck, Lam's specialized chambers and proprietary subsystems (e.g., Kiyo, Flex, VECTOR product families) have limited substitutes at leading-edge nodes, and ASML-like concentration risk exists in certain etch segments. Proprietary technology is deep: decades of plasma physics IP, process control algorithms, and materials science know-how create barriers that cannot be easily replicated. Infrastructure criticality is near-maximum \u2014 without Lam's etch tools, TSMC, Samsung, and SK Hynix cannot manufacture advanced chips powering AI accelerators, smartphones, and data centers. Export control designations (Entity List restrictions to China) further underscore its geopolitical and national-security relevance. The primary risks are customer concentration (top 5 customers ~70%+ of revenue) and cyclicality tied to WFE spending cycles."
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
         },
-        "llm_score": 0.8667,
-        "final_moat_score": 0.3467
+        "llm_score": 0.0,
+        "final_moat_score": 0.1413
+    },
+    "ETR": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.0041,
+            "switching_costs": 0.08,
+            "hyperscaler_dependency": 0.5032,
+            "market_leadership": 0.0,
+            "supply_constraint": 0.0,
+            "proprietary_technology": 0.0851,
+            "infrastructure_criticality": 0.2105,
+            "scale_advantage": 0.1429
+        },
+        "keyword_score": 0.1282,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.0769
+    },
+    "GOOGL": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.166,
+            "switching_costs": 0.02,
+            "hyperscaler_dependency": 1.0,
+            "market_leadership": 0.3043,
+            "supply_constraint": 0.1613,
+            "proprietary_technology": 0.1064,
+            "infrastructure_criticality": 0.0526,
+            "scale_advantage": 0.0168
+        },
+        "keyword_score": 0.2284,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.1371
+    },
+    "AMAT": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.0622,
+            "switching_costs": 0.04,
+            "hyperscaler_dependency": 0.0065,
+            "market_leadership": 0.0435,
+            "supply_constraint": 0.0645,
+            "proprietary_technology": 0.0,
+            "infrastructure_criticality": 0.2632,
+            "scale_advantage": 0.0
+        },
+        "keyword_score": 0.06,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.036
+    },
+    "INTC": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.1369,
+            "switching_costs": 0.06,
+            "hyperscaler_dependency": 0.1097,
+            "market_leadership": 0.1739,
+            "supply_constraint": 0.0968,
+            "proprietary_technology": 0.0638,
+            "infrastructure_criticality": 0.2105,
+            "scale_advantage": 0.1345
+        },
+        "keyword_score": 0.1233,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.074
     },
     "QCOM": {
         "keyword_signals": {
-            "ecosystem_lockin": 0.0,
+            "ecosystem_lockin": 0.3361,
             "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
+            "hyperscaler_dependency": 0.2194,
+            "market_leadership": 0.1304,
+            "supply_constraint": 0.0968,
+            "proprietary_technology": 0.0213,
+            "infrastructure_criticality": 0.0526,
+            "scale_advantage": 0.0588
         },
-        "keyword_score": 0.0,
+        "keyword_score": 0.1144,
         "llm_analysis": {
-            "ecosystem_lockin": 8,
-            "switching_costs": 8,
+            "ecosystem_lockin": 4,
+            "switching_costs": 5,
             "strategic_importance": 9,
-            "supply_chain_bottleneck": 7,
-            "proprietary_technology": 9,
-            "infrastructure_criticality": 8,
-            "summary": "Qualcomm (QCOM) possesses a formidable competitive moat rooted in its deep patent portfolio and semiconductor IP dominance. Its CDMA/5G licensing regime creates near-inescapable royalty obligations for virtually every mobile device manufacturer globally, generating high-margin recurring revenue regardless of chip competition. The Snapdragon SoC platform drives strong ecosystem lock-in through tightly integrated software stacks, developer tools, and OEM design wins that take years to unwind. Switching costs are elevated because redesigning around alternative chipsets (e.g., MediaTek, Apple Silicon, or in-house solutions) requires significant NRE investment, re-certification cycles, and software re-optimization. Strategically, Qualcomm is central to 5G infrastructure rollout, IoT, automotive (Snapdragon Ride), and edge AI \u2014 sectors with national security and economic policy implications. Its fabless model introduces some supply chain dependency on TSMC, moderating its bottleneck score, but its IP licensing arm is entirely asset-light and unchallengeable without massive litigation risk. Proprietary technology is a standout strength: Qualcomm holds thousands of standard-essential patents (SEPs) in 3G/4G/5G, making it structurally impossible for competitors to build compliant wireless devices without licensing. Infrastructure criticality is high given its role in mobile broadband, automotive connectivity, and emerging AI-at-the-edge deployments, though it faces growing competition from vertically integrated players like Apple and MediaTek in consumer segments."
+            "supply_chain_bottleneck": 2,
+            "proprietary_technology": 8,
+            "infrastructure_criticality": 6,
+            "summary": "Qualcomm has a strong ecosystem lock-in with Android OEMs, which is essential for their chipset business. The company also enjoys high switching costs due to its wide range of products and services offered to customers. The strategic importance of Qualcomm's Snapdragon platform in the mobile industry cannot be overstated. While there may be some supply chain bottlenecks, they are not significant enough to hinder the company's growth. The proprietary technology of Qualcomm is impressive, with patents and intellectual property playing a crucial role in their business. Finally, the infrastructure criticality of Qualcomm's products in various industries such as automotive, industrial IoT, and XR makes them essential for many companies."
         },
-        "llm_score": 0.8167,
-        "final_moat_score": 0.3267
+        "llm_score": 0.5667,
+        "final_moat_score": 0.2953
     },
-    "NVDA": {
+    "NEE": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.0581,
+            "switching_costs": 0.04,
+            "hyperscaler_dependency": 0.4581,
+            "market_leadership": 0.0435,
+            "supply_constraint": 0.0968,
+            "proprietary_technology": 0.0,
+            "infrastructure_criticality": 0.3158,
+            "scale_advantage": 0.3866
+        },
+        "keyword_score": 0.1748,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.1049
+    },
+    "AEP": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.0041,
+            "switching_costs": 0.06,
+            "hyperscaler_dependency": 0.0968,
+            "market_leadership": 0.2174,
+            "supply_constraint": 0.1935,
+            "proprietary_technology": 0.0,
+            "infrastructure_criticality": 0.8947,
+            "scale_advantage": 0.1092
+        },
+        "keyword_score": 0.197,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.1182
+    },
+    "DUK": {
         "keyword_signals": {
             "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
+            "switching_costs": 0.08,
+            "hyperscaler_dependency": 0.0323,
+            "market_leadership": 0.1304,
+            "supply_constraint": 0.0645,
             "proprietary_technology": 0.0,
+            "infrastructure_criticality": 0.2105,
+            "scale_advantage": 0.042
+        },
+        "keyword_score": 0.07,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.042
+    },
+    "NUE": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.0166,
+            "switching_costs": 0.0,
+            "hyperscaler_dependency": 0.1032,
+            "market_leadership": 0.2609,
+            "supply_constraint": 0.2581,
+            "proprietary_technology": 0.0,
+            "infrastructure_criticality": 0.1053,
+            "scale_advantage": 0.0336
+        },
+        "keyword_score": 0.0972,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.0583
+    },
+    "META": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.1701,
+            "switching_costs": 0.0,
+            "hyperscaler_dependency": 0.871,
+            "market_leadership": 0.0435,
+            "supply_constraint": 0.2258,
+            "proprietary_technology": 0.0213,
             "infrastructure_criticality": 0.0,
+            "scale_advantage": 0.0084
+        },
+        "keyword_score": 0.1675,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.1005
+    },
+    "URI": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.0,
+            "switching_costs": 0.28,
+            "hyperscaler_dependency": 0.0065,
+            "market_leadership": 0.2609,
+            "supply_constraint": 0.2581,
+            "proprietary_technology": 0.0213,
+            "infrastructure_criticality": 0.1053,
             "scale_advantage": 0.0
         },
-        "keyword_score": 0.0,
+        "keyword_score": 0.1165,
         "llm_analysis": {
-            "ecosystem_lockin": 9,
-            "switching_costs": 9,
-            "strategic_importance": 10,
-            "supply_chain_bottleneck": 9,
-            "proprietary_technology": 10,
-            "infrastructure_criticality": 10,
-            "summary": "NVIDIA possesses one of the strongest competitive moats in the AI infrastructure space. Its CUDA ecosystem, developed over 15+ years, creates massive switching costs as developers, frameworks, and enterprises have built deeply around it. The H100/B200 GPU architecture dominates AI training and inference workloads, with demand far exceeding supply. NVIDIA's proprietary stack \u2014 spanning hardware (GPUs, NVLink, InfiniBand via Mellanox), software (CUDA, cuDNN, TensorRT), and platforms (DGX, NIM) \u2014 creates vertical integration that competitors struggle to replicate. AMD and Intel offer alternatives, but lack the software ecosystem depth. Custom silicon (Google TPUs, AWS Trainium) addresses specific workloads but cannot displace NVIDIA broadly. TSMC dependency is a minor vulnerability, but NVIDIA's design leadership and software moat remain unmatched, making it the de facto critical infrastructure provider for the AI era."
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
         },
-        "llm_score": 0.95,
-        "final_moat_score": 0.38
+        "llm_score": 0.0,
+        "final_moat_score": 0.0699
+    },
+    "DE": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.0373,
+            "switching_costs": 0.04,
+            "hyperscaler_dependency": 0.0,
+            "market_leadership": 0.0435,
+            "supply_constraint": 0.129,
+            "proprietary_technology": 0.0,
+            "infrastructure_criticality": 0.7895,
+            "scale_advantage": 0.0
+        },
+        "keyword_score": 0.1299,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.0779
+    },
+    "BA": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.0373,
+            "switching_costs": 0.0,
+            "hyperscaler_dependency": 0.0,
+            "market_leadership": 0.0435,
+            "supply_constraint": 0.0,
+            "proprietary_technology": 0.0213,
+            "infrastructure_criticality": 0.1579,
+            "scale_advantage": 0.0
+        },
+        "keyword_score": 0.0325,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.0195
+    },
+    "TXN": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.0,
+            "switching_costs": 0.32,
+            "hyperscaler_dependency": 0.0,
+            "market_leadership": 0.0,
+            "supply_constraint": 0.2258,
+            "proprietary_technology": 0.0,
+            "infrastructure_criticality": 0.1579,
+            "scale_advantage": 0.0
+        },
+        "keyword_score": 0.088,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.0528
+    },
+    "AVGO": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.0913,
+            "switching_costs": 0.0,
+            "hyperscaler_dependency": 0.2839,
+            "market_leadership": 0.0,
+            "supply_constraint": 0.129,
+            "proprietary_technology": 0.1702,
+            "infrastructure_criticality": 0.1579,
+            "scale_advantage": 0.2269
+        },
+        "keyword_score": 0.1324,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.0794
+    },
+    "XEL": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.0124,
+            "switching_costs": 0.14,
+            "hyperscaler_dependency": 0.2065,
+            "market_leadership": 0.1304,
+            "supply_constraint": 0.0,
+            "proprietary_technology": 0.0638,
+            "infrastructure_criticality": 0.7368,
+            "scale_advantage": 0.1345
+        },
+        "keyword_score": 0.1781,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.1068
+    },
+    "CCI": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.0249,
+            "switching_costs": 0.04,
+            "hyperscaler_dependency": 0.0065,
+            "market_leadership": 0.0,
+            "supply_constraint": 0.871,
+            "proprietary_technology": 0.1064,
+            "infrastructure_criticality": 0.0526,
+            "scale_advantage": 0.0
+        },
+        "keyword_score": 0.1377,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.0826
+    },
+    "AAPL": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.083,
+            "switching_costs": 0.08,
+            "hyperscaler_dependency": 0.1097,
+            "market_leadership": 0.087,
+            "supply_constraint": 0.129,
+            "proprietary_technology": 0.0,
+            "infrastructure_criticality": 0.2632,
+            "scale_advantage": 0.0168
+        },
+        "keyword_score": 0.0961,
+        "llm_analysis": {
+            "ecosystem_lockin": 8,
+            "switching_costs": 6,
+            "strategic_importance": 9,
+            "supply_chain_bottleneck": 4,
+            "proprietary_technology": 7,
+            "infrastructure_criticality": 5,
+            "summary": ""
+        },
+        "llm_score": 0.65,
+        "final_moat_score": 0.3176
+    },
+    "GE": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.1411,
+            "switching_costs": 0.02,
+            "hyperscaler_dependency": 0.0065,
+            "market_leadership": 0.1739,
+            "supply_constraint": 0.1935,
+            "proprietary_technology": 0.0638,
+            "infrastructure_criticality": 0.0526,
+            "scale_advantage": 0.0
+        },
+        "keyword_score": 0.0814,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.0489
+    },
+    "NSC": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.0083,
+            "switching_costs": 0.04,
+            "hyperscaler_dependency": 0.0387,
+            "market_leadership": 0.1304,
+            "supply_constraint": 0.0,
+            "proprietary_technology": 0.0,
+            "infrastructure_criticality": 0.1053,
+            "scale_advantage": 0.0
+        },
+        "keyword_score": 0.0403,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.0242
+    },
+    "TT": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.0041,
+            "switching_costs": 0.0,
+            "hyperscaler_dependency": 0.0581,
+            "market_leadership": 0.1304,
+            "supply_constraint": 0.4516,
+            "proprietary_technology": 0.0,
+            "infrastructure_criticality": 0.1053,
+            "scale_advantage": 0.0672
+        },
+        "keyword_score": 0.1021,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.0613
+    },
+    "RTX": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.1452,
+            "switching_costs": 0.04,
+            "hyperscaler_dependency": 0.0968,
+            "market_leadership": 0.0435,
+            "supply_constraint": 0.1613,
+            "proprietary_technology": 0.1064,
+            "infrastructure_criticality": 0.0526,
+            "scale_advantage": 0.0084
+        },
+        "keyword_score": 0.0818,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.0491
+    },
+    "VST": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.0041,
+            "switching_costs": 0.06,
+            "hyperscaler_dependency": 0.3097,
+            "market_leadership": 0.0435,
+            "supply_constraint": 0.6452,
+            "proprietary_technology": 0.0,
+            "infrastructure_criticality": 0.0526,
+            "scale_advantage": 0.1765
+        },
+        "keyword_score": 0.1614,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.0969
+    },
+    "MSFT": {
+        "keyword_signals": {
+            "ecosystem_lockin": 0.195,
+            "switching_costs": 0.42,
+            "hyperscaler_dependency": 0.9613,
+            "market_leadership": 0.087,
+            "supply_constraint": 0.129,
+            "proprietary_technology": 0.0851,
+            "infrastructure_criticality": 0.5789,
+            "scale_advantage": 0.1008
+        },
+        "keyword_score": 0.3196,
+        "llm_analysis": {
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
+        },
+        "llm_score": 0.0,
+        "final_moat_score": 0.1918
     },
     "UNP": {
         "keyword_signals": {
             "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
+            "switching_costs": 0.02,
+            "hyperscaler_dependency": 0.0387,
+            "market_leadership": 0.2609,
             "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
+            "proprietary_technology": 0.0213,
             "infrastructure_criticality": 0.0,
             "scale_advantage": 0.0
         },
-        "keyword_score": 0.0,
+        "keyword_score": 0.0426,
         "llm_analysis": {
-            "ecosystem_lockin": 7,
-            "switching_costs": 8,
-            "strategic_importance": 8,
-            "supply_chain_bottleneck": 7,
-            "proprietary_technology": 4,
-            "infrastructure_criticality": 9,
-            "summary": "Union Pacific (UNP) is one of the largest Class I railroads in the US, operating a 32,000-mile network across 23 western states. Its competitive moat is rooted in physical infrastructure that is nearly impossible to replicate \u2014 laying new rail networks would require decades and hundreds of billions in capital. Switching costs are high for shippers reliant on rail for bulk commodities (coal, grain, chemicals, intermodal), as alternative modes (trucking) are costlier and less efficient at scale. UNP controls critical western US corridors connecting ports, agricultural regions, and industrial hubs, making it a genuine supply chain bottleneck. Strategic importance is elevated given its role in moving energy, food, and manufactured goods. However, proprietary technology scores lower \u2014 while UNP invests in precision scheduled railroading (PSR) and operational tech, these are not deeply differentiated vs. peers like BNSF. As an AI Factory infrastructure play, UNP is tangential \u2014 it moves physical goods, not data \u2014 limiting its direct relevance to AI infrastructure themes, though it supports semiconductor and hardware supply chains indirectly."
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
         },
-        "llm_score": 0.7167,
-        "final_moat_score": 0.2867
-    },
-    "GE": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 6,
-            "switching_costs": 7,
-            "strategic_importance": 7,
-            "supply_chain_bottleneck": 6,
-            "proprietary_technology": 7,
-            "infrastructure_criticality": 8,
-            "summary": "GE (now split into GE Aerospace, GE Vernova, and GE HealthCare) has meaningful competitive moats rooted in its long industrial heritage. GE Aerospace holds strong positions in jet engines with high switching costs due to long-term service agreements and FAA certification barriers. GE Vernova operates in power generation and grid infrastructure, which is highly critical but faces competition from Siemens and others. In the context of AI Factory infrastructure, GE's relevance is moderate \u2014 GE Vernova supplies power generation and grid equipment critical to data center energy needs, and GE Aerospace's advanced manufacturing capabilities are notable. However, GE is not a pure-play AI infrastructure company, limiting its ecosystem lock-in and supply chain bottleneck scores in this specific context. Proprietary technology in turbines, grid systems, and additive manufacturing provides defensibility, but the company lacks the software-defined ecosystem stickiness of hyperscalers or semiconductor firms."
-        },
-        "llm_score": 0.6833,
-        "final_moat_score": 0.2733
-    },
-    "RTX": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 7,
-            "switching_costs": 8,
-            "strategic_importance": 9,
-            "supply_chain_bottleneck": 7,
-            "proprietary_technology": 8,
-            "infrastructure_criticality": 8,
-            "summary": "RTX (Raytheon Technologies) is a premier aerospace and defense conglomerate with strong competitive moats across multiple dimensions. Its Pratt & Whitney engines and Collins Aerospace systems create deep ecosystem lock-in through long-term service agreements, proprietary MRO networks, and OEM platform integration. Switching costs are extremely high given FAA/military certification requirements, decades-long platform lifecycles, and deeply embedded aftermarket service contracts. Strategic importance is near-critical as a top-tier U.S. defense contractor supplying missiles (Raytheon), avionics, engines, and C2 systems to DoD and allied nations. Supply chain bottlenecks exist in specialized components like turbine blades, advanced sensors, and munitions where RTX controls key production nodes. Proprietary technology is robust, spanning adaptive radar (AESA), hypersonic systems, geared turbofan engines, and advanced EW systems backed by significant R&D investment. Infrastructure criticality is high given RTX's role in national defense, commercial aviation safety systems, and NATO interoperability. As an AI Factory infrastructure play, RTX is less directly relevant unless evaluated for defense AI/autonomy integration, where it is increasingly active but not yet a dominant pure-play."
-        },
-        "llm_score": 0.7833,
-        "final_moat_score": 0.3133
-    },
-    "AMT": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 7,
-            "switching_costs": 7,
-            "strategic_importance": 8,
-            "supply_chain_bottleneck": 5,
-            "proprietary_technology": 5,
-            "infrastructure_criticality": 8,
-            "summary": "American Tower (AMT) is a leading global tower REIT owning ~220,000+ communications sites. Its moat stems from the physical scarcity of prime tower locations, long-term tenant leases (5-10 year terms with automatic escalators), and the high cost/difficulty of replicating tower infrastructure. Wireless carriers (AT&T, Verizon, T-Mobile) are deeply embedded tenants with multi-year master lease agreements, creating strong switching costs and ecosystem lock-in. AMT is strategically critical as 5G densification and AI-driven data traffic growth require more tower capacity. However, proprietary technology is limited \u2014 towers are largely commoditized steel structures \u2014 and supply chain bottleneck power is moderate as competitors (Crown Castle, SBA Communications) offer alternatives. Infrastructure criticality is high given towers are the backbone of mobile connectivity underpinning AI inference at the edge and IoT. The AI Factory angle is indirect but real: hyperscaler and carrier demand for low-latency edge compute increasingly relies on tower-adjacent infrastructure."
-        },
-        "llm_score": 0.6667,
-        "final_moat_score": 0.2667
-    },
-    "AMAT": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 8,
-            "switching_costs": 9,
-            "strategic_importance": 9,
-            "supply_chain_bottleneck": 8,
-            "proprietary_technology": 9,
-            "infrastructure_criticality": 9,
-            "summary": "Applied Materials (AMAT) possesses one of the strongest competitive moats in the semiconductor equipment industry. As the world's largest semiconductor equipment company, AMAT supplies critical deposition, etch, and inspection tools that are deeply embedded in chipmaker fabs globally. Switching costs are extremely high due to process qualification requirements, tool integration complexity, and the years-long validation cycles required to qualify alternative equipment. Their proprietary technology spans CVD, PVD, ALD, CMP, and advanced packaging processes, with a massive patent portfolio built over decades. AMAT is a strategic chokepoint in AI infrastructure buildout \u2014 advanced AI chips (GPUs, HBM, logic) cannot be manufactured without AMAT equipment. Supply chain bottleneck risk is elevated given concentration of advanced fab capacity and AMAT's dominant share in key process steps. The company is also on the U.S. export control critical list, underscoring its geopolitical and national security importance. Infrastructure criticality is near-maximum as AI factory scaling is entirely dependent on semiconductor manufacturing capacity enabled by AMAT tools."
-        },
-        "llm_score": 0.8667,
-        "final_moat_score": 0.3467
-    },
-    "ADI": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 7,
-            "switching_costs": 8,
-            "strategic_importance": 8,
-            "supply_chain_bottleneck": 6,
-            "proprietary_technology": 8,
-            "infrastructure_criticality": 7,
-            "summary": "Analog Devices Inc (ADI) possesses a strong competitive moat rooted in its high-performance analog, mixed-signal, and DSP semiconductors. Switching costs are elevated because ADI components are deeply designed into customer hardware (industrial, automotive, communications, healthcare), requiring costly re-qualification cycles to replace. Its proprietary technology in precision data conversion, signal processing, and power management is difficult to replicate, built on decades of specialized engineering IP. Strategic importance is high given ADI's role in AI infrastructure edge sensing, industrial automation, and 5G/data center power management. Supply chain bottleneck risk is moderate \u2014 ADI uses a fab-lite model with some dependence on TSMC and its own fabs, creating concentration risk but also flexibility. Ecosystem lock-in is strong through reference designs, software tools (e.g., LinduinoPlus, ADALM platforms), and long-term customer design wins. Infrastructure criticality is significant as ADI components underpin critical industrial and communications systems, though it is not a sole-source monopoly in all segments."
-        },
-        "llm_score": 0.7333,
-        "final_moat_score": 0.2933
+        "llm_score": 0.0,
+        "final_moat_score": 0.0256
     },
     "ETN": {
         "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
+            "ecosystem_lockin": 0.0373,
+            "switching_costs": 0.06,
+            "hyperscaler_dependency": 0.1032,
+            "market_leadership": 0.3913,
+            "supply_constraint": 0.0968,
+            "proprietary_technology": 0.0426,
+            "infrastructure_criticality": 0.0526,
+            "scale_advantage": 0.1513
         },
-        "keyword_score": 0.0,
+        "keyword_score": 0.1169,
         "llm_analysis": {
-            "ecosystem_lockin": 7,
-            "switching_costs": 7,
-            "strategic_importance": 8,
-            "supply_chain_bottleneck": 7,
-            "proprietary_technology": 6,
-            "infrastructure_criticality": 9,
-            "summary": "Eaton Corporation (ETN) is a critical power management company supplying electrical infrastructure essential to AI data centers, including PDUs, UPS systems, switchgear, and busway solutions. Its infrastructure criticality is very high as data centers cannot operate without reliable power distribution and protection. Switching costs are elevated due to deep integration of Eaton equipment into facility designs, long product lifecycles, and certification requirements. Supply chain bottleneck potential is meaningful given constrained capacity for electrical infrastructure components amid surging data center buildout. Proprietary technology is moderate \u2014 Eaton has strong engineering but faces competition from Schneider Electric, ABB, and Vertiv. Strategic importance is high as hyperscalers and colocation providers depend on Eaton for power reliability. Ecosystem lock-in is solid through software (Eaton's power management platforms) and service contracts, though not as sticky as pure software plays."
+            "ecosystem_lockin": 0,
+            "switching_costs": 0,
+            "strategic_importance": 0,
+            "supply_chain_bottleneck": 0,
+            "proprietary_technology": 0,
+            "infrastructure_criticality": 0,
+            "summary": "LLM parsing failed"
         },
-        "llm_score": 0.7333,
-        "final_moat_score": 0.2933
-    },
-    "TSM": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 9,
-            "switching_costs": 10,
-            "strategic_importance": 10,
-            "supply_chain_bottleneck": 10,
-            "proprietary_technology": 10,
-            "infrastructure_criticality": 10,
-            "summary": "TSMC (TSM) possesses one of the strongest competitive moats in the global technology landscape. As the world's leading pure-play semiconductor foundry, it manufactures chips for virtually every major fabless company including Apple, NVIDIA, AMD, and Qualcomm. Switching costs are near-absolute \u2014 redesigning chips for an alternative fab takes years and hundreds of millions of dollars, with no guarantee of equivalent yield or performance. TSMC controls roughly 90%+ of leading-edge node production (sub-5nm), making it an irreplaceable supply chain bottleneck. Its proprietary process technology, including advanced packaging (CoWoS, SoIC), EUV lithography expertise, and process node IP, is unmatched. Geopolitically, TSMC is considered so critical that multiple governments are subsidizing new fabs on their soil. The only risks to its moat are geopolitical (Taiwan strait tensions) and the multi-decade efforts by Intel Foundry and Samsung to close the technology gap, neither of which poses a near-term threat."
-        },
-        "llm_score": 0.9833,
-        "final_moat_score": 0.3933
-    },
-    "CSX": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 7,
-            "switching_costs": 8,
-            "strategic_importance": 8,
-            "supply_chain_bottleneck": 7,
-            "proprietary_technology": 3,
-            "infrastructure_criticality": 8,
-            "summary": "CSX is a major Class I freight railroad operating in the eastern United States, with a network spanning ~20,000 route miles. Its competitive moat is rooted in physical infrastructure rather than technology. Switching costs are high because shippers reliant on rail-served facilities cannot easily pivot to trucking for bulk commodities like coal, chemicals, and agricultural products without significant capital investment. The rail network itself is a natural geographic monopoly in many corridors, creating supply chain bottleneck power. Strategic importance is elevated given CSX's role in moving critical goods (energy, food, industrial inputs) across the eastern seaboard. Infrastructure criticality is strong as rail is irreplaceable for certain heavy/bulk freight at scale. However, proprietary technology is weak \u2014 CSX uses industry-standard rail technology with no significant IP moat. As an AI Factory infrastructure play, CSX scores poorly on tech differentiation but strongly on physical network defensibility and essential service provision."
-        },
-        "llm_score": 0.6833,
-        "final_moat_score": 0.2733
-    },
-    "BA": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.0,
-            "switching_costs": 0.0,
-            "hyperscaler_dependency": 0.0,
-            "market_leadership": 0.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.0
-        },
-        "keyword_score": 0.0,
-        "llm_analysis": {
-            "ecosystem_lockin": 7,
-            "switching_costs": 8,
-            "strategic_importance": 9,
-            "supply_chain_bottleneck": 7,
-            "proprietary_technology": 7,
-            "infrastructure_criticality": 8,
-            "summary": "Boeing (BA) operates in a duopoly (with Airbus) in commercial aviation, giving it significant strategic importance and high switching costs \u2014 airlines face multi-year lead times, pilot retraining, and MRO ecosystem dependencies when switching airframe manufacturers. Its defense and space divisions add national security criticality. However, recent quality control issues, 737 MAX crises, and supply chain struggles (Spirit AeroSystems dependency) have exposed vulnerabilities in its moat. Proprietary technology is strong but aging in some segments. As an AI Factory infrastructure company, BA is not a direct fit \u2014 it is a traditional aerospace/defense manufacturer, not a compute or AI infrastructure provider \u2014 so scores reflect its general industrial moat rather than AI-specific positioning."
-        },
-        "llm_score": 0.7667,
-        "final_moat_score": 0.3067
-    },
-    "EQIX": {
-        "keyword_signals": {
-            "ecosystem_lockin": 0.2,
-            "switching_costs": 0.3333,
-            "hyperscaler_dependency": 0.1961,
-            "market_leadership": 1.0,
-            "supply_constraint": 0.0,
-            "proprietary_technology": 0.0,
-            "infrastructure_criticality": 0.0,
-            "scale_advantage": 0.125
-        },
-        "keyword_score": 0.2318,
-        "llm_analysis": {
-            "ecosystem_lockin": 9,
-            "switching_costs": 8,
-            "strategic_importance": 9,
-            "supply_chain_bottleneck": 7,
-            "proprietary_technology": 6,
-            "infrastructure_criticality": 9,
-            "summary": "Equinix possesses a formidable moat built on network effects and ecosystem density. With 482,000+ interconnections, 74 metros across 35 countries, and 2/3 of recurring revenues from customers in 10+ IBXs, switching costs are extremely high\u2014customers co-locate precisely to access the dense ecosystem of peers, clouds, and networks. Native cloud on-ramps (2x nearest competitor) and Equinix Fabric create proprietary connectivity layers. Physical infrastructure in prime metros is irreplaceable given land/power scarcity. Proprietary technology scores lower as core colocation is replicable, though Fabric and software-defined interconnection add differentiation. Supply chain bottleneck reflects constrained Tier 1 metro capacity limiting competitors and even Equinix's own growth."
-        },
-        "llm_score": 0.8,
-        "final_moat_score": 0.4591
+        "llm_score": 0.0,
+        "final_moat_score": 0.0701
     }
 }
