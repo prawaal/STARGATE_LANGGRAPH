@@ -282,14 +282,16 @@ def render_company_tile(company):
 
         font_size = "18px"
 
-        if len(symbol) > 4:
+        if len(symbol) > 3:
 
             font_size = "14px"
 
-        if len(symbol) > 6:
+        if len(symbol) > 4:
 
             font_size = "12px"
 
+        #print(len(symbol))
+        #print(font_size)
         #st.write(symbol)
         #st.write(score_pct)
         st.markdown(
@@ -317,7 +319,7 @@ def render_company_tile(company):
        
 
         if st.button(
-            "Details",
+            "Inspect",
             key=f"detail_{company['symbol']}_{company['category']}",
             use_container_width=True
         ):
