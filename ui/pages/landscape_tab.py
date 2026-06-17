@@ -290,6 +290,8 @@ def render_company_tile(company):
 
             font_size = "14px"
 
+        #st.write(symbol)
+        #st.write(score_pct)
         st.markdown(
 
             f"""
@@ -299,27 +301,20 @@ def render_company_tile(company):
                 border-radius:10px;
                 text-align:center;
                 color:white;
-                margin-bottom:0px;
+                font-size:{font_size};
+                font-weight:bold;
             ">
-
-                <div style="
-                    font-size:{font_size};
-                    font-weight:bold;
-                ">
-                    {symbol}
-                </div>
-
-                <div style="
-                    font-size:14px;
-                ">
+                {symbol}
+                <br>
+                <span style="font-size:14px;">
                     {score_pct}
-                </div>
-
+                </span>
             </div>
             """,
 
             unsafe_allow_html=True
         )
+       
 
         if st.button(
             "View Details",
