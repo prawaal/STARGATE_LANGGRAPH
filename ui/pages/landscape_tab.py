@@ -278,7 +278,20 @@ def render_company_tile(company):
 
     with st.container():
 
+        symbol = company["symbol"]
+
+        font_size = "20px"
+
+        if len(symbol) > 4:
+
+            font_size = "16px"
+
+        if len(symbol) > 6:
+
+            font_size = "14px"
+
         st.markdown(
+
             f"""
             <div style="
                 background-color:{color};
@@ -288,10 +301,23 @@ def render_company_tile(company):
                 color:white;
                 margin-bottom:0px;
             ">
-                <b>{company['symbol']}</b><br>
-                Score {score_pct}
+
+                <div style="
+                    font-size:{font_size};
+                    font-weight:bold;
+                ">
+                    {symbol}
+                </div>
+
+                <div style="
+                    font-size:14px;
+                ">
+                    {score_pct}
+                </div>
+
             </div>
             """,
+
             unsafe_allow_html=True
         )
 
