@@ -280,11 +280,8 @@ def render_company_tile(company):
 
         symbol = company["symbol"]
 
-        font_size = "18px"
+        font_size = "14px"
 
-        if len(symbol) > 3:
-
-            font_size = "14px"
 
         if len(symbol) > 4:
 
@@ -319,7 +316,7 @@ def render_company_tile(company):
        
 
         if st.button(
-            "Inspect",
+            "Info+",
             key=f"detail_{company['symbol']}_{company['category']}",
             use_container_width=True
         ):
