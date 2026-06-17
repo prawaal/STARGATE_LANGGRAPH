@@ -11,7 +11,8 @@
         "structural_advantage": 0.2867,
         "core_growth_score": 0.1957,
         "effective_disruption": 0.0,
-        "final_score": 0.0561
+        "final_score": 0.0561,
+        "normalized_score": 1.0
     },
     {
         "symbol": "MU",
@@ -25,7 +26,53 @@
         "structural_advantage": 0.5695,
         "core_growth_score": 0.0979,
         "effective_disruption": 0.0,
-        "final_score": 0.0557
+        "final_score": 0.0557,
+        "normalized_score": 0.99287
+    },
+    {
+        "symbol": "MU",
+        "company_name": "Micron Technology Inc",
+        "category": "Network Infrastructure",
+        "moat_score": 0.4528,
+        "financial_score": 0.7162,
+        "ai_exposure_score": 0.0689,
+        "forward_growth_score": 0.139,
+        "disruption_multiplier": 0.6,
+        "structural_advantage": 0.5695,
+        "core_growth_score": 0.0979,
+        "effective_disruption": 0.0,
+        "final_score": 0.0557,
+        "normalized_score": 0.99287
+    },
+    {
+        "symbol": "MU",
+        "company_name": "Micron Technology Inc",
+        "category": "Semiconductor Supply Chain",
+        "moat_score": 0.4528,
+        "financial_score": 0.7162,
+        "ai_exposure_score": 0.0689,
+        "forward_growth_score": 0.139,
+        "disruption_multiplier": 0.9,
+        "structural_advantage": 0.5695,
+        "core_growth_score": 0.0979,
+        "effective_disruption": 0.0,
+        "final_score": 0.0557,
+        "normalized_score": 0.99287
+    },
+    {
+        "symbol": "MU",
+        "company_name": "Micron Technology Inc",
+        "category": "AI Operations & Services",
+        "moat_score": 0.4528,
+        "financial_score": 0.7162,
+        "ai_exposure_score": 0.0689,
+        "forward_growth_score": 0.139,
+        "disruption_multiplier": 0.7,
+        "structural_advantage": 0.5695,
+        "core_growth_score": 0.0979,
+        "effective_disruption": 0.0,
+        "final_score": 0.0557,
+        "normalized_score": 0.99287
     },
     {
         "symbol": "MRVL",
@@ -39,7 +86,38 @@
         "structural_advantage": 0.2308,
         "core_growth_score": 0.2134,
         "effective_disruption": 0.0,
-        "final_score": 0.0493
+        "final_score": 0.0493,
+        "normalized_score": 0.87879
+    },
+    {
+        "symbol": "MRVL",
+        "company_name": "Marvell Technology Inc",
+        "category": "Network Infrastructure",
+        "moat_score": 0.1375,
+        "financial_score": 0.3873,
+        "ai_exposure_score": 0.2107,
+        "forward_growth_score": 0.2162,
+        "disruption_multiplier": 0.6,
+        "structural_advantage": 0.2308,
+        "core_growth_score": 0.2134,
+        "effective_disruption": 0.0,
+        "final_score": 0.0493,
+        "normalized_score": 0.87879
+    },
+    {
+        "symbol": "MRVL",
+        "company_name": "Marvell Technology Inc",
+        "category": "Semiconductor Supply Chain",
+        "moat_score": 0.1375,
+        "financial_score": 0.3873,
+        "ai_exposure_score": 0.2107,
+        "forward_growth_score": 0.2162,
+        "disruption_multiplier": 0.9,
+        "structural_advantage": 0.2308,
+        "core_growth_score": 0.2134,
+        "effective_disruption": 0.0,
+        "final_score": 0.0493,
+        "normalized_score": 0.87879
     },
     {
         "symbol": "TSM",
@@ -53,7 +131,23 @@
         "structural_advantage": 0.1731,
         "core_growth_score": 0.257,
         "effective_disruption": 0.0,
-        "final_score": 0.0445
+        "final_score": 0.0445,
+        "normalized_score": 0.79323
+    },
+    {
+        "symbol": "TSM",
+        "company_name": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
+        "category": "Semiconductor Supply Chain",
+        "moat_score": 0.0391,
+        "financial_score": 0.5992,
+        "ai_exposure_score": 0.1861,
+        "forward_growth_score": 0.355,
+        "disruption_multiplier": 0.9,
+        "structural_advantage": 0.1731,
+        "core_growth_score": 0.257,
+        "effective_disruption": 0.0,
+        "final_score": 0.0445,
+        "normalized_score": 0.79323
     },
     {
         "symbol": "AMD",
@@ -67,7 +161,53 @@
         "structural_advantage": 0.2477,
         "core_growth_score": 0.1794,
         "effective_disruption": 0.0,
-        "final_score": 0.0444
+        "final_score": 0.0444,
+        "normalized_score": 0.79144
+    },
+    {
+        "symbol": "AMD",
+        "company_name": "Advanced Micro Devices Inc",
+        "category": "Network Infrastructure",
+        "moat_score": 0.166,
+        "financial_score": 0.3696,
+        "ai_exposure_score": 0.1364,
+        "forward_growth_score": 0.2359,
+        "disruption_multiplier": 0.6,
+        "structural_advantage": 0.2477,
+        "core_growth_score": 0.1794,
+        "effective_disruption": 0.0,
+        "final_score": 0.0444,
+        "normalized_score": 0.79144
+    },
+    {
+        "symbol": "AMD",
+        "company_name": "Advanced Micro Devices Inc",
+        "category": "Semiconductor Supply Chain",
+        "moat_score": 0.166,
+        "financial_score": 0.3696,
+        "ai_exposure_score": 0.1364,
+        "forward_growth_score": 0.2359,
+        "disruption_multiplier": 0.9,
+        "structural_advantage": 0.2477,
+        "core_growth_score": 0.1794,
+        "effective_disruption": 0.0,
+        "final_score": 0.0444,
+        "normalized_score": 0.79144
+    },
+    {
+        "symbol": "AMD",
+        "company_name": "Advanced Micro Devices Inc",
+        "category": "AI Operations & Services",
+        "moat_score": 0.166,
+        "financial_score": 0.3696,
+        "ai_exposure_score": 0.1364,
+        "forward_growth_score": 0.2359,
+        "disruption_multiplier": 0.7,
+        "structural_advantage": 0.2477,
+        "core_growth_score": 0.1794,
+        "effective_disruption": 0.0,
+        "final_score": 0.0444,
+        "normalized_score": 0.79144
     },
     {
         "symbol": "MSFT",
@@ -81,7 +221,38 @@
         "structural_advantage": 0.3241,
         "core_growth_score": 0.133,
         "effective_disruption": 0.0,
-        "final_score": 0.0431
+        "final_score": 0.0431,
+        "normalized_score": 0.76827
+    },
+    {
+        "symbol": "MSFT",
+        "company_name": "Microsoft Corp",
+        "category": "Network Infrastructure",
+        "moat_score": 0.1918,
+        "financial_score": 0.5478,
+        "ai_exposure_score": 0.1082,
+        "forward_growth_score": 0.1634,
+        "disruption_multiplier": 0.6,
+        "structural_advantage": 0.3241,
+        "core_growth_score": 0.133,
+        "effective_disruption": 0.0,
+        "final_score": 0.0431,
+        "normalized_score": 0.76827
+    },
+    {
+        "symbol": "MSFT",
+        "company_name": "Microsoft Corp",
+        "category": "AI Operations & Services",
+        "moat_score": 0.1918,
+        "financial_score": 0.5478,
+        "ai_exposure_score": 0.1082,
+        "forward_growth_score": 0.1634,
+        "disruption_multiplier": 0.7,
+        "structural_advantage": 0.3241,
+        "core_growth_score": 0.133,
+        "effective_disruption": 0.0,
+        "final_score": 0.0431,
+        "normalized_score": 0.76827
     },
     {
         "symbol": "ETN",
@@ -95,7 +266,38 @@
         "structural_advantage": 0.1536,
         "core_growth_score": 0.2242,
         "effective_disruption": 0.0,
-        "final_score": 0.0345
+        "final_score": 0.0345,
+        "normalized_score": 0.61497
+    },
+    {
+        "symbol": "ETN",
+        "company_name": "Eaton Corp PLC",
+        "category": "Cooling Infrastructure",
+        "moat_score": 0.0701,
+        "financial_score": 0.3367,
+        "ai_exposure_score": 0.2453,
+        "forward_growth_score": 0.205,
+        "disruption_multiplier": 0.4,
+        "structural_advantage": 0.1536,
+        "core_growth_score": 0.2242,
+        "effective_disruption": 0.0,
+        "final_score": 0.0345,
+        "normalized_score": 0.61497
+    },
+    {
+        "symbol": "ETN",
+        "company_name": "Eaton Corp PLC",
+        "category": "Physical Infrastructure",
+        "moat_score": 0.0701,
+        "financial_score": 0.3367,
+        "ai_exposure_score": 0.2453,
+        "forward_growth_score": 0.205,
+        "disruption_multiplier": 0.2,
+        "structural_advantage": 0.1536,
+        "core_growth_score": 0.2242,
+        "effective_disruption": 0.0,
+        "final_score": 0.0345,
+        "normalized_score": 0.61497
     },
     {
         "symbol": "GEV",
@@ -109,7 +311,38 @@
         "structural_advantage": 0.1459,
         "core_growth_score": 0.2207,
         "effective_disruption": 0.0,
-        "final_score": 0.0322
+        "final_score": 0.0322,
+        "normalized_score": 0.57398
+    },
+    {
+        "symbol": "GEV",
+        "company_name": "GE Vernova Inc",
+        "category": "Cooling Infrastructure",
+        "moat_score": 0.0729,
+        "financial_score": 0.2921,
+        "ai_exposure_score": 0.1699,
+        "forward_growth_score": 0.2866,
+        "disruption_multiplier": 0.4,
+        "structural_advantage": 0.1459,
+        "core_growth_score": 0.2207,
+        "effective_disruption": 0.0,
+        "final_score": 0.0322,
+        "normalized_score": 0.57398
+    },
+    {
+        "symbol": "GEV",
+        "company_name": "GE Vernova Inc",
+        "category": "Physical Infrastructure",
+        "moat_score": 0.0729,
+        "financial_score": 0.2921,
+        "ai_exposure_score": 0.1699,
+        "forward_growth_score": 0.2866,
+        "disruption_multiplier": 0.2,
+        "structural_advantage": 0.1459,
+        "core_growth_score": 0.2207,
+        "effective_disruption": 0.0,
+        "final_score": 0.0322,
+        "normalized_score": 0.57398
     },
     {
         "symbol": "GOOGL",
@@ -123,7 +356,8 @@
         "structural_advantage": 0.2553,
         "core_growth_score": 0.1208,
         "effective_disruption": 0.0,
-        "final_score": 0.0308
+        "final_score": 0.0308,
+        "normalized_score": 0.54902
     },
     {
         "symbol": "GOOG",
@@ -137,7 +371,68 @@
         "structural_advantage": 0.2553,
         "core_growth_score": 0.1208,
         "effective_disruption": 0.0,
-        "final_score": 0.0308
+        "final_score": 0.0308,
+        "normalized_score": 0.54902
+    },
+    {
+        "symbol": "GOOGL",
+        "company_name": "Alphabet Inc Class A",
+        "category": "Network Infrastructure",
+        "moat_score": 0.1371,
+        "financial_score": 0.4755,
+        "ai_exposure_score": 0.1005,
+        "forward_growth_score": 0.1452,
+        "disruption_multiplier": 0.6,
+        "structural_advantage": 0.2553,
+        "core_growth_score": 0.1208,
+        "effective_disruption": 0.0,
+        "final_score": 0.0308,
+        "normalized_score": 0.54902
+    },
+    {
+        "symbol": "GOOG",
+        "company_name": "Alphabet Inc Class C",
+        "category": "Network Infrastructure",
+        "moat_score": 0.1371,
+        "financial_score": 0.4755,
+        "ai_exposure_score": 0.1005,
+        "forward_growth_score": 0.1452,
+        "disruption_multiplier": 0.6,
+        "structural_advantage": 0.2553,
+        "core_growth_score": 0.1208,
+        "effective_disruption": 0.0,
+        "final_score": 0.0308,
+        "normalized_score": 0.54902
+    },
+    {
+        "symbol": "GOOGL",
+        "company_name": "Alphabet Inc Class A",
+        "category": "AI Operations & Services",
+        "moat_score": 0.1371,
+        "financial_score": 0.4755,
+        "ai_exposure_score": 0.1005,
+        "forward_growth_score": 0.1452,
+        "disruption_multiplier": 0.7,
+        "structural_advantage": 0.2553,
+        "core_growth_score": 0.1208,
+        "effective_disruption": 0.0,
+        "final_score": 0.0308,
+        "normalized_score": 0.54902
+    },
+    {
+        "symbol": "GOOG",
+        "company_name": "Alphabet Inc Class C",
+        "category": "AI Operations & Services",
+        "moat_score": 0.1371,
+        "financial_score": 0.4755,
+        "ai_exposure_score": 0.1005,
+        "forward_growth_score": 0.1452,
+        "disruption_multiplier": 0.7,
+        "structural_advantage": 0.2553,
+        "core_growth_score": 0.1208,
+        "effective_disruption": 0.0,
+        "final_score": 0.0308,
+        "normalized_score": 0.54902
     },
     {
         "symbol": "QCOM",
@@ -151,7 +446,38 @@
         "structural_advantage": 0.3415,
         "core_growth_score": 0.0869,
         "effective_disruption": 0.0,
-        "final_score": 0.0297
+        "final_score": 0.0297,
+        "normalized_score": 0.52941
+    },
+    {
+        "symbol": "QCOM",
+        "company_name": "Qualcomm Inc",
+        "category": "Network Infrastructure",
+        "moat_score": 0.2953,
+        "financial_score": 0.3949,
+        "ai_exposure_score": 0.0417,
+        "forward_growth_score": 0.1512,
+        "disruption_multiplier": 0.6,
+        "structural_advantage": 0.3415,
+        "core_growth_score": 0.0869,
+        "effective_disruption": 0.0,
+        "final_score": 0.0297,
+        "normalized_score": 0.52941
+    },
+    {
+        "symbol": "QCOM",
+        "company_name": "Qualcomm Inc",
+        "category": "Semiconductor Supply Chain",
+        "moat_score": 0.2953,
+        "financial_score": 0.3949,
+        "ai_exposure_score": 0.0417,
+        "forward_growth_score": 0.1512,
+        "disruption_multiplier": 0.9,
+        "structural_advantage": 0.3415,
+        "core_growth_score": 0.0869,
+        "effective_disruption": 0.0,
+        "final_score": 0.0297,
+        "normalized_score": 0.52941
     },
     {
         "symbol": "NVDA",
@@ -165,7 +491,53 @@
         "structural_advantage": 0.2694,
         "core_growth_score": 0.109,
         "effective_disruption": 0.0,
-        "final_score": 0.0294
+        "final_score": 0.0294,
+        "normalized_score": 0.52406
+    },
+    {
+        "symbol": "NVDA",
+        "company_name": "NVIDIA Corp",
+        "category": "Network Infrastructure",
+        "moat_score": 0.1017,
+        "financial_score": 0.7138,
+        "ai_exposure_score": 0.1513,
+        "forward_growth_score": 0.0785,
+        "disruption_multiplier": 0.6,
+        "structural_advantage": 0.2694,
+        "core_growth_score": 0.109,
+        "effective_disruption": 0.0,
+        "final_score": 0.0294,
+        "normalized_score": 0.52406
+    },
+    {
+        "symbol": "NVDA",
+        "company_name": "NVIDIA Corp",
+        "category": "Semiconductor Supply Chain",
+        "moat_score": 0.1017,
+        "financial_score": 0.7138,
+        "ai_exposure_score": 0.1513,
+        "forward_growth_score": 0.0785,
+        "disruption_multiplier": 0.9,
+        "structural_advantage": 0.2694,
+        "core_growth_score": 0.109,
+        "effective_disruption": 0.0,
+        "final_score": 0.0294,
+        "normalized_score": 0.52406
+    },
+    {
+        "symbol": "NVDA",
+        "company_name": "NVIDIA Corp",
+        "category": "AI Operations & Services",
+        "moat_score": 0.1017,
+        "financial_score": 0.7138,
+        "ai_exposure_score": 0.1513,
+        "forward_growth_score": 0.0785,
+        "disruption_multiplier": 0.7,
+        "structural_advantage": 0.2694,
+        "core_growth_score": 0.109,
+        "effective_disruption": 0.0,
+        "final_score": 0.0294,
+        "normalized_score": 0.52406
     },
     {
         "symbol": "EQIX",
@@ -179,7 +551,8 @@
         "structural_advantage": 0.1828,
         "core_growth_score": 0.1574,
         "effective_disruption": 0.0,
-        "final_score": 0.0288
+        "final_score": 0.0288,
+        "normalized_score": 0.51337
     },
     {
         "symbol": "NEE",
@@ -193,21 +566,68 @@
         "structural_advantage": 0.2189,
         "core_growth_score": 0.1242,
         "effective_disruption": 0.0,
-        "final_score": 0.0272
+        "final_score": 0.0272,
+        "normalized_score": 0.48485
     },
     {
         "symbol": "AVGO",
         "company_name": "Broadcom Inc",
         "category": "Compute Infrastructure",
         "moat_score": 0.0794,
-        "financial_score": 0.5842,
+        "financial_score": 0.5845,
         "ai_exposure_score": 0.2131,
         "forward_growth_score": 0.0655,
         "disruption_multiplier": 1.0,
         "structural_advantage": 0.2154,
         "core_growth_score": 0.1181,
         "effective_disruption": 0.0,
-        "final_score": 0.0254
+        "final_score": 0.0255,
+        "normalized_score": 0.45455
+    },
+    {
+        "symbol": "AVGO",
+        "company_name": "Broadcom Inc",
+        "category": "Network Infrastructure",
+        "moat_score": 0.0794,
+        "financial_score": 0.5845,
+        "ai_exposure_score": 0.2131,
+        "forward_growth_score": 0.0655,
+        "disruption_multiplier": 0.6,
+        "structural_advantage": 0.2154,
+        "core_growth_score": 0.1181,
+        "effective_disruption": 0.0,
+        "final_score": 0.0255,
+        "normalized_score": 0.45455
+    },
+    {
+        "symbol": "AVGO",
+        "company_name": "Broadcom Inc",
+        "category": "Semiconductor Supply Chain",
+        "moat_score": 0.0794,
+        "financial_score": 0.5845,
+        "ai_exposure_score": 0.2131,
+        "forward_growth_score": 0.0655,
+        "disruption_multiplier": 0.9,
+        "structural_advantage": 0.2154,
+        "core_growth_score": 0.1181,
+        "effective_disruption": 0.0,
+        "final_score": 0.0255,
+        "normalized_score": 0.45455
+    },
+    {
+        "symbol": "AVGO",
+        "company_name": "Broadcom Inc",
+        "category": "AI Operations & Services",
+        "moat_score": 0.0794,
+        "financial_score": 0.5845,
+        "ai_exposure_score": 0.2131,
+        "forward_growth_score": 0.0655,
+        "disruption_multiplier": 0.7,
+        "structural_advantage": 0.2154,
+        "core_growth_score": 0.1181,
+        "effective_disruption": 0.0,
+        "final_score": 0.0255,
+        "normalized_score": 0.45455
     },
     {
         "symbol": "TT",
@@ -221,7 +641,38 @@
         "structural_advantage": 0.1428,
         "core_growth_score": 0.1724,
         "effective_disruption": 0.0,
-        "final_score": 0.0246
+        "final_score": 0.0246,
+        "normalized_score": 0.4385
+    },
+    {
+        "symbol": "TT",
+        "company_name": "Trane Technologies PLC Class A",
+        "category": "Cooling Infrastructure",
+        "moat_score": 0.0613,
+        "financial_score": 0.3326,
+        "ai_exposure_score": 0.2298,
+        "forward_growth_score": 0.1293,
+        "disruption_multiplier": 0.4,
+        "structural_advantage": 0.1428,
+        "core_growth_score": 0.1724,
+        "effective_disruption": 0.0,
+        "final_score": 0.0246,
+        "normalized_score": 0.4385
+    },
+    {
+        "symbol": "TT",
+        "company_name": "Trane Technologies PLC Class A",
+        "category": "Physical Infrastructure",
+        "moat_score": 0.0613,
+        "financial_score": 0.3326,
+        "ai_exposure_score": 0.2298,
+        "forward_growth_score": 0.1293,
+        "disruption_multiplier": 0.2,
+        "structural_advantage": 0.1428,
+        "core_growth_score": 0.1724,
+        "effective_disruption": 0.0,
+        "final_score": 0.0246,
+        "normalized_score": 0.4385
     },
     {
         "symbol": "CAT",
@@ -235,7 +686,38 @@
         "structural_advantage": 0.1302,
         "core_growth_score": 0.1683,
         "effective_disruption": 0.0,
-        "final_score": 0.0219
+        "final_score": 0.0219,
+        "normalized_score": 0.39037
+    },
+    {
+        "symbol": "CAT",
+        "company_name": "Caterpillar Inc",
+        "category": "Cooling Infrastructure",
+        "moat_score": 0.0307,
+        "financial_score": 0.3389,
+        "ai_exposure_score": 0.1303,
+        "forward_growth_score": 0.2175,
+        "disruption_multiplier": 0.4,
+        "structural_advantage": 0.1302,
+        "core_growth_score": 0.1683,
+        "effective_disruption": 0.0,
+        "final_score": 0.0219,
+        "normalized_score": 0.39037
+    },
+    {
+        "symbol": "CAT",
+        "company_name": "Caterpillar Inc",
+        "category": "Physical Infrastructure",
+        "moat_score": 0.0307,
+        "financial_score": 0.3389,
+        "ai_exposure_score": 0.1303,
+        "forward_growth_score": 0.2175,
+        "disruption_multiplier": 0.2,
+        "structural_advantage": 0.1302,
+        "core_growth_score": 0.1683,
+        "effective_disruption": 0.0,
+        "final_score": 0.0219,
+        "normalized_score": 0.39037
     },
     {
         "symbol": "CDNS",
@@ -249,21 +731,23 @@
         "structural_advantage": 0.2436,
         "core_growth_score": 0.0855,
         "effective_disruption": 0.0,
-        "final_score": 0.0208
+        "final_score": 0.0208,
+        "normalized_score": 0.37077
     },
     {
         "symbol": "UNIT",
         "company_name": "Uniti Group Inc",
         "category": "Network Infrastructure",
         "moat_score": 0.1419,
-        "financial_score": 0.4063,
+        "financial_score": 0.4062,
         "ai_exposure_score": 0.0574,
         "forward_growth_score": 0.1268,
         "disruption_multiplier": 0.6,
         "structural_advantage": 0.2401,
         "core_growth_score": 0.0853,
         "effective_disruption": 0.0,
-        "final_score": 0.0205
+        "final_score": 0.0205,
+        "normalized_score": 0.36542
     },
     {
         "symbol": "CSCO",
@@ -277,21 +761,68 @@
         "structural_advantage": 0.2247,
         "core_growth_score": 0.0889,
         "effective_disruption": 0.0,
-        "final_score": 0.02
+        "final_score": 0.02,
+        "normalized_score": 0.35651
+    },
+    {
+        "symbol": "CSCO",
+        "company_name": "Cisco Systems Inc",
+        "category": "AI Operations & Services",
+        "moat_score": 0.1202,
+        "financial_score": 0.4199,
+        "ai_exposure_score": 0.1411,
+        "forward_growth_score": 0.056,
+        "disruption_multiplier": 0.7,
+        "structural_advantage": 0.2247,
+        "core_growth_score": 0.0889,
+        "effective_disruption": 0.0,
+        "final_score": 0.02,
+        "normalized_score": 0.35651
     },
     {
         "symbol": "AAPL",
         "company_name": "Apple Inc",
         "category": "Compute Infrastructure",
         "moat_score": 0.3176,
-        "financial_score": 0.4959,
+        "financial_score": 0.4958,
         "ai_exposure_score": 0.0143,
         "forward_growth_score": 0.0405,
         "disruption_multiplier": 1.0,
-        "structural_advantage": 0.3969,
+        "structural_advantage": 0.3968,
         "core_growth_score": 0.05,
         "effective_disruption": 0.0,
-        "final_score": 0.0198
+        "final_score": 0.0198,
+        "normalized_score": 0.35294
+    },
+    {
+        "symbol": "AAPL",
+        "company_name": "Apple Inc",
+        "category": "Network Infrastructure",
+        "moat_score": 0.3176,
+        "financial_score": 0.4958,
+        "ai_exposure_score": 0.0143,
+        "forward_growth_score": 0.0405,
+        "disruption_multiplier": 0.6,
+        "structural_advantage": 0.3968,
+        "core_growth_score": 0.05,
+        "effective_disruption": 0.0,
+        "final_score": 0.0198,
+        "normalized_score": 0.35294
+    },
+    {
+        "symbol": "AAPL",
+        "company_name": "Apple Inc",
+        "category": "AI Operations & Services",
+        "moat_score": 0.3176,
+        "financial_score": 0.4958,
+        "ai_exposure_score": 0.0143,
+        "forward_growth_score": 0.0405,
+        "disruption_multiplier": 0.7,
+        "structural_advantage": 0.3968,
+        "core_growth_score": 0.05,
+        "effective_disruption": 0.0,
+        "final_score": 0.0198,
+        "normalized_score": 0.35294
     },
     {
         "symbol": "AMT",
@@ -305,7 +836,8 @@
         "structural_advantage": 0.2673,
         "core_growth_score": 0.0736,
         "effective_disruption": 0.0,
-        "final_score": 0.0197
+        "final_score": 0.0197,
+        "normalized_score": 0.35116
     },
     {
         "symbol": "APP",
@@ -319,7 +851,8 @@
         "structural_advantage": 0.3497,
         "core_growth_score": 0.05,
         "effective_disruption": 0.0,
-        "final_score": 0.0175
+        "final_score": 0.0175,
+        "normalized_score": 0.31194
     },
     {
         "symbol": "META",
@@ -333,7 +866,38 @@
         "structural_advantage": 0.2363,
         "core_growth_score": 0.0721,
         "effective_disruption": 0.0,
-        "final_score": 0.017
+        "final_score": 0.017,
+        "normalized_score": 0.30303
+    },
+    {
+        "symbol": "META",
+        "company_name": "Meta Platforms Inc Class A",
+        "category": "Network Infrastructure",
+        "moat_score": 0.1005,
+        "financial_score": 0.5555,
+        "ai_exposure_score": 0.07,
+        "forward_growth_score": 0.0743,
+        "disruption_multiplier": 0.6,
+        "structural_advantage": 0.2363,
+        "core_growth_score": 0.0721,
+        "effective_disruption": 0.0,
+        "final_score": 0.017,
+        "normalized_score": 0.30303
+    },
+    {
+        "symbol": "META",
+        "company_name": "Meta Platforms Inc Class A",
+        "category": "AI Operations & Services",
+        "moat_score": 0.1005,
+        "financial_score": 0.5555,
+        "ai_exposure_score": 0.07,
+        "forward_growth_score": 0.0743,
+        "disruption_multiplier": 0.7,
+        "structural_advantage": 0.2363,
+        "core_growth_score": 0.0721,
+        "effective_disruption": 0.0,
+        "final_score": 0.017,
+        "normalized_score": 0.30303
     },
     {
         "symbol": "DE",
@@ -347,7 +911,38 @@
         "structural_advantage": 0.1467,
         "core_growth_score": 0.1141,
         "effective_disruption": 0.0,
-        "final_score": 0.0167
+        "final_score": 0.0167,
+        "normalized_score": 0.29768
+    },
+    {
+        "symbol": "DE",
+        "company_name": "Deere & Co",
+        "category": "Cooling Infrastructure",
+        "moat_score": 0.0779,
+        "financial_score": 0.2763,
+        "ai_exposure_score": 0.2604,
+        "forward_growth_score": 0.0361,
+        "disruption_multiplier": 0.4,
+        "structural_advantage": 0.1467,
+        "core_growth_score": 0.1141,
+        "effective_disruption": 0.0,
+        "final_score": 0.0167,
+        "normalized_score": 0.29768
+    },
+    {
+        "symbol": "DE",
+        "company_name": "Deere & Co",
+        "category": "Physical Infrastructure",
+        "moat_score": 0.0779,
+        "financial_score": 0.2763,
+        "ai_exposure_score": 0.2604,
+        "forward_growth_score": 0.0361,
+        "disruption_multiplier": 0.2,
+        "structural_advantage": 0.1467,
+        "core_growth_score": 0.1141,
+        "effective_disruption": 0.0,
+        "final_score": 0.0167,
+        "normalized_score": 0.29768
     },
     {
         "symbol": "ETR",
@@ -361,7 +956,8 @@
         "structural_advantage": 0.1725,
         "core_growth_score": 0.0852,
         "effective_disruption": 0.0,
-        "final_score": 0.0147
+        "final_score": 0.0147,
+        "normalized_score": 0.26203
     },
     {
         "symbol": "RTX",
@@ -375,7 +971,38 @@
         "structural_advantage": 0.118,
         "core_growth_score": 0.1221,
         "effective_disruption": 0.0,
-        "final_score": 0.0144
+        "final_score": 0.0144,
+        "normalized_score": 0.25668
+    },
+    {
+        "symbol": "RTX",
+        "company_name": "RTX Corp",
+        "category": "Cooling Infrastructure",
+        "moat_score": 0.0491,
+        "financial_score": 0.2787,
+        "ai_exposure_score": 0.0858,
+        "forward_growth_score": 0.1738,
+        "disruption_multiplier": 0.4,
+        "structural_advantage": 0.118,
+        "core_growth_score": 0.1221,
+        "effective_disruption": 0.0,
+        "final_score": 0.0144,
+        "normalized_score": 0.25668
+    },
+    {
+        "symbol": "RTX",
+        "company_name": "RTX Corp",
+        "category": "Physical Infrastructure",
+        "moat_score": 0.0491,
+        "financial_score": 0.2787,
+        "ai_exposure_score": 0.0858,
+        "forward_growth_score": 0.1738,
+        "disruption_multiplier": 0.2,
+        "structural_advantage": 0.118,
+        "core_growth_score": 0.1221,
+        "effective_disruption": 0.0,
+        "final_score": 0.0144,
+        "normalized_score": 0.25668
     },
     {
         "symbol": "ANET",
@@ -389,7 +1016,8 @@
         "structural_advantage": 0.1775,
         "core_growth_score": 0.0789,
         "effective_disruption": 0.0,
-        "final_score": 0.014
+        "final_score": 0.014,
+        "normalized_score": 0.24955
     },
     {
         "symbol": "AEP",
@@ -403,35 +1031,38 @@
         "structural_advantage": 0.2171,
         "core_growth_score": 0.0636,
         "effective_disruption": 0.0,
-        "final_score": 0.0138
-    },
-    {
-        "symbol": "ADBE",
-        "company_name": "Adobe Inc",
-        "category": "AI Operations & Services",
-        "moat_score": 0.1085,
-        "financial_score": 0.5405,
-        "ai_exposure_score": 0.0479,
-        "forward_growth_score": 0.0622,
-        "disruption_multiplier": 0.7,
-        "structural_advantage": 0.2422,
-        "core_growth_score": 0.0558,
-        "effective_disruption": 0.0,
-        "final_score": 0.0135
+        "final_score": 0.0138,
+        "normalized_score": 0.24599
     },
     {
         "symbol": "ORCL",
         "company_name": "Oracle Corp",
         "category": "AI Operations & Services",
         "moat_score": 0.0534,
-        "financial_score": 0.4832,
+        "financial_score": 0.4966,
         "ai_exposure_score": 0.1372,
         "forward_growth_score": 0.0511,
         "disruption_multiplier": 0.7,
-        "structural_advantage": 0.1606,
+        "structural_advantage": 0.1628,
         "core_growth_score": 0.0837,
         "effective_disruption": 0.0,
-        "final_score": 0.0134
+        "final_score": 0.0136,
+        "normalized_score": 0.24242
+    },
+    {
+        "symbol": "ADBE",
+        "company_name": "Adobe Inc",
+        "category": "AI Operations & Services",
+        "moat_score": 0.1085,
+        "financial_score": 0.5309,
+        "ai_exposure_score": 0.0479,
+        "forward_growth_score": 0.0622,
+        "disruption_multiplier": 0.7,
+        "structural_advantage": 0.24,
+        "core_growth_score": 0.0558,
+        "effective_disruption": 0.0,
+        "final_score": 0.0134,
+        "normalized_score": 0.23886
     },
     {
         "symbol": "XEL",
@@ -445,7 +1076,8 @@
         "structural_advantage": 0.2008,
         "core_growth_score": 0.0661,
         "effective_disruption": 0.0,
-        "final_score": 0.0133
+        "final_score": 0.0133,
+        "normalized_score": 0.23708
     },
     {
         "symbol": "NXPI",
@@ -459,7 +1091,38 @@
         "structural_advantage": 0.1447,
         "core_growth_score": 0.0885,
         "effective_disruption": 0.0,
-        "final_score": 0.0128
+        "final_score": 0.0128,
+        "normalized_score": 0.22816
+    },
+    {
+        "symbol": "NXPI",
+        "company_name": "NXP Semiconductors NV",
+        "category": "Network Infrastructure",
+        "moat_score": 0.046,
+        "financial_score": 0.4187,
+        "ai_exposure_score": 0.0344,
+        "forward_growth_score": 0.1567,
+        "disruption_multiplier": 0.6,
+        "structural_advantage": 0.1447,
+        "core_growth_score": 0.0885,
+        "effective_disruption": 0.0,
+        "final_score": 0.0128,
+        "normalized_score": 0.22816
+    },
+    {
+        "symbol": "NXPI",
+        "company_name": "NXP Semiconductors NV",
+        "category": "Semiconductor Supply Chain",
+        "moat_score": 0.046,
+        "financial_score": 0.4187,
+        "ai_exposure_score": 0.0344,
+        "forward_growth_score": 0.1567,
+        "disruption_multiplier": 0.9,
+        "structural_advantage": 0.1447,
+        "core_growth_score": 0.0885,
+        "effective_disruption": 0.0,
+        "final_score": 0.0128,
+        "normalized_score": 0.22816
     },
     {
         "symbol": "INTC",
@@ -473,7 +1136,53 @@
         "structural_advantage": 0.1509,
         "core_growth_score": 0.0831,
         "effective_disruption": 0.0,
-        "final_score": 0.0125
+        "final_score": 0.0125,
+        "normalized_score": 0.22282
+    },
+    {
+        "symbol": "INTC",
+        "company_name": "Intel Corp",
+        "category": "Network Infrastructure",
+        "moat_score": 0.074,
+        "financial_score": 0.3078,
+        "ai_exposure_score": 0.0535,
+        "forward_growth_score": 0.129,
+        "disruption_multiplier": 0.6,
+        "structural_advantage": 0.1509,
+        "core_growth_score": 0.0831,
+        "effective_disruption": 0.0,
+        "final_score": 0.0125,
+        "normalized_score": 0.22282
+    },
+    {
+        "symbol": "INTC",
+        "company_name": "Intel Corp",
+        "category": "Semiconductor Supply Chain",
+        "moat_score": 0.074,
+        "financial_score": 0.3078,
+        "ai_exposure_score": 0.0535,
+        "forward_growth_score": 0.129,
+        "disruption_multiplier": 0.9,
+        "structural_advantage": 0.1509,
+        "core_growth_score": 0.0831,
+        "effective_disruption": 0.0,
+        "final_score": 0.0125,
+        "normalized_score": 0.22282
+    },
+    {
+        "symbol": "INTC",
+        "company_name": "Intel Corp",
+        "category": "AI Operations & Services",
+        "moat_score": 0.074,
+        "financial_score": 0.3078,
+        "ai_exposure_score": 0.0535,
+        "forward_growth_score": 0.129,
+        "disruption_multiplier": 0.7,
+        "structural_advantage": 0.1509,
+        "core_growth_score": 0.0831,
+        "effective_disruption": 0.0,
+        "final_score": 0.0125,
+        "normalized_score": 0.22282
     },
     {
         "symbol": "PWR",
@@ -487,7 +1196,8 @@
         "structural_advantage": 0.1427,
         "core_growth_score": 0.0868,
         "effective_disruption": 0.0,
-        "final_score": 0.0124
+        "final_score": 0.0124,
+        "normalized_score": 0.22103
     },
     {
         "symbol": "URI",
@@ -501,7 +1211,68 @@
         "structural_advantage": 0.1588,
         "core_growth_score": 0.0779,
         "effective_disruption": 0.0,
-        "final_score": 0.0124
+        "final_score": 0.0124,
+        "normalized_score": 0.22103
+    },
+    {
+        "symbol": "PWR",
+        "company_name": "Quanta Services Inc",
+        "category": "Cooling Infrastructure",
+        "moat_score": 0.0827,
+        "financial_score": 0.2462,
+        "ai_exposure_score": 0.0813,
+        "forward_growth_score": 0.0927,
+        "disruption_multiplier": 0.4,
+        "structural_advantage": 0.1427,
+        "core_growth_score": 0.0868,
+        "effective_disruption": 0.0,
+        "final_score": 0.0124,
+        "normalized_score": 0.22103
+    },
+    {
+        "symbol": "URI",
+        "company_name": "United Rentals Inc",
+        "category": "Cooling Infrastructure",
+        "moat_score": 0.0699,
+        "financial_score": 0.3608,
+        "ai_exposure_score": 0.0294,
+        "forward_growth_score": 0.1213,
+        "disruption_multiplier": 0.4,
+        "structural_advantage": 0.1588,
+        "core_growth_score": 0.0779,
+        "effective_disruption": 0.0,
+        "final_score": 0.0124,
+        "normalized_score": 0.22103
+    },
+    {
+        "symbol": "PWR",
+        "company_name": "Quanta Services Inc",
+        "category": "Physical Infrastructure",
+        "moat_score": 0.0827,
+        "financial_score": 0.2462,
+        "ai_exposure_score": 0.0813,
+        "forward_growth_score": 0.0927,
+        "disruption_multiplier": 0.2,
+        "structural_advantage": 0.1427,
+        "core_growth_score": 0.0868,
+        "effective_disruption": 0.0,
+        "final_score": 0.0124,
+        "normalized_score": 0.22103
+    },
+    {
+        "symbol": "URI",
+        "company_name": "United Rentals Inc",
+        "category": "Physical Infrastructure",
+        "moat_score": 0.0699,
+        "financial_score": 0.3608,
+        "ai_exposure_score": 0.0294,
+        "forward_growth_score": 0.1213,
+        "disruption_multiplier": 0.2,
+        "structural_advantage": 0.1588,
+        "core_growth_score": 0.0779,
+        "effective_disruption": 0.0,
+        "final_score": 0.0124,
+        "normalized_score": 0.22103
     },
     {
         "symbol": "AMAT",
@@ -515,21 +1286,98 @@
         "structural_advantage": 0.1457,
         "core_growth_score": 0.0844,
         "effective_disruption": 0.0,
-        "final_score": 0.0123
+        "final_score": 0.0123,
+        "normalized_score": 0.21925
+    },
+    {
+        "symbol": "AMAT",
+        "company_name": "Applied Materials Inc",
+        "category": "Network Infrastructure",
+        "moat_score": 0.036,
+        "financial_score": 0.4248,
+        "ai_exposure_score": 0.0565,
+        "forward_growth_score": 0.1261,
+        "disruption_multiplier": 0.6,
+        "structural_advantage": 0.1457,
+        "core_growth_score": 0.0844,
+        "effective_disruption": 0.0,
+        "final_score": 0.0123,
+        "normalized_score": 0.21925
+    },
+    {
+        "symbol": "AMAT",
+        "company_name": "Applied Materials Inc",
+        "category": "Semiconductor Supply Chain",
+        "moat_score": 0.036,
+        "financial_score": 0.4248,
+        "ai_exposure_score": 0.0565,
+        "forward_growth_score": 0.1261,
+        "disruption_multiplier": 0.9,
+        "structural_advantage": 0.1457,
+        "core_growth_score": 0.0844,
+        "effective_disruption": 0.0,
+        "final_score": 0.0123,
+        "normalized_score": 0.21925
+    },
+    {
+        "symbol": "AMAT",
+        "company_name": "Applied Materials Inc",
+        "category": "AI Operations & Services",
+        "moat_score": 0.036,
+        "financial_score": 0.4248,
+        "ai_exposure_score": 0.0565,
+        "forward_growth_score": 0.1261,
+        "disruption_multiplier": 0.7,
+        "structural_advantage": 0.1457,
+        "core_growth_score": 0.0844,
+        "effective_disruption": 0.0,
+        "final_score": 0.0123,
+        "normalized_score": 0.21925
     },
     {
         "symbol": "TXN",
         "company_name": "Texas Instruments Inc",
         "category": "Compute Infrastructure",
         "moat_score": 0.0528,
-        "financial_score": 0.4827,
+        "financial_score": 0.4826,
         "ai_exposure_score": 0.0349,
         "forward_growth_score": 0.1046,
         "disruption_multiplier": 1.0,
         "structural_advantage": 0.1596,
         "core_growth_score": 0.0723,
         "effective_disruption": 0.0,
-        "final_score": 0.0115
+        "final_score": 0.0115,
+        "normalized_score": 0.20499
+    },
+    {
+        "symbol": "TXN",
+        "company_name": "Texas Instruments Inc",
+        "category": "Network Infrastructure",
+        "moat_score": 0.0528,
+        "financial_score": 0.4826,
+        "ai_exposure_score": 0.0349,
+        "forward_growth_score": 0.1046,
+        "disruption_multiplier": 0.6,
+        "structural_advantage": 0.1596,
+        "core_growth_score": 0.0723,
+        "effective_disruption": 0.0,
+        "final_score": 0.0115,
+        "normalized_score": 0.20499
+    },
+    {
+        "symbol": "TXN",
+        "company_name": "Texas Instruments Inc",
+        "category": "Semiconductor Supply Chain",
+        "moat_score": 0.0528,
+        "financial_score": 0.4826,
+        "ai_exposure_score": 0.0349,
+        "forward_growth_score": 0.1046,
+        "disruption_multiplier": 0.9,
+        "structural_advantage": 0.1596,
+        "core_growth_score": 0.0723,
+        "effective_disruption": 0.0,
+        "final_score": 0.0115,
+        "normalized_score": 0.20499
     },
     {
         "symbol": "CEG",
@@ -543,7 +1391,8 @@
         "structural_advantage": 0.2023,
         "core_growth_score": 0.0559,
         "effective_disruption": 0.0,
-        "final_score": 0.0113
+        "final_score": 0.0113,
+        "normalized_score": 0.20143
     },
     {
         "symbol": "HWM",
@@ -557,7 +1406,38 @@
         "structural_advantage": 0.1894,
         "core_growth_score": 0.0593,
         "effective_disruption": 0.0,
-        "final_score": 0.0112
+        "final_score": 0.0112,
+        "normalized_score": 0.19964
+    },
+    {
+        "symbol": "HWM",
+        "company_name": "Howmet Aerospace Inc",
+        "category": "Cooling Infrastructure",
+        "moat_score": 0.0931,
+        "financial_score": 0.3852,
+        "ai_exposure_score": 0.0218,
+        "forward_growth_score": 0.0704,
+        "disruption_multiplier": 0.4,
+        "structural_advantage": 0.1894,
+        "core_growth_score": 0.0593,
+        "effective_disruption": 0.0,
+        "final_score": 0.0112,
+        "normalized_score": 0.19964
+    },
+    {
+        "symbol": "HWM",
+        "company_name": "Howmet Aerospace Inc",
+        "category": "Physical Infrastructure",
+        "moat_score": 0.0931,
+        "financial_score": 0.3852,
+        "ai_exposure_score": 0.0218,
+        "forward_growth_score": 0.0704,
+        "disruption_multiplier": 0.2,
+        "structural_advantage": 0.1894,
+        "core_growth_score": 0.0593,
+        "effective_disruption": 0.0,
+        "final_score": 0.0112,
+        "normalized_score": 0.19964
     },
     {
         "symbol": "PANW",
@@ -571,7 +1451,8 @@
         "structural_advantage": 0.2169,
         "core_growth_score": 0.05,
         "effective_disruption": 0.0,
-        "final_score": 0.0108
+        "final_score": 0.0108,
+        "normalized_score": 0.19251
     },
     {
         "symbol": "VST",
@@ -585,7 +1466,8 @@
         "structural_advantage": 0.1992,
         "core_growth_score": 0.0532,
         "effective_disruption": 0.0,
-        "final_score": 0.0106
+        "final_score": 0.0106,
+        "normalized_score": 0.18895
     },
     {
         "symbol": "HON",
@@ -599,7 +1481,38 @@
         "structural_advantage": 0.1592,
         "core_growth_score": 0.0664,
         "effective_disruption": 0.0,
-        "final_score": 0.0106
+        "final_score": 0.0106,
+        "normalized_score": 0.18895
+    },
+    {
+        "symbol": "HON",
+        "company_name": "Honeywell International Inc",
+        "category": "Cooling Infrastructure",
+        "moat_score": 0.0762,
+        "financial_score": 0.3326,
+        "ai_exposure_score": 0.0453,
+        "forward_growth_score": 0.0881,
+        "disruption_multiplier": 0.4,
+        "structural_advantage": 0.1592,
+        "core_growth_score": 0.0664,
+        "effective_disruption": 0.0,
+        "final_score": 0.0106,
+        "normalized_score": 0.18895
+    },
+    {
+        "symbol": "HON",
+        "company_name": "Honeywell International Inc",
+        "category": "Physical Infrastructure",
+        "moat_score": 0.0762,
+        "financial_score": 0.3326,
+        "ai_exposure_score": 0.0453,
+        "forward_growth_score": 0.0881,
+        "disruption_multiplier": 0.2,
+        "structural_advantage": 0.1592,
+        "core_growth_score": 0.0664,
+        "effective_disruption": 0.0,
+        "final_score": 0.0106,
+        "normalized_score": 0.18895
     },
     {
         "symbol": "CRWD",
@@ -613,7 +1526,8 @@
         "structural_advantage": 0.2006,
         "core_growth_score": 0.0517,
         "effective_disruption": 0.0,
-        "final_score": 0.0104
+        "final_score": 0.0104,
+        "normalized_score": 0.18538
     },
     {
         "symbol": "CRM",
@@ -627,7 +1541,8 @@
         "structural_advantage": 0.2067,
         "core_growth_score": 0.05,
         "effective_disruption": 0.0,
-        "final_score": 0.0103
+        "final_score": 0.0103,
+        "normalized_score": 0.1836
     },
     {
         "symbol": "NOW",
@@ -641,7 +1556,8 @@
         "structural_advantage": 0.2068,
         "core_growth_score": 0.05,
         "effective_disruption": 0.0,
-        "final_score": 0.0103
+        "final_score": 0.0103,
+        "normalized_score": 0.1836
     },
     {
         "symbol": "NUE",
@@ -655,7 +1571,38 @@
         "structural_advantage": 0.1254,
         "core_growth_score": 0.0792,
         "effective_disruption": 0.0,
-        "final_score": 0.0099
+        "final_score": 0.0099,
+        "normalized_score": 0.17647
+    },
+    {
+        "symbol": "NUE",
+        "company_name": "Nucor Corp",
+        "category": "Cooling Infrastructure",
+        "moat_score": 0.0583,
+        "financial_score": 0.2699,
+        "ai_exposure_score": 0.0525,
+        "forward_growth_score": 0.1194,
+        "disruption_multiplier": 0.4,
+        "structural_advantage": 0.1254,
+        "core_growth_score": 0.0792,
+        "effective_disruption": 0.0,
+        "final_score": 0.0099,
+        "normalized_score": 0.17647
+    },
+    {
+        "symbol": "NUE",
+        "company_name": "Nucor Corp",
+        "category": "Physical Infrastructure",
+        "moat_score": 0.0583,
+        "financial_score": 0.2699,
+        "ai_exposure_score": 0.0525,
+        "forward_growth_score": 0.1194,
+        "disruption_multiplier": 0.2,
+        "structural_advantage": 0.1254,
+        "core_growth_score": 0.0792,
+        "effective_disruption": 0.0,
+        "final_score": 0.0099,
+        "normalized_score": 0.17647
     },
     {
         "symbol": "UBER",
@@ -669,7 +1616,38 @@
         "structural_advantage": 0.1956,
         "core_growth_score": 0.05,
         "effective_disruption": 0.0,
-        "final_score": 0.0098
+        "final_score": 0.0098,
+        "normalized_score": 0.17469
+    },
+    {
+        "symbol": "UBER",
+        "company_name": "Uber Technologies Inc",
+        "category": "Cooling Infrastructure",
+        "moat_score": 0.1162,
+        "financial_score": 0.3292,
+        "ai_exposure_score": 0.0234,
+        "forward_growth_score": 0.0151,
+        "disruption_multiplier": 0.4,
+        "structural_advantage": 0.1956,
+        "core_growth_score": 0.05,
+        "effective_disruption": 0.0,
+        "final_score": 0.0098,
+        "normalized_score": 0.17469
+    },
+    {
+        "symbol": "UBER",
+        "company_name": "Uber Technologies Inc",
+        "category": "Physical Infrastructure",
+        "moat_score": 0.1162,
+        "financial_score": 0.3292,
+        "ai_exposure_score": 0.0234,
+        "forward_growth_score": 0.0151,
+        "disruption_multiplier": 0.2,
+        "structural_advantage": 0.1956,
+        "core_growth_score": 0.05,
+        "effective_disruption": 0.0,
+        "final_score": 0.0098,
+        "normalized_score": 0.17469
     },
     {
         "symbol": "ROK",
@@ -683,7 +1661,38 @@
         "structural_advantage": 0.1465,
         "core_growth_score": 0.0635,
         "effective_disruption": 0.0,
-        "final_score": 0.0093
+        "final_score": 0.0093,
+        "normalized_score": 0.16578
+    },
+    {
+        "symbol": "ROK",
+        "company_name": "Rockwell Automation Inc",
+        "category": "Cooling Infrastructure",
+        "moat_score": 0.0581,
+        "financial_score": 0.3692,
+        "ai_exposure_score": 0.0293,
+        "forward_growth_score": 0.0807,
+        "disruption_multiplier": 0.4,
+        "structural_advantage": 0.1465,
+        "core_growth_score": 0.0635,
+        "effective_disruption": 0.0,
+        "final_score": 0.0093,
+        "normalized_score": 0.16578
+    },
+    {
+        "symbol": "ROK",
+        "company_name": "Rockwell Automation Inc",
+        "category": "Physical Infrastructure",
+        "moat_score": 0.0581,
+        "financial_score": 0.3692,
+        "ai_exposure_score": 0.0293,
+        "forward_growth_score": 0.0807,
+        "disruption_multiplier": 0.2,
+        "structural_advantage": 0.1465,
+        "core_growth_score": 0.0635,
+        "effective_disruption": 0.0,
+        "final_score": 0.0093,
+        "normalized_score": 0.16578
     },
     {
         "symbol": "KLAC",
@@ -697,7 +1706,23 @@
         "structural_advantage": 0.1844,
         "core_growth_score": 0.05,
         "effective_disruption": 0.0,
-        "final_score": 0.0092
+        "final_score": 0.0092,
+        "normalized_score": 0.16399
+    },
+    {
+        "symbol": "KLAC",
+        "company_name": "KLA Corp",
+        "category": "Semiconductor Supply Chain",
+        "moat_score": 0.0647,
+        "financial_score": 0.5258,
+        "ai_exposure_score": 0.0231,
+        "forward_growth_score": 0.0496,
+        "disruption_multiplier": 0.9,
+        "structural_advantage": 0.1844,
+        "core_growth_score": 0.05,
+        "effective_disruption": 0.0,
+        "final_score": 0.0092,
+        "normalized_score": 0.16399
     },
     {
         "symbol": "FSLY",
@@ -711,35 +1736,38 @@
         "structural_advantage": 0.1342,
         "core_growth_score": 0.0682,
         "effective_disruption": 0.0,
-        "final_score": 0.0091
+        "final_score": 0.0091,
+        "normalized_score": 0.16221
     },
     {
         "symbol": "PLTR",
         "company_name": "Palantir Technologies Inc Ordinary Shares - Class A",
         "category": "AI Operations & Services",
         "moat_score": 0.0557,
-        "financial_score": 0.5835,
+        "financial_score": 0.5834,
         "ai_exposure_score": 0.0192,
         "forward_growth_score": 0.0282,
         "disruption_multiplier": 0.7,
         "structural_advantage": 0.1803,
         "core_growth_score": 0.05,
         "effective_disruption": 0.0,
-        "final_score": 0.009
+        "final_score": 0.009,
+        "normalized_score": 0.16043
     },
     {
         "symbol": "CCI",
         "company_name": "Crown Castle Inc",
         "category": "Network Infrastructure",
         "moat_score": 0.0826,
-        "financial_score": 0.3727,
+        "financial_score": 0.3726,
         "ai_exposure_score": 0.0065,
         "forward_growth_score": 0.0219,
         "disruption_multiplier": 0.6,
-        "structural_advantage": 0.1755,
+        "structural_advantage": 0.1754,
         "core_growth_score": 0.05,
         "effective_disruption": 0.0,
-        "final_score": 0.0088
+        "final_score": 0.0088,
+        "normalized_score": 0.15686
     },
     {
         "symbol": "GE",
@@ -753,7 +1781,38 @@
         "structural_advantage": 0.1335,
         "core_growth_score": 0.0614,
         "effective_disruption": 0.0,
-        "final_score": 0.0082
+        "final_score": 0.0082,
+        "normalized_score": 0.14617
+    },
+    {
+        "symbol": "GE",
+        "company_name": "GE Aerospace",
+        "category": "Cooling Infrastructure",
+        "moat_score": 0.0489,
+        "financial_score": 0.3563,
+        "ai_exposure_score": 0.0344,
+        "forward_growth_score": 0.0755,
+        "disruption_multiplier": 0.4,
+        "structural_advantage": 0.1335,
+        "core_growth_score": 0.0614,
+        "effective_disruption": 0.0,
+        "final_score": 0.0082,
+        "normalized_score": 0.14617
+    },
+    {
+        "symbol": "GE",
+        "company_name": "GE Aerospace",
+        "category": "Physical Infrastructure",
+        "moat_score": 0.0489,
+        "financial_score": 0.3563,
+        "ai_exposure_score": 0.0344,
+        "forward_growth_score": 0.0755,
+        "disruption_multiplier": 0.2,
+        "structural_advantage": 0.1335,
+        "core_growth_score": 0.0614,
+        "effective_disruption": 0.0,
+        "final_score": 0.0082,
+        "normalized_score": 0.14617
     },
     {
         "symbol": "UNP",
@@ -767,7 +1826,38 @@
         "structural_advantage": 0.1558,
         "core_growth_score": 0.05,
         "effective_disruption": 0.0,
-        "final_score": 0.0078
+        "final_score": 0.0078,
+        "normalized_score": 0.13904
+    },
+    {
+        "symbol": "UNP",
+        "company_name": "Union Pacific Corp",
+        "category": "Cooling Infrastructure",
+        "moat_score": 0.0256,
+        "financial_score": 0.4855,
+        "ai_exposure_score": 0.0112,
+        "forward_growth_score": 0.011,
+        "disruption_multiplier": 0.4,
+        "structural_advantage": 0.1558,
+        "core_growth_score": 0.05,
+        "effective_disruption": 0.0,
+        "final_score": 0.0078,
+        "normalized_score": 0.13904
+    },
+    {
+        "symbol": "UNP",
+        "company_name": "Union Pacific Corp",
+        "category": "Physical Infrastructure",
+        "moat_score": 0.0256,
+        "financial_score": 0.4855,
+        "ai_exposure_score": 0.0112,
+        "forward_growth_score": 0.011,
+        "disruption_multiplier": 0.2,
+        "structural_advantage": 0.1558,
+        "core_growth_score": 0.05,
+        "effective_disruption": 0.0,
+        "final_score": 0.0078,
+        "normalized_score": 0.13904
     },
     {
         "symbol": "LRCX",
@@ -781,7 +1871,38 @@
         "structural_advantage": 0.1529,
         "core_growth_score": 0.05,
         "effective_disruption": 0.0,
-        "final_score": 0.0076
+        "final_score": 0.0076,
+        "normalized_score": 0.13547
+    },
+    {
+        "symbol": "LRCX",
+        "company_name": "Lam Research Corp",
+        "category": "Semiconductor Supply Chain",
+        "moat_score": 0.0433,
+        "financial_score": 0.4678,
+        "ai_exposure_score": 0.0172,
+        "forward_growth_score": 0.0337,
+        "disruption_multiplier": 0.9,
+        "structural_advantage": 0.1529,
+        "core_growth_score": 0.05,
+        "effective_disruption": 0.0,
+        "final_score": 0.0076,
+        "normalized_score": 0.13547
+    },
+    {
+        "symbol": "LRCX",
+        "company_name": "Lam Research Corp",
+        "category": "AI Operations & Services",
+        "moat_score": 0.0433,
+        "financial_score": 0.4678,
+        "ai_exposure_score": 0.0172,
+        "forward_growth_score": 0.0337,
+        "disruption_multiplier": 0.7,
+        "structural_advantage": 0.1529,
+        "core_growth_score": 0.05,
+        "effective_disruption": 0.0,
+        "final_score": 0.0076,
+        "normalized_score": 0.13547
     },
     {
         "symbol": "CSX",
@@ -795,7 +1916,38 @@
         "structural_advantage": 0.1481,
         "core_growth_score": 0.05,
         "effective_disruption": 0.0,
-        "final_score": 0.0074
+        "final_score": 0.0074,
+        "normalized_score": 0.13191
+    },
+    {
+        "symbol": "CSX",
+        "company_name": "CSX Corp",
+        "category": "Cooling Infrastructure",
+        "moat_score": 0.0442,
+        "financial_score": 0.4389,
+        "ai_exposure_score": 0.0467,
+        "forward_growth_score": 0.0282,
+        "disruption_multiplier": 0.4,
+        "structural_advantage": 0.1481,
+        "core_growth_score": 0.05,
+        "effective_disruption": 0.0,
+        "final_score": 0.0074,
+        "normalized_score": 0.13191
+    },
+    {
+        "symbol": "CSX",
+        "company_name": "CSX Corp",
+        "category": "Physical Infrastructure",
+        "moat_score": 0.0442,
+        "financial_score": 0.4389,
+        "ai_exposure_score": 0.0467,
+        "forward_growth_score": 0.0282,
+        "disruption_multiplier": 0.2,
+        "structural_advantage": 0.1481,
+        "core_growth_score": 0.05,
+        "effective_disruption": 0.0,
+        "final_score": 0.0074,
+        "normalized_score": 0.13191
     },
     {
         "symbol": "DUK",
@@ -809,7 +1961,8 @@
         "structural_advantage": 0.1464,
         "core_growth_score": 0.05,
         "effective_disruption": 0.0,
-        "final_score": 0.0073
+        "final_score": 0.0073,
+        "normalized_score": 0.13012
     },
     {
         "symbol": "D",
@@ -823,7 +1976,8 @@
         "structural_advantage": 0.1467,
         "core_growth_score": 0.05,
         "effective_disruption": 0.0,
-        "final_score": 0.0073
+        "final_score": 0.0073,
+        "normalized_score": 0.13012
     },
     {
         "symbol": "NSC",
@@ -837,7 +1991,38 @@
         "structural_advantage": 0.1455,
         "core_growth_score": 0.05,
         "effective_disruption": 0.0,
-        "final_score": 0.0073
+        "final_score": 0.0073,
+        "normalized_score": 0.13012
+    },
+    {
+        "symbol": "NSC",
+        "company_name": "Norfolk Southern Corp",
+        "category": "Cooling Infrastructure",
+        "moat_score": 0.0242,
+        "financial_score": 0.4234,
+        "ai_exposure_score": 0.0067,
+        "forward_growth_score": 0.0125,
+        "disruption_multiplier": 0.4,
+        "structural_advantage": 0.1455,
+        "core_growth_score": 0.05,
+        "effective_disruption": 0.0,
+        "final_score": 0.0073,
+        "normalized_score": 0.13012
+    },
+    {
+        "symbol": "NSC",
+        "company_name": "Norfolk Southern Corp",
+        "category": "Physical Infrastructure",
+        "moat_score": 0.0242,
+        "financial_score": 0.4234,
+        "ai_exposure_score": 0.0067,
+        "forward_growth_score": 0.0125,
+        "disruption_multiplier": 0.2,
+        "structural_advantage": 0.1455,
+        "core_growth_score": 0.05,
+        "effective_disruption": 0.0,
+        "final_score": 0.0073,
+        "normalized_score": 0.13012
     },
     {
         "symbol": "SO",
@@ -851,7 +2036,8 @@
         "structural_advantage": 0.1436,
         "core_growth_score": 0.05,
         "effective_disruption": 0.0,
-        "final_score": 0.0072
+        "final_score": 0.0072,
+        "normalized_score": 0.12834
     },
     {
         "symbol": "BA",
@@ -865,7 +2051,38 @@
         "structural_advantage": 0.1114,
         "core_growth_score": 0.0633,
         "effective_disruption": 0.0,
-        "final_score": 0.0071
+        "final_score": 0.0071,
+        "normalized_score": 0.12656
+    },
+    {
+        "symbol": "BA",
+        "company_name": "Boeing Co",
+        "category": "Cooling Infrastructure",
+        "moat_score": 0.0195,
+        "financial_score": 0.2483,
+        "ai_exposure_score": 0.0353,
+        "forward_growth_score": 0.0802,
+        "disruption_multiplier": 0.4,
+        "structural_advantage": 0.1114,
+        "core_growth_score": 0.0633,
+        "effective_disruption": 0.0,
+        "final_score": 0.0071,
+        "normalized_score": 0.12656
+    },
+    {
+        "symbol": "BA",
+        "company_name": "Boeing Co",
+        "category": "Physical Infrastructure",
+        "moat_score": 0.0195,
+        "financial_score": 0.2483,
+        "ai_exposure_score": 0.0353,
+        "forward_growth_score": 0.0802,
+        "disruption_multiplier": 0.2,
+        "structural_advantage": 0.1114,
+        "core_growth_score": 0.0633,
+        "effective_disruption": 0.0,
+        "final_score": 0.0071,
+        "normalized_score": 0.12656
     },
     {
         "symbol": "SRE",
@@ -879,6 +2096,7 @@
         "structural_advantage": 0.1406,
         "core_growth_score": 0.05,
         "effective_disruption": 0.0,
-        "final_score": 0.007
+        "final_score": 0.007,
+        "normalized_score": 0.12478
     }
 ]

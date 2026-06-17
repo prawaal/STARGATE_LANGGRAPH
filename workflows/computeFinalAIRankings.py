@@ -218,19 +218,7 @@ for category, companies in (
                 disruption_multiplier
             )
         )
-
-        # -----------------------------------
-        # SKIP DUPLICATES
-        # -----------------------------------
-
-        if symbol in seen_symbols:
-
-            continue
-
-
-        seen_symbols.add(
-            symbol
-        )
+               
 
         final_rankings.append({
 
@@ -262,14 +250,36 @@ for category, companies in (
             **result
         })
 
+    max_score = max(
+            company["final_score"]
+            for company in final_rankings
+        )
+
+    stored_ranking = []
+
+    for company in final_rankings:
+
+        company[
+            "normalized_score"
+        ] = round(
+
+            (
+                company["final_score"]
+                / max_score
+            ),
+
+            5
+        )
+
+        stored_ranking.append(company)
 
 # -----------------------------------
 # SORT FINAL SCORES
 # -----------------------------------
 
-final_rankings = sorted(
+stored_ranking = sorted(
 
-    final_rankings,
+    stored_ranking,
 
     key=lambda x:
         x["final_score"],
@@ -294,7 +304,7 @@ with open(
 
     json.dump(
 
-        final_rankings,
+        stored_ranking,
 
         f,
 
@@ -313,7 +323,7 @@ print(
 
 for i, company in enumerate(
 
-    final_rankings[:20],
+    stored_ranking[:20],
 
     start=1
 ):

@@ -123,6 +123,10 @@ class LLMFactory:
         elif provider == "ollama":
 
             return OllamaClient()
+        
+        elif provider == "nollm":
+
+            return OllamaClient()
 
 
         else:
