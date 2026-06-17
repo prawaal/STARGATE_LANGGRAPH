@@ -420,7 +420,7 @@ def render_landscape_tab():
 
         "Physical Infrastructure": "Physical",
 
-        "Semiconductor Supply Chain": "Supply",
+        "Semiconductor Supply Chain": "Supply Chain",
 
         "AI Operations & Services": "AI Services"
     }
