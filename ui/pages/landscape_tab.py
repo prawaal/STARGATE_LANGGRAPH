@@ -418,11 +418,11 @@ def render_landscape_tab():
 
         "Network Infrastructure": "Network",
 
-        "Construction Infrastructure": "Construction",
+        "Physical Infrastructure": "Physical",
 
-        "Industrial Infrastructure": "Industrial",
+        "Semiconductor Supply Chain": "Supply",
 
-        "Software Infrastructure": "Software"
+        "AI Operations & Services": "AI Services"
     }
 
 
