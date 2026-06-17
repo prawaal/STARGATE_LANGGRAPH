@@ -210,18 +210,7 @@ def show_company_dialog(company):
             )
         )
 
-        st.metric(
-
-            "Disruption",
-
-            round(
-                company.get(
-                    "disruption_multiplier",
-                    0
-                ),
-                2
-            )
-        )
+        
 
     st.divider()
 
