@@ -187,89 +187,75 @@ def render_workflow_tab():
     # SHOW CURRENT RANKINGS
     # -----------------------------------
 
-    rankings_path = os.path.join(
+    rankings_path = os.path.join( BASE_DIR, "outputs", "final_ai_factory_rankings.json" )
 
-        BASE_DIR,
+    if os.path.exists( rankings_path ): 
 
-        "outputs",
+        with open( rankings_path, "r", encoding="utf-8" ) as f: 
 
-        "final_ai_factory_rankings.json"
+            rankings = json.load( f )
+    
+    st.markdown("---")
+
+    st.subheader(
+        "🏆 AI Factory Leaders"
     )
 
-    if os.path.exists(
-        rankings_path
-    ):
+    symbol_map = {}
 
-        with open(
+    for company in rankings:
 
-            rankings_path,
+        symbol = company["symbol"]
 
-            "r",
+        if symbol not in symbol_map:
 
-            encoding="utf-8"
+            symbol_map[symbol] = company.copy()
 
-        ) as f:
+            symbol_map[symbol]["all_categories"] = [
+                company["category"]
+            ]
 
-            rankings = json.load(
-                f
+        else:
+
+            symbol_map[symbol][
+                "all_categories"
+            ].append(
+                company["category"]
             )
 
-        st.markdown("---")
-
-        st.subheader(
-            "Current Top 20 Rankings"
-        )
-
-        symbol_map = {}
-
-        for company in rankings:
-
-            symbol = company["symbol"]
-
-            if symbol not in symbol_map:
-
-                symbol_map[symbol] = company.copy()
-
-                symbol_map[symbol]["all_categories"] = [
-                    company["category"]
+            if (
+                company["final_score"]
+                >
+                symbol_map[symbol][
+                    "final_score"
                 ]
+            ):
 
-            else:
+                existing_categories = (
+                    symbol_map[symbol][
+                        "all_categories"
+                    ]
+                )
+
+                symbol_map[symbol] = (
+                    company.copy()
+                )
 
                 symbol_map[symbol][
                     "all_categories"
-                ].append(
-                    company["category"]
+                ] = (
+                    existing_categories
                 )
 
-                if (
-                    company["final_score"]
-                    >
-                    symbol_map[symbol][
-                        "final_score"
-                    ]
-                ):
 
-                    existing_categories = (
-                        symbol_map[symbol][
-                            "all_categories"
-                        ]
-                    )
+    rankings = list(
+        symbol_map.values()
+    )
 
-                    symbol_map[symbol] = (
-                        company.copy()
-                    )
 
-                    symbol_map[symbol][
-                        "all_categories"
-                    ] = (
-                        existing_categories
-                    )
-                    
-        rankings = list(symbol_map.values())
-        for company in rankings:
+    for company in rankings:
 
-            company["category"] = ", ".join(
+        company["category"] = ", ".join(
 
             sorted(
 
@@ -285,48 +271,128 @@ def render_workflow_tab():
 
         )
 
-        rankings.sort(
 
-            key=lambda x: x[
-                "final_score"
-            ],
+    rankings.sort(
 
-            reverse=True
-        )
-        
-        df = pd.DataFrame(rankings)
+        key=lambda x: x[
+            "normalized_score"
+        ],
 
-        df = df[
+        reverse=True
+    )
 
-            [
 
-                "symbol",
+    gold = []
+    silver = []
+    bronze = []
 
-                "company_name",
+    for company in rankings[:20]:
 
-                "category",
-
-                "final_score"
-
-            ]
-
+        score = company[
+            "normalized_score"
         ]
 
-        df["final_score"] = (
+        if score >= 0.75:
 
-            df["final_score"]
+            gold.append(
+                company
+            )
 
-            * 100
+        elif score >= 0.50:
 
-        ).round(2)
+            silver.append(
+                company
+            )
 
-        df.index = (
-            df.index + 1
+        else:
+
+            bronze.append(
+                company
+            )
+
+
+    gold_col, silver_col, bronze_col = st.columns(3)
+
+
+    with gold_col:
+
+        st.markdown(
+            "## 🥇 Gold"
         )
 
-        st.dataframe(
+        for company in gold:
 
-            df.head(20),
+            st.markdown(
 
-            width="stretch"
+                f"""
+                <div style="
+                    background-color:#FFD700;
+                    color:black;
+                    padding:10px;
+                    border-radius:10px;
+                    margin-bottom:8px;
+                ">
+                    <b>{company['symbol']}</b><br>
+                    {company['company_name']}<br>
+                    Score: {round(company['normalized_score']*100,1)}
+                </div>
+                """,
+
+                unsafe_allow_html=True
+            )
+
+
+    with silver_col:
+
+        st.markdown(
+            "## 🥈 Silver"
         )
+
+        for company in silver:
+
+            st.markdown(
+
+                f"""
+                <div style="
+                    background-color:#C0C0C0;
+                    color:black;
+                    padding:10px;
+                    border-radius:10px;
+                    margin-bottom:8px;
+                ">
+                    <b>{company['symbol']}</b><br>
+                    {company['company_name']}<br>
+                    Score: {round(company['normalized_score']*100,1)}
+                </div>
+                """,
+
+                unsafe_allow_html=True
+            )
+
+
+    with bronze_col:
+
+        st.markdown(
+            "## 🥉 Bronze"
+        )
+
+        for company in bronze:
+
+            st.markdown(
+
+                f"""
+                <div style="
+                    background-color:#CD7F32;
+                    color:white;
+                    padding:10px;
+                    border-radius:10px;
+                    margin-bottom:8px;
+                ">
+                    <b>{company['symbol']}</b><br>
+                    {company['company_name']}<br>
+                    Score: {round(company['normalized_score']*100,1)}
+                </div>
+                """,
+
+                unsafe_allow_html=True
+            )
