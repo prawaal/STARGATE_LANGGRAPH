@@ -49,51 +49,149 @@ def render_workflow_tab():
         )
 
     # -----------------------------------
+    # DEFAULT AGENT
+    # -----------------------------------
+
+    if "run_from" not in st.session_state:
+
+        st.session_state[
+            "run_from"
+        ] = "scoring"
+
+    # -----------------------------------
     # AGENTS
     # -----------------------------------
 
-    st.caption(
-        "Research, Discovery and Ingestion "
-        "have already been completed."
+    
+    st.subheader(
+        "Select Starting Agent"
     )
 
-    agents = [
-        "Research", 
-        "Discovery",
-        "Ingestion",
-        "Scoring",
-        "Ranking"
+
+    col1, col2, col3, col4, col5 = st.columns(5)
+
+    with col1:
+
+        if st.button(
+
+            "📊 Research",
+
+            key="research_tile",
+
+            use_container_width=True
+        ):
+
+            st.session_state[
+                "run_from"
+            ] = "research"
+
+            st.rerun()     
+
+    with col2:
+
+        if st.button(
+
+            "📊 Discovery",
+
+            key="discovery_tile",
+
+            use_container_width=True
+        ):
+
+            st.session_state[
+                "run_from"
+            ] = "discovery"
+
+            st.rerun()          
+
+    with col3:        
+
+        if st.button(
+
+            "📥 Ingestion",
+
+            key="ingestion_tile",
+
+            use_container_width=True
+        ):
+
+            st.session_state[
+                "run_from"
+            ] = "ingestion"
+
+            st.rerun()        
+
+    with col4:
+
+        if st.button(
+
+            "📊 Scoring",
+
+            key="scoring_tile",
+
+            use_container_width=True
+        ):
+
+            st.session_state[
+                "run_from"
+            ] = "scoring"
+
+            st.rerun()
+
+    with col5:
+
+        if st.button(
+
+            "🏆 Ranking",
+
+            key="ranking_tile",
+
+            use_container_width=True
+        ):
+
+            st.session_state[
+                "run_from"
+            ] = "ranking"
+
+            st.rerun()
+
+
+
+    run_from = st.session_state[
+        "run_from"
     ]
 
-    selected_agent = st.radio(
 
-        "Select workflow starting point",
+    st.info(
 
-        agents,
+        f"Selected Agent: "
 
-        horizontal=True
+        f"{st.session_state['run_from'].title()}"
     )
 
-    run_from = (
-        selected_agent.lower()
-    )
-
-    st.markdown("")
 
     # -----------------------------------
-    # RUN BUTTON
+    # STATUS FILE
+    # -----------------------------------
+
+    status_path = os.path.join(
+
+        BASE_DIR,
+
+        "outputs",
+
+        "runtime_status.json"
+    )
+        
+
+    # -----------------------------------
+    # TRIGGER WORKFLOW
     # -----------------------------------
 
     if st.button(
-        "Trigger Workflow",
-        key="workflow_button"
+        "🚀 Trigger Workflow",
+        use_container_width=True
     ):
-
-        st.info(
-
-            f"Running workflow "
-            f"from {selected_agent}"
-        )
 
         status_path = os.path.join(
 
@@ -103,10 +201,6 @@ def render_workflow_tab():
 
             "runtime_status.json"
         )
-
-        # -----------------------------------
-        # START PROCESS
-        # -----------------------------------
 
         process = subprocess.Popen([
 
@@ -183,216 +277,216 @@ def render_workflow_tab():
             100
         )
 
-    # -----------------------------------
-    # SHOW CURRENT RANKINGS
-    # -----------------------------------
+        # -----------------------------------
+        # SHOW CURRENT RANKINGS
+        # -----------------------------------
 
-    rankings_path = os.path.join( BASE_DIR, "outputs", "final_ai_factory_rankings.json" )
+        rankings_path = os.path.join( BASE_DIR, "outputs", "final_ai_factory_rankings.json" )
 
-    if os.path.exists( rankings_path ): 
+        if os.path.exists( rankings_path ): 
 
-        with open( rankings_path, "r", encoding="utf-8" ) as f: 
+            with open( rankings_path, "r", encoding="utf-8" ) as f: 
 
-            rankings = json.load( f )
-    
-    st.markdown("---")
+                rankings = json.load( f )
+        
+        st.markdown("---")
 
-    st.subheader(
-        "🏆 AI Factory Leaders"
-    )
+        st.subheader(
+            "🏆 AI Factory Leaders"
+        )
 
-    symbol_map = {}
+        symbol_map = {}
 
-    for company in rankings:
+        for company in rankings:
 
-        symbol = company["symbol"]
+            symbol = company["symbol"]
 
-        if symbol not in symbol_map:
+            if symbol not in symbol_map:
 
-            symbol_map[symbol] = company.copy()
+                symbol_map[symbol] = company.copy()
 
-            symbol_map[symbol]["all_categories"] = [
-                company["category"]
-            ]
-
-        else:
-
-            symbol_map[symbol][
-                "all_categories"
-            ].append(
-                company["category"]
-            )
-
-            if (
-                company["final_score"]
-                >
-                symbol_map[symbol][
-                    "final_score"
+                symbol_map[symbol]["all_categories"] = [
+                    company["category"]
                 ]
-            ):
 
-                existing_categories = (
-                    symbol_map[symbol][
-                        "all_categories"
-                    ]
-                )
-
-                symbol_map[symbol] = (
-                    company.copy()
-                )
+            else:
 
                 symbol_map[symbol][
                     "all_categories"
-                ] = (
-                    existing_categories
+                ].append(
+                    company["category"]
                 )
 
-
-    rankings = list(
-        symbol_map.values()
-    )
-
-
-    for company in rankings:
-
-        company["category"] = ", ".join(
-
-            sorted(
-
-                set(
-
-                    company[
-                        "all_categories"
+                if (
+                    company["final_score"]
+                    >
+                    symbol_map[symbol][
+                        "final_score"
                     ]
+                ):
+
+                    existing_categories = (
+                        symbol_map[symbol][
+                            "all_categories"
+                        ]
+                    )
+
+                    symbol_map[symbol] = (
+                        company.copy()
+                    )
+
+                    symbol_map[symbol][
+                        "all_categories"
+                    ] = (
+                        existing_categories
+                    )
+
+
+        rankings = list(
+            symbol_map.values()
+        )
+
+
+        for company in rankings:
+
+            company["category"] = ", ".join(
+
+                sorted(
+
+                    set(
+
+                        company[
+                            "all_categories"
+                        ]
+
+                    )
 
                 )
 
             )
 
+
+        rankings.sort(
+
+            key=lambda x: x[
+                "normalized_score"
+            ],
+
+            reverse=True
         )
 
 
-    rankings.sort(
+        gold = []
+        silver = []
+        bronze = []
 
-        key=lambda x: x[
-            "normalized_score"
-        ],
+        for company in rankings[:20]:
 
-        reverse=True
-    )
+            score = company[
+                "normalized_score"
+            ]
 
+            if score >= 0.75:
 
-    gold = []
-    silver = []
-    bronze = []
+                gold.append(
+                    company
+                )
 
-    for company in rankings[:20]:
+            elif score >= 0.50:
 
-        score = company[
-            "normalized_score"
-        ]
+                silver.append(
+                    company
+                )
 
-        if score >= 0.75:
+            else:
 
-            gold.append(
-                company
-            )
-
-        elif score >= 0.50:
-
-            silver.append(
-                company
-            )
-
-        else:
-
-            bronze.append(
-                company
-            )
+                bronze.append(
+                    company
+                )
 
 
-    gold_col, silver_col, bronze_col = st.columns(3)
+        gold_col, silver_col, bronze_col = st.columns(3)
 
 
-    with gold_col:
-
-        st.markdown(
-            "## 🥇 Gold"
-        )
-
-        for company in gold:
+        with gold_col:
 
             st.markdown(
-
-                f"""
-                <div style="
-                    background-color:#FFD700;
-                    color:black;
-                    padding:10px;
-                    border-radius:10px;
-                    margin-bottom:8px;
-                ">
-                    <b>{company['symbol']}</b><br>
-                    {company['company_name']}<br>
-                    Score: {round(company['normalized_score']*100,1)}
-                </div>
-                """,
-
-                unsafe_allow_html=True
+                "## 🥇 Gold"
             )
 
+            for company in gold:
 
-    with silver_col:
+                st.markdown(
 
-        st.markdown(
-            "## 🥈 Silver"
-        )
+                    f"""
+                    <div style="
+                        background-color:#FFD700;
+                        color:black;
+                        padding:10px;
+                        border-radius:10px;
+                        margin-bottom:8px;
+                    ">
+                        <b>{company['symbol']}</b><br>
+                        {company['company_name']}<br>
+                        Score: {round(company['normalized_score']*100,1)}
+                    </div>
+                    """,
 
-        for company in silver:
+                    unsafe_allow_html=True
+                )
+
+
+        with silver_col:
 
             st.markdown(
-
-                f"""
-                <div style="
-                    background-color:#C0C0C0;
-                    color:black;
-                    padding:10px;
-                    border-radius:10px;
-                    margin-bottom:8px;
-                ">
-                    <b>{company['symbol']}</b><br>
-                    {company['company_name']}<br>
-                    Score: {round(company['normalized_score']*100,1)}
-                </div>
-                """,
-
-                unsafe_allow_html=True
+                "## 🥈 Silver"
             )
 
+            for company in silver:
 
-    with bronze_col:
+                st.markdown(
 
-        st.markdown(
-            "## 🥉 Bronze"
-        )
+                    f"""
+                    <div style="
+                        background-color:#C0C0C0;
+                        color:black;
+                        padding:10px;
+                        border-radius:10px;
+                        margin-bottom:8px;
+                    ">
+                        <b>{company['symbol']}</b><br>
+                        {company['company_name']}<br>
+                        Score: {round(company['normalized_score']*100,1)}
+                    </div>
+                    """,
 
-        for company in bronze:
+                    unsafe_allow_html=True
+                )
+
+
+        with bronze_col:
 
             st.markdown(
-
-                f"""
-                <div style="
-                    background-color:#CD7F32;
-                    color:white;
-                    padding:10px;
-                    border-radius:10px;
-                    margin-bottom:8px;
-                ">
-                    <b>{company['symbol']}</b><br>
-                    {company['company_name']}<br>
-                    Score: {round(company['normalized_score']*100,1)}
-                </div>
-                """,
-
-                unsafe_allow_html=True
+                "## 🥉 Bronze"
             )
+
+            for company in bronze:
+
+                st.markdown(
+
+                    f"""
+                    <div style="
+                        background-color:#CD7F32;
+                        color:white;
+                        padding:10px;
+                        border-radius:10px;
+                        margin-bottom:8px;
+                    ">
+                        <b>{company['symbol']}</b><br>
+                        {company['company_name']}<br>
+                        Score: {round(company['normalized_score']*100,1)}
+                    </div>
+                    """,
+
+                    unsafe_allow_html=True
+                )
