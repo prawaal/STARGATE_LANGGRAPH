@@ -74,7 +74,7 @@ def render_workflow_tab():
 
         if st.button(
 
-            "📊 Research",
+            "🌐 Research",
 
             key="research_tile",
 
@@ -91,7 +91,7 @@ def render_workflow_tab():
 
         if st.button(
 
-            "📊 Discovery",
+            "🧭 Discovery",
 
             key="discovery_tile",
 
@@ -189,7 +189,7 @@ def render_workflow_tab():
     # -----------------------------------
 
     if st.button(
-        "🚀 Trigger Workflow",
+        "Trigger Workflow",
         use_container_width=True
     ):
 
